@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://bjhdl4giqeeli"]
+
+[ext_resource type="Texture2D" uid="uid://bfayhl7q3phc8" path="res://Doc/Images/Charui/doctor_love.png" id="1_0ucg2"]
+
+[node name="TextureRect" type="TextureRect"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="DoctorLove" type="Sprite2D" parent="."]
+position = Vector2(32, 31)
+texture = ExtResource("1_0ucg2")

@@ -1,0 +1,17 @@
+{
+  "DOC-DOCTOR_CHARACTER.aromaPrinciple": "[sine][green]占位文本1:aromaPrinciple[/green][/sine]",
+  "DOC-DOCTOR_CHARACTER.banter.alive.endTurnPing": "[sine]占位文本2：活着的ping[/sine]",
+  "DOC-DOCTOR_CHARACTER.banter.dead.endTurnPing": "占位文本3：死了的ping",
+  "DOC-DOCTOR_CHARACTER.cardsModifierDescription": "占位文本4：博士的卡牌现在会出现在奖励和商店中（博士卡牌的描述）。",
+  "DOC-DOCTOR_CHARACTER.cardsModifierTitle": "占位文本5：博士卡牌",
+  "DOC-DOCTOR_CHARACTER.description": "占位文本6：博士的介绍。",
+  "DOC-DOCTOR_CHARACTER.eventDeathPrevention": "占位文本7：事件死亡保护",
+  "DOC-DOCTOR_CHARACTER.goldMonologue": "[sine]占位文本8：黄金独白[/sine]",
+  "DOC-DOCTOR_CHARACTER.possessiveAdjective": "Ta的",
+  "DOC-DOCTOR_CHARACTER.pronounObject": "Ta",
+  "DOC-DOCTOR_CHARACTER.pronounPossessive": "Ta的",
+  "DOC-DOCTOR_CHARACTER.pronounSubject": "Ta",
+  "DOC-DOCTOR_CHARACTER.title": "博士",
+  "DOC-DOCTOR_CHARACTER.titleObject": "博士",
+  "DOC-DOCTOR_CHARACTER.unlockText": "进行一局游戏来解锁这个角色。"
+}

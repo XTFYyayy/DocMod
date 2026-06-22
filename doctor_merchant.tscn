@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://byxrj5owd8827"]
+
+[ext_resource type="Texture2D" uid="uid://nfginx4nfn2i" path="res://Doctor.png" id="1_x2j54"]
+
+[node name="IroncladMerchant" type="Node2D"]
+
+[node name="Icon" type="Sprite2D" parent="."]
+texture = ExtResource("1_x2j54")

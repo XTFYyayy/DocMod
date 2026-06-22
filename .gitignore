@@ -1,0 +1,20 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+.godot/
+*.pck/
+*.pck
+*.dll
+bin/
+.godot/
+*.pck
+*.dll
+bin/
+obj/
+.vs/
+mods/
+*.dll
+bin/
+obj/
+.vs/
+mods/

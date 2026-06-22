@@ -1,0 +1,43 @@
+<Project Sdk="Godot.NET.Sdk/4.5.1">
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <TargetFramework Condition=" '$(GodotTargetPlatform)' == 'android' ">net9.0</TargetFramework>
+    <EnableDynamicLoading>true</EnableDynamicLoading>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="Doc\DocCode\**" />
+    <EmbeddedResource Remove="Doc\DocCode\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="DocCode\Patch\DoctorCharacterPatch.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Alchyr.Sts2.ModAnalyzers" Version="0.1.5" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>..\SteamLibrary\steamapps\common\Slay the Spire 2\data_sts2_windows_x86_64\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="BaseLib">
+      <HintPath>..\SteamLibrary\steamapps\common\Slay the Spire 2\mods\BaseLib.3.0.7\BaseLib.dll</HintPath>
+		<Private>False</Private>
+    </Reference>
+    <Reference Include="GodotSharp">
+      <HintPath>..\SteamLibrary\steamapps\common\Slay the Spire 2\data_sts2_windows_x86_64\GodotSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="sts2">
+      <HintPath>..\SteamLibrary\steamapps\common\Slay the Spire 2\data_sts2_windows_x86_64\sts2.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Doc\Images\Cards\" />
+    <Folder Include="Doc\Images\Charui\" />
+    <Folder Include="Doc\Images\Powers\" />
+    <Folder Include="Doc\Images\Relics\" />
+    <Folder Include="Doc\localization\zhs\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="DocCode\Patch\DoctorCharacterPatch.cs" />
+  </ItemGroup>
+</Project>

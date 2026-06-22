@@ -1,0 +1,29 @@
+{
+  "DOC-RAT_SWARM_POWER.description":"受到未被挡的攻击伤害时，将此伤害降至0。受到大于层数的未格挡的攻击伤害后失效。",
+  "DOC-RAT_SWARM_POWER.smartDescription":"受到未被格挡的攻击伤害时，将此伤害降至0。\n受到大于[blue]{Amount}[/blue]点未被格挡的攻击伤害后失效。",
+  "DOC-RAT_SWARM_POWER.title":"鼠群",
+
+  "DOC-APATHETIC_POWER.description":"受到攻击时，使攻击者失去生命。",
+  "DOC-APATHETIC_POWER.smartDescription": "受到攻击时，使攻击者失去[blue]{Amount}[/blue]点生命。",
+  "DOC-APATHETIC_POWER.title": "无动于衷",
+
+  "DOC-NEXT_KNIGHT_CARD_FREE_POWER.description": "你打出的下一张骑士牌耗能为0。",
+  "DOC-NEXT_KNIGHT_CARD_FREE_POWER.smartDescription": "打出的下[blue]{Amount}[/blue]张骑士牌耗能为0。",
+  "DOC-NEXT_KNIGHT_CARD_FREE_POWER.title": "骑士宣言",
+
+  "DOC-STANCE_POWER.description":"将鼠标精准对准能力图标以查看当前姿态。",
+  "DOC-STANCE_POWER.title":"姿态",
+
+  "DOC-ARMOR_BREAK_POWER.description":"受到未被格挡的攻击伤害时，将一张[gold]小刀[/gold]加入[gold]手牌[/gold]。伤害来源是小刀不会触发。效果将在目标没有[gold]易伤[/gold]时结束。",
+  "DOC-ARMOR_BREAK_POWER.smartdescription":"受到未被格挡的攻击伤害时，将[blue]{Amount}[/blue]张[gold]小刀[/gold]加入[gold]手牌[/gold]。伤害来源是小刀不会触发。效果将在目标没有[gold]易伤[/gold]时结束。",
+  "DOC-ARMOR_BREAK_POWER.title":"碎甲",
+
+  "DOC-FARTOOTH_ACCURACY_POWER.description":"每打出一张牌就获得1层[gold]精准[/gold]，打出骑士牌时额外获得1层[gold]精准[/gold]。小刀[red]不会触发效果[/red]。",
+  "DOC-FARTOOTH_ACCURACY_POWER.smartdescription":"每打出一张牌就获得[blue]{Amount}[/blue]层[gold]精准[/gold]，打出骑士牌时额外获得[blue]{Amount}[/blue]层[gold]精准[/gold]。小刀[red]不会触发效果[/red]。",
+  "DOC-FARTOOTH_ACCURACY_POWER.title":"同盟支援",
+
+  "DOC-SLEEP_POWER.description":"这名敌人将会在失去生命时被击晕。已经被击晕的敌人无法被施加安眠，带有安眠的敌人被击晕后失去安眠。",  
+  "DOC-SLEEP_POWER.smartdescription":"这名敌人将会在失去生命时被击晕;被击晕后失去安眠。持续[blue]{Amount}[/blue]回合。",
+  "DOC-SLEEP_POWER.title": "安眠"
+  
+}
