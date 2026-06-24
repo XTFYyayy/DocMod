@@ -31,7 +31,7 @@ public sealed class KnightOath() : DocCard(1, CardType.Skill, CardRarity.Rare, T
 
         if (hasKnight)
         {
-            await PowerCmd.Apply<NextKnightCardFreePower>(Owner.Creature, 1m, Owner.Creature, this);
+            await PowerCmd.Apply<NextKnightCardFreePower>(choiceContext, Owner.Creature, 1m, Owner.Creature, this);
         }
     }
 

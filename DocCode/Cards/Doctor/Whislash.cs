@@ -31,7 +31,7 @@ public sealed class Whislash() : DocCard(0, CardType.Skill, CardRarity.Common, T
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
         // 给予1层虚弱
-        await PowerCmd.Apply<WeakPower>(cardPlay.Target, DynamicVars.Weak.BaseValue, Owner.Creature, this);
+        await PowerCmd.Apply<WeakPower>(choiceContext, cardPlay.Target, DynamicVars.Weak.BaseValue, Owner.Creature, this);
 
         // 抽1张牌
         await CardPileCmd.Draw(choiceContext, 1, Owner);

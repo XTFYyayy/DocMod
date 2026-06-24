@@ -40,7 +40,7 @@ public sealed class Fartooth() : DocCard(3, CardType.Power, CardRarity.Rare, Tar
         {
             // 没有能力，施加新能力并设置来源卡牌
             int initialAmount = (int)DynamicVars["BaseAmount"].BaseValue;
-            var newPower = await PowerCmd.Apply<FartoothAccuracyPower>(Owner.Creature, initialAmount, Owner.Creature, this);
+            var newPower = await PowerCmd.Apply<FartoothAccuracyPower>(choiceContext, Owner.Creature, initialAmount, Owner.Creature, this);
             newPower?.SetSourceCard(this);
         }
     }

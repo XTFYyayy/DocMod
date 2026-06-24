@@ -43,7 +43,7 @@ public sealed class Gravel() : DocCard(3, CardType.Skill, CardRarity.Uncommon, T
 
         decimal amount = DynamicVars["GravelThreshold"].BaseValue + dexterity;
 
-        var ratSwarmPower = await PowerCmd.Apply<RatSwarmPower>(base.Owner.Creature, amount, base.Owner.Creature, this);
+        var ratSwarmPower = await PowerCmd.Apply<RatSwarmPower>(choiceContext, base.Owner.Creature, amount, base.Owner.Creature, this);
         ratSwarmPower?.SetSourceCard(this);
     }
 

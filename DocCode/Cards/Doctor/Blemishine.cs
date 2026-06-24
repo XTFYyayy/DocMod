@@ -39,10 +39,10 @@ public sealed class Blemishine() : DocCard(2, CardType.Skill, CardRarity.Rare, T
         if (target.IsStunned) return;
 
         // 施加易伤
-        await PowerCmd.Apply<VulnerablePower>(target, DynamicVars.Vulnerable.BaseValue, Owner.Creature, this);
+        await PowerCmd.Apply<VulnerablePower>(choiceContext, target, DynamicVars.Vulnerable.BaseValue, Owner.Creature, this);
 
         // 施加安眠
-        await PowerCmd.Apply<SleepPower>(target, DynamicVars["SleepPower"].BaseValue, Owner.Creature, this);
+        await PowerCmd.Apply<SleepPower>(choiceContext, target, DynamicVars["SleepPower"].BaseValue, Owner.Creature, this);
     }
 
     protected override void OnUpgrade()

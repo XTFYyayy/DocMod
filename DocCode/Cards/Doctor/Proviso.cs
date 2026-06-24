@@ -33,7 +33,7 @@ public sealed class Proviso() : DocCard(1, CardType.Skill, CardRarity.Uncommon, 
         {
             foreach (Creature enemy in CombatState.HittableEnemies)
             {
-                await PowerCmd.Apply<ProvisoStrengthLossPower>(enemy, strengthLoss, Owner.Creature, this);
+                await PowerCmd.Apply<ProvisoStrengthLossPower>(choiceContext, enemy, strengthLoss, Owner.Creature, this);
             }
         }
     }

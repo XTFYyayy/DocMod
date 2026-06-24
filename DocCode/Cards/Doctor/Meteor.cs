@@ -42,10 +42,10 @@ public sealed class Meteor() : DocCard(2, CardType.Attack, CardRarity.Uncommon, 
             .Execute(choiceContext);
 
         // 给予易伤
-        await PowerCmd.Apply<VulnerablePower>(target, DynamicVars.Vulnerable.BaseValue, Owner.Creature, this);
+        await PowerCmd.Apply<VulnerablePower>(choiceContext, target, DynamicVars.Vulnerable.BaseValue, Owner.Creature, this);
 
         // 给予碎甲
-        await PowerCmd.Apply<ArmorBreakPower>(target, DynamicVars["ArmorBreakPower"].BaseValue, Owner.Creature, this);
+        await PowerCmd.Apply<ArmorBreakPower>(choiceContext, target, DynamicVars["ArmorBreakPower"].BaseValue, Owner.Creature, this);
     }
 
     protected override void OnUpgrade()

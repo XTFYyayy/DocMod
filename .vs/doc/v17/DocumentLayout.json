@@ -1,26 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "W:\\Doc\\",
+  "WorkspaceRootPath": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|w:\\doc\\doccode\\powers\\nodpower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|solutionrelative:doccode\\powers\\nodpower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|w:\\doc\\doccode\\cards\\doctor\\nearltheradianknight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|c:\\users\\xtfy\\desktop\\\u8C46\u8C46\u7684\u5305\u554A\\docmod\\doc\\doc\\doccode\\cards\\doctor\\nearltheradianknight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|solutionrelative:doccode\\cards\\doctor\\nearltheradianknight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|w:\\doc\\doccode\\monsters\\blazingsun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|solutionrelative:doccode\\monsters\\blazingsun.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|w:\\doc\\doccode\\cards\\doctor\\justiceknight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|solutionrelative:doccode\\cards\\doctor\\justiceknight.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|w:\\doc\\doccode\\cards\\doctor\\blemishine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|solutionrelative:doccode\\cards\\doctor\\blemishine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|c:\\users\\xtfy\\desktop\\\u8C46\u8C46\u7684\u5305\u554A\\docmod\\doc\\doc\\doccode\\powers\\nodpower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|solutionrelative:doccode\\powers\\nodpower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,70 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "NodPower.cs",
-              "DocumentMoniker": "W:\\Doc\\DocCode\\Powers\\NodPower.cs",
+              "DocumentMoniker": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Powers\\NodPower.cs",
               "RelativeDocumentMoniker": "DocCode\\Powers\\NodPower.cs",
-              "ToolTip": "W:\\Doc\\DocCode\\Powers\\NodPower.cs",
+              "ToolTip": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Powers\\NodPower.cs",
               "RelativeToolTip": "DocCode\\Powers\\NodPower.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAwBUAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAArwCoAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-05T20:59:46.926Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "NearlTheRadianKnight.cs",
-              "DocumentMoniker": "W:\\Doc\\DocCode\\Cards\\Doctor\\NearlTheRadianKnight.cs",
+              "DocumentMoniker": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Cards\\Doctor\\NearlTheRadianKnight.cs",
               "RelativeDocumentMoniker": "DocCode\\Cards\\Doctor\\NearlTheRadianKnight.cs",
-              "ToolTip": "W:\\Doc\\DocCode\\Cards\\Doctor\\NearlTheRadianKnight.cs",
+              "ToolTip": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Cards\\Doctor\\NearlTheRadianKnight.cs",
               "RelativeToolTip": "DocCode\\Cards\\Doctor\\NearlTheRadianKnight.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAADgAAAAAAAAAAAAvwEAAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-06-05T20:58:17.466Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BlazingSun.cs",
-              "DocumentMoniker": "W:\\Doc\\DocCode\\Monsters\\BlazingSun.cs",
-              "RelativeDocumentMoniker": "DocCode\\Monsters\\BlazingSun.cs",
-              "ToolTip": "W:\\Doc\\DocCode\\Monsters\\BlazingSun.cs",
-              "RelativeToolTip": "DocCode\\Monsters\\BlazingSun.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAswAgAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-05T20:56:41.207Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Blemishine.cs",
-              "DocumentMoniker": "W:\\Doc\\DocCode\\Cards\\Doctor\\Blemishine.cs",
-              "RelativeDocumentMoniker": "DocCode\\Cards\\Doctor\\Blemishine.cs",
-              "ToolTip": "W:\\Doc\\DocCode\\Cards\\Doctor\\Blemishine.cs",
-              "RelativeToolTip": "DocCode\\Cards\\Doctor\\Blemishine.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAADwvxcAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-05T09:20:16.024Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "JusticeKnight.cs",
-              "DocumentMoniker": "W:\\Doc\\DocCode\\Cards\\Doctor\\JusticeKnight.cs",
-              "RelativeDocumentMoniker": "DocCode\\Cards\\Doctor\\JusticeKnight.cs",
-              "ToolTip": "W:\\Doc\\DocCode\\Cards\\Doctor\\JusticeKnight.cs",
-              "RelativeToolTip": "DocCode\\Cards\\Doctor\\JusticeKnight.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAuwA8AAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-05T09:19:59.67Z",
               "EditorCaption": ""
             }
           ]

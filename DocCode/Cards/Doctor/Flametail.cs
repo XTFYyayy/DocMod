@@ -40,7 +40,7 @@ public sealed class Flametail() : DocCard(1, CardType.Attack, CardRarity.Rare, T
             .Execute(choiceContext);
 
         // 获得一层缓冲
-        await PowerCmd.Apply<BufferPower>(Owner.Creature, 1m, Owner.Creature, this);
+        await PowerCmd.Apply<BufferPower>(choiceContext, Owner.Creature, 1m, Owner.Creature, this);
     }
 
     protected override void OnUpgrade()

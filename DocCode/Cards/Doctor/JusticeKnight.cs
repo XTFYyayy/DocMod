@@ -35,14 +35,14 @@ public sealed class JusticeKnight() : DocCard(1, CardType.Skill, CardRarity.Unco
         decimal weakAmount = DynamicVars.Weak.BaseValue;
         if (weakAmount > 0)
         {
-            await PowerCmd.Apply<WeakPower>(CombatState.HittableEnemies, weakAmount, Owner.Creature, this);
+            await PowerCmd.Apply<WeakPower>(choiceContext, CombatState.HittableEnemies, weakAmount, Owner.Creature, this);
         }
 
         // 给予所有敌人易伤
         decimal vulnerableAmount = DynamicVars.Vulnerable.BaseValue;
         if (vulnerableAmount > 0)
         {
-            await PowerCmd.Apply<VulnerablePower>(CombatState.HittableEnemies, vulnerableAmount, Owner.Creature, this);
+            await PowerCmd.Apply<VulnerablePower>(choiceContext, CombatState.HittableEnemies, vulnerableAmount, Owner.Creature, this);
         }
     }
 

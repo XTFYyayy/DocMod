@@ -47,7 +47,7 @@ public sealed class FartoothAccuracyPower : CustomPowerModel
 
         if (accuracyGain > 0)
         {
-            await PowerCmd.Apply<AccuracyPower>(Owner, accuracyGain, Owner, null);
+            await PowerCmd.Apply<AccuracyPower>(choiceContext, Owner, accuracyGain, Owner, null);
         }
     }
 }

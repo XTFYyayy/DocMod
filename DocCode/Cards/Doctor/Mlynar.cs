@@ -58,24 +58,27 @@ public sealed class Mlynar() : DocCard(2, CardType.Skill, CardRarity.Rare, Targe
         }
         else
         {
-            var newPower = await PowerCmd.Apply<ApatheticPower>(Owner.Creature, 3m, Owner.Creature, this);
+            var newPower = await PowerCmd.Apply<ApatheticPower>(choiceContext, Owner.Creature, 3m, Owner.Creature, this);
             newPower?.SetSourceCard(this);
         }
     }
 
     private CardModel? GetLastPlayedCard()
     {
-        var currentRound = Owner.Creature.CombatState.RoundNumber;
+        var combatState = Owner.Creature.CombatState;
+        if (combatState == null) return null;
 
+        // 先找本回合的
         var entry = CombatManager.Instance.History.CardPlaysFinished
             .LastOrDefault(e => e.CardPlay.Card.Owner == Owner
-                && e.RoundNumber == currentRound);
+                && e.HappenedThisTurn(combatState));
 
         if (entry == null)
         {
+            // 如果本回合没有，找上回合的
             entry = CombatManager.Instance.History.CardPlaysFinished
                 .LastOrDefault(e => e.CardPlay.Card.Owner == Owner
-                    && e.RoundNumber == currentRound - 1);
+                    && e.HappenedLastPlayerTurn(Owner));
         }
 
         return entry?.CardPlay.Card;

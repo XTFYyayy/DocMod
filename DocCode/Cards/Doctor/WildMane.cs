@@ -18,7 +18,7 @@ public sealed class WildMane() : DocCard(0, CardType.Attack, CardRarity.Common, 
     protected override IEnumerable<DynamicVar> CanonicalVars =>
     [
         new DamageVar(6m, ValueProp.Move),
-        new EnergyVar(1)  // 添加能量变量
+        new EnergyVar(1)
     ];
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
@@ -32,7 +32,22 @@ public sealed class WildMane() : DocCard(0, CardType.Attack, CardRarity.Common, 
             .Execute(choiceContext);
 
         // 检查目标是否被击杀
-        if (result.Results.Any(r => r.WasTargetKilled))
+        // Results 是 IEnumerable<List<DamageResult>>，每个内层列表对应一次命中
+        bool targetKilled = false;
+        if (result.Results != null)
+        {
+            foreach (var hitList in result.Results)
+            {
+                // 遍历本次命中的所有伤害结果
+                if (hitList.Any(r => r.WasTargetKilled))
+                {
+                    targetKilled = true;
+                    break;
+                }
+            }
+        }
+
+        if (targetKilled)
         {
             // 抽一张牌
             await CardPileCmd.Draw(choiceContext, 1, Owner);

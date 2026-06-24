@@ -36,7 +36,7 @@ public sealed class Nearl() : DocCard(1, CardType.Skill, CardRarity.Common, Targ
         await CreatureCmd.GainBlock(base.Owner.Creature, DynamicVars.Block, cardPlay);
 
         // 获得1点敏捷
-        await PowerCmd.Apply<DexterityPower>(base.Owner.Creature, DynamicVars["DexterityPower"].BaseValue, base.Owner.Creature, this);
+        await PowerCmd.Apply<DexterityPower>(choiceContext, base.Owner.Creature, DynamicVars["DexterityPower"].BaseValue, base.Owner.Creature, this);
     }
 
     protected override void OnUpgrade()
