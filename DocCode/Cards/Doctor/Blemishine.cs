@@ -2,7 +2,6 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Cards;
-using MegaCrit.Sts2.Core.Entities.Creatures;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
 using MegaCrit.Sts2.Core.HoverTips;
 using MegaCrit.Sts2.Core.Localization.DynamicVars;
@@ -18,14 +17,14 @@ public sealed class Blemishine() : DocCard(2, CardType.Skill, CardRarity.Rare, T
 {
     protected override IEnumerable<DynamicVar> CanonicalVars =>
     [
-        new PowerVar<VulnerablePower>("VulnerablePower", 1m),
-        new DynamicVar("SleepPower", 1m)
+        new PowerVar<VulnerablePower>(1m),  // 默认名称 "VulnerablePower"
+        new DynamicVar("AsleepPower", 1m)   // 与 JSON 中的 AsleepPower 匹配
     ];
 
     protected override IEnumerable<IHoverTip> ExtraHoverTips =>
     [
         HoverTipFactory.FromPower<VulnerablePower>(),
-        HoverTipFactory.FromPower<SleepPower>()
+        HoverTipFactory.FromPower<AsleepPower>()
     ];
 
     public override IEnumerable<CardKeyword> CanonicalKeywords => [CardKeyword.Exhaust];
@@ -35,18 +34,17 @@ public sealed class Blemishine() : DocCard(2, CardType.Skill, CardRarity.Rare, T
         var target = cardPlay.Target;
         if (target == null) return;
 
-        // 检查目标是否已被击晕
-        if (target.IsStunned) return;
-
         // 施加易伤
         await PowerCmd.Apply<VulnerablePower>(choiceContext, target, DynamicVars.Vulnerable.BaseValue, Owner.Creature, this);
 
         // 施加安眠
-        await PowerCmd.Apply<SleepPower>(choiceContext, target, DynamicVars["SleepPower"].BaseValue, Owner.Creature, this);
+        await PowerCmd.Apply<AsleepPower>(choiceContext, target, DynamicVars["AsleepPower"].BaseValue, Owner.Creature, this);
     }
 
     protected override void OnUpgrade()
     {
+        // 升级：易伤从1变为2
         DynamicVars.Vulnerable.UpgradeValueBy(1m);
+        // 安眠层数不变（仍为1）
     }
 }

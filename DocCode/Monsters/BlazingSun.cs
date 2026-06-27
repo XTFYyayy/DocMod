@@ -3,6 +3,7 @@ using MegaCrit.Sts2.Core.Animation;
 using MegaCrit.Sts2.Core.Bindings.MegaSpine;
 using MegaCrit.Sts2.Core.Entities.Creatures;
 using MegaCrit.Sts2.Core.Models;
+using MegaCrit.Sts2.Core.Models.Monsters;
 using MegaCrit.Sts2.Core.MonsterMoves.MonsterMoveStateMachine;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -20,7 +21,6 @@ public sealed class BlazingSun : MonsterModel
 
     protected override MonsterMoveStateMachine GenerateMoveStateMachine()
     {
-        // 耀阳没有主动移动，只使用空状态
         MoveState moveState = new MoveState("NOTHING_MOVE", (IReadOnlyList<Creature> _) => Task.CompletedTask);
         moveState.FollowUpState = moveState;
         return new MonsterMoveStateMachine(new[] { moveState }, moveState);
@@ -28,30 +28,10 @@ public sealed class BlazingSun : MonsterModel
 
     public override CreatureAnimator GenerateAnimator(MegaSprite controller)
     {
-        // 待机状态（循环）
+        // 创建一个空的动画状态，让 Spine 不报错
+        // 虽然耀阳不用 Spine，但基类要求实现这个方法
         AnimState idleState = new AnimState("idle_loop", isLooping: true);
-
-        // 受击状态
-        AnimState hurtState = new AnimState("hurt");
-        hurtState.NextState = idleState;
-
-        // 死亡状态
-        AnimState dieState = new AnimState("die");
-        AnimState deadState = new AnimState("dead_loop", isLooping: true);
-        dieState.NextState = deadState;
-
-        // 复活状态
-        AnimState reviveState = new AnimState("revive");
-        reviveState.NextState = idleState;
-
-        // 创建动画控制器
         CreatureAnimator animator = new CreatureAnimator(idleState, controller);
-
-        // 添加状态转换
-        animator.AddAnyState("Hit", hurtState);
-        animator.AddAnyState("Dead", dieState);
-        animator.AddAnyState("Revive", reviveState);
-
         return animator;
     }
 }

@@ -22,8 +22,10 @@
   "DOC-FARTOOTH_ACCURACY_POWER.smartdescription":"每打出一张牌就获得[blue]{Amount}[/blue]层[gold]精准[/gold]，打出骑士牌时额外获得[blue]{Amount}[/blue]层[gold]精准[/gold]。小刀[red]不会触发效果[/red]。",
   "DOC-FARTOOTH_ACCURACY_POWER.title":"同盟支援",
 
-  "DOC-SLEEP_POWER.description":"这名敌人将会在失去生命时被击晕。已经被击晕的敌人无法被施加安眠，带有安眠的敌人被击晕后失去安眠。",  
-  "DOC-SLEEP_POWER.smartdescription":"这名敌人将会在失去生命时被击晕;被击晕后失去安眠。持续[blue]{Amount}[/blue]回合。",
-  "DOC-SLEEP_POWER.title": "安眠"
+  "DOC-BLAZING_SUN_DIE_FOR_YOU_POWER.description":"[gold]耀阳[/gold]会吸收所有未被格挡的攻击伤害。",
+  "DOC-BLAZING_SUN_DIE_FOR_YOU_POWER.title":"为你而死",
+  
+  "DOC-NOD_POWER.description": "你每回合的第一张攻击牌无视目标的格挡。",
+  "DOC-NDO_POWER.title": "颔首"
   
 }

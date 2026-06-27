@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cxbj8ybcrl2ty"
-path="res://.godot/imported/nearl_the_radian_knight.cs.png-85c9b0c41fa008c238d3f52ef343475c.ctex"
+uid="uid://cuvpmd7gbho2i"
+path="res://.godot/imported/nearl_the_radian_knight.png-e7a11c37794842cc03f776821e44db5d.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Doc/Images/Cards/nearl_the_radian_knight.cs.png"
-dest_files=["res://.godot/imported/nearl_the_radian_knight.cs.png-85c9b0c41fa008c238d3f52ef343475c.ctex"]
+source_file="res://Doc/Images/Cards/nearl_the_radian_knight.png"
+dest_files=["res://.godot/imported/nearl_the_radian_knight.png-e7a11c37794842cc03f776821e44db5d.ctex"]
 
 [params]
 
