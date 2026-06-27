@@ -18,7 +18,7 @@ using System.Threading.Tasks;
 namespace Doc.DocCode.Cards.Doctor;
 
 [CardTags(isKazimierz: true, isKnight: true)]
-public sealed class RadiantKnightNearl() : DocCard(3, CardType.Skill, CardRarity.Rare, TargetType.Self)
+public sealed class NearlTheRadianKnight() : DocCard(3, CardType.Skill, CardRarity.Rare, TargetType.Self)
 {
     protected override IEnumerable<DynamicVar> CanonicalVars =>
     [

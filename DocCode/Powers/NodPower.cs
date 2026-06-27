@@ -1,57 +1,55 @@
 using Godot;
-using MegaCrit.Sts2.Core.Combat;
-using MegaCrit.Sts2.Core.Combat.History.Entries;
-using MegaCrit.Sts2.Core.Entities.Cards;
+using MegaCrit.Sts2.Core.Commands.Builders;
 using MegaCrit.Sts2.Core.Entities.Creatures;
 using MegaCrit.Sts2.Core.Entities.Players;
 using MegaCrit.Sts2.Core.Entities.Powers;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
 using MegaCrit.Sts2.Core.Models;
 using MegaCrit.Sts2.Core.ValueProps;
-using System.Linq;
+using System.Reflection;
 using System.Threading.Tasks;
 
 namespace Doc.DocCode.Powers;
 
 public sealed class NodPower : PowerModel
 {
-    private bool _isFirstAttackThisTurn = true;
+    private bool _hasBeenUsedThisTurn = false;
 
     public override PowerType Type => PowerType.Buff;
     public override PowerStackType StackType => PowerStackType.Single;
     public override bool AllowNegative => false;
 
-    // 每回合开始时重置标志
-    public override async Task AfterPlayerTurnStart(PlayerChoiceContext choiceContext, Player player)
+    // 缓存反射字段以提高性能
+    private static FieldInfo? _damagePropsField;
+
+    static NodPower()
     {
-        if (player.Creature != Owner) return;
-        _isFirstAttackThisTurn = true;
+        _damagePropsField = typeof(AttackCommand).GetField("DamageProps",
+            BindingFlags.NonPublic | BindingFlags.Instance);
     }
 
-    // 在伤害计算前修改 ValueProp
-    public override bool TryModifyDamageValueProp(Creature? target, decimal damage, ValueProp originalProps, Creature? dealer, CardModel? cardSource, out ValueProp modifiedProps)
+    public override async Task AfterPlayerTurnStart(PlayerChoiceContext choiceContext, Player player)
     {
-        modifiedProps = originalProps;
+        if (player.Creature != Owner.PetOwner?.Creature) return;
+        _hasBeenUsedThisTurn = false;
+    }
 
-        // 只修改攻击牌
-        if (!originalProps.IsPoweredAttack()) return false;
-        if (dealer != Owner) return false;
+    public override async Task BeforeAttack(AttackCommand command)
+    {
+        // 只对主人的攻击生效
+        if (command.Attacker != Owner.PetOwner?.Creature) return;
 
-        // 检查是否是本回合第一张攻击牌
-        int attacksThisTurn = CombatManager.Instance.History.CardPlaysStarted.Count(e =>
-            e.HappenedThisTurn(CombatState) &&
-            e.CardPlay.Card.Type == CardType.Attack &&
-            e.CardPlay.Card.Owner.Creature == Owner);
+        // 如果本回合已经使用过，不再生效
+        if (_hasBeenUsedThisTurn) return;
 
-        int isCurrentCard = (cardSource?.Pile?.Type == PileType.Play) ? 1 : 0;
+        // 标记已使用
+        _hasBeenUsedThisTurn = true;
 
-        if (attacksThisTurn > isCurrentCard) return false;
-        if (!_isFirstAttackThisTurn) return false;
-
-        // 添加不可格挡标志
-        modifiedProps = originalProps | ValueProp.Unblockable;
-        _isFirstAttackThisTurn = false;
-
-        return true;
+        // 通过反射添加无视格挡属性
+        if (_damagePropsField != null)
+        {
+            var currentProps = (ValueProp)_damagePropsField.GetValue(command);
+            _damagePropsField.SetValue(command, currentProps | ValueProp.Unblockable);
+        }
     }
 }

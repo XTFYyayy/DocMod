@@ -46,6 +46,7 @@ public class DocCardPool : CustomCardPoolModel
             ModelDb.Card<Proviso>(),
             ModelDb.Card<JusticeKnight>(),
             ModelDb.Card<Blemishine>(),
+            ModelDb.Card<NearlTheRadianKnight>()
         };
     }
 }

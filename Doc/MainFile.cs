@@ -33,6 +33,7 @@ public class MainFile
 
     private static void AddCardsToPools()
     {
+        
         ModHelper.AddModelToPool<DocCardPool, DocAttack>();
         ModHelper.AddModelToPool<DocCardPool, DocDefence>();
         ModHelper.AddModelToPool<DocCardPool, Orchestrate>();
@@ -49,11 +50,14 @@ public class MainFile
         ModHelper.AddModelToPool<DocCardPool, Proviso>();
         ModHelper.AddModelToPool<DocCardPool, JusticeKnight>();
         ModHelper.AddModelToPool<DocCardPool, Blemishine>();
+        ModHelper.AddModelToPool<DocCardPool, NearlTheRadianKnight>();
 
+        //衍生
         ModHelper.AddModelToPool<TokenCardPool, UndeclaredRage>();
         ModHelper.AddModelToPool<TokenCardPool, UnexoneratedSorrow>();
         ModHelper.AddModelToPool<TokenCardPool, UngloriousGlory>();
 
+        //普通无色
         ModHelper.AddModelToPool<ColorlessCardPool, KnightOath>();
     }
 

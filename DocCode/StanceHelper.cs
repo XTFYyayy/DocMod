@@ -29,7 +29,7 @@ public static class StanceHelper
 
         if (newStance == Stance.None) return;
 
-        var stancePower = await PowerCmd.Apply<StancePower>(creature, 1m, creature, source);
+        var stancePower = await PowerCmd.Apply<StancePower>(choiceContext, creature, 1m, creature, source);
         stancePower.SetStance(newStance);
 
         if (newStance == Stance.Divinity)

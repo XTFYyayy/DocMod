@@ -1,14 +1,15 @@
-using System;
-using System.Linq;
-using System.Threading.Tasks;
+using Doc.DocCode.CardPools;
+using Doc.DocCode.Extensions;
 using MegaCrit.Sts2.Core.Combat;
 using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Cards;
+using MegaCrit.Sts2.Core.Entities.Creatures;
 using MegaCrit.Sts2.Core.Entities.Relics;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
 using MegaCrit.Sts2.Core.Models;
-using Doc.DocCode.CardPools;
-using Doc.DocCode.Extensions;
+using System;
+using System.Linq;
+using System.Threading.Tasks;
 
 namespace Doc.DocCode.Relics;
 
@@ -22,7 +23,7 @@ public sealed class DoctorSilverSeal : RelicModel
 
     protected override string BigIconPath => "doctor_silver_seal_BG.png".RelicImagePath();
 
-    public override async Task BeforeSideTurnStart(PlayerChoiceContext choiceContext, CombatSide side, CombatState combatState)
+    public override async Task BeforeSideTurnStart(PlayerChoiceContext choiceContext, CombatSide side, IReadOnlyList<Creature> participants, ICombatState combatState)
     {
         // 只在自己回合开始且是第一回合时触发
         if (side != base.Owner.Creature.Side) return;
