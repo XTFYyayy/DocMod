@@ -73,8 +73,6 @@ public static class MonsterModelPatch
 
                                 EnsureRequiredNodes(visuals);
 
-                                visuals.Owner = visuals;
-
                                 __result = visuals;
                                 MainFile.Logger.Info($"Loaded custom visuals for {__instance.GetType().Name}");
                                 return false;
@@ -289,7 +287,5 @@ public static class MonsterModelPatch
         orbPos.Position = new Vector2(0, 40);
         visuals.AddChild(orbPos);
         orbPos.Owner = visuals;
-
-        visuals.Owner = visuals;
     }
 }

@@ -54,6 +54,4 @@ public abstract class DocCard(int cost, CardType type, CardRarity rarity, Target
         }
     }
 
-
 }
-

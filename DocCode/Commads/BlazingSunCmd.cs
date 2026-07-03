@@ -41,7 +41,6 @@ public static class BlazingSunCmd
         {
             sun = existingSun;
             await CreatureCmd.GainMaxHp(sun, amount);
-            await CreatureCmd.Heal(sun, amount);
         }
         else
         {

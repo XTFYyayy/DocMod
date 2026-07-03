@@ -29,7 +29,7 @@ public sealed class NodPower : CustomPowerModel
 
     static NodPower()
     {
-        _damagePropsField = typeof(AttackCommand).GetField("DamageProps",
+        _damagePropsField = typeof(AttackCommand).GetField("<DamageProps>k__BackingField",
             BindingFlags.NonPublic | BindingFlags.Instance);
     }
 
@@ -41,6 +41,9 @@ public sealed class NodPower : CustomPowerModel
 
     public override async Task BeforeAttack(AttackCommand command)
     {
+        MainFile.Logger.Info($"NodPower.BeforeAttack called! Attacker={command.Attacker?.Name}, OwnerPetOwner={Owner.PetOwner?.Creature?.Name}");
+
+
         // 只对主人的攻击生效
         if (command.Attacker != Owner.PetOwner?.Creature) return;
 

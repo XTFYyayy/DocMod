@@ -20,7 +20,8 @@ public sealed class NearlTheRadianKnight() : DocCard(3, CardType.Skill, CardRari
 {
     protected override IEnumerable<DynamicVar> CanonicalVars =>
     [
-        new DynamicVar("SummonAmount", 30m)
+        new DynamicVar("SummonAmount", 30m),
+        new EnergyVar(1)
     ];
 
     public override IEnumerable<CardKeyword> CanonicalKeywords => [CardKeyword.Exhaust];
@@ -32,7 +33,7 @@ public sealed class NearlTheRadianKnight() : DocCard(3, CardType.Skill, CardRari
         // 若上一张牌为卡西米尔势力，费用减1，复制一张加入抽牌堆
         if (lastCard != null && lastCard.IsKazimierz())
         {
-            EnergyCost.SetThisTurnOrUntilPlayed(CanonicalEnergyCost - 1);
+            await PlayerCmd.GainEnergy(DynamicVars.Energy.IntValue, Owner);
 
             var copy = CreateClone();
             var cards = new List<CardModel> { copy };

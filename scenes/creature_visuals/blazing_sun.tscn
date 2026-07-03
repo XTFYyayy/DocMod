@@ -6,7 +6,7 @@
 
 [node name="Visuals" type="Sprite2D" parent="."]
 unique_name_in_owner = true
-position = Vector2(80, -180)
+position = Vector2(167, -180)
 scale = Vector2(0.5, 0.5)
 texture = ExtResource("1")
 
@@ -14,16 +14,16 @@ texture = ExtResource("1")
 unique_name_in_owner = true
 layout_mode = 3
 anchors_preset = 0
-offset_left = 20.0
+offset_left = 107.0
 offset_top = -240.0
-offset_right = 140.0
+offset_right = 227.0
 mouse_filter = 2
 metadata/_edit_use_anchors_ = true
 
 [node name="CenterPos" type="Marker2D" parent="."]
 unique_name_in_owner = true
-position = Vector2(60, -165)
+position = Vector2(147, -165)
 
 [node name="IntentPos" type="Marker2D" parent="."]
 unique_name_in_owner = true
-position = Vector2(60, -122)
+position = Vector2(147, -122)
