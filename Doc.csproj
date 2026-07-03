@@ -42,6 +42,7 @@
     <Folder Include="Doc\localization\zhs\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="DocCode\Nodes\summon.tscn" />
     <None Include="DocCode\Patch\DoctorCharacterPatch.cs" />
   </ItemGroup>
 </Project>

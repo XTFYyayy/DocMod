@@ -10,28 +10,28 @@ using System.Threading.Tasks;
 
 namespace Doc.DocCode.Monsters;
 
-public sealed class BlazingSun : MonsterModel
+public sealed class BlazingSun : MonsterModel, ICustomSummon
 {
     public const string MonsterId = "BlazingSun";
 
     public override int MinInitialHp => 1;
     public override int MaxInitialHp => 1;
+    public override bool IsHealthBarVisible => true;
 
-    public override bool IsHealthBarVisible => base.Creature.IsAlive;
+    // 实现接口属性
+    public string VisualsScenePath => "res://scenes/creature_visuals/blazing_sun.tscn";
+    public string FallbackTexturePath => "res://Images/summon_blazing_sun.png";
 
     protected override MonsterMoveStateMachine GenerateMoveStateMachine()
     {
-        MoveState moveState = new MoveState("NOTHING_MOVE", (IReadOnlyList<Creature> _) => Task.CompletedTask);
-        moveState.FollowUpState = moveState;
-        return new MonsterMoveStateMachine(new[] { moveState }, moveState);
+        MoveState idleState = new MoveState("IDLE", (IReadOnlyList<Creature> _) => Task.CompletedTask);
+        idleState.FollowUpState = idleState;
+        return new MonsterMoveStateMachine(new[] { idleState }, idleState);
     }
 
     public override CreatureAnimator GenerateAnimator(MegaSprite controller)
     {
-        // 创建一个空的动画状态，让 Spine 不报错
-        // 虽然耀阳不用 Spine，但基类要求实现这个方法
-        AnimState idleState = new AnimState("idle_loop", isLooping: true);
-        CreatureAnimator animator = new CreatureAnimator(idleState, controller);
-        return animator;
+        AnimState idleState = new AnimState("idle", isLooping: true);
+        return new CreatureAnimator(idleState, null);
     }
 }

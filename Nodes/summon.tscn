@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://8ld5m4f5dd0w"]
+
+[ext_resource type="Script" uid="uid://0cvvbflktt7a" path="res://Nodes/SummonVisuals.cs" id="1_2r1hg"]
+
+[node name="Summon" type="Node2D"]
+script = ExtResource("1_2r1hg")

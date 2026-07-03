@@ -15,12 +15,16 @@ using MegaCrit.Sts2.Core.Models;
 namespace Doc.DocCode.Cards.Doctor;
 
 [CardTags(isKazimierz: true)]
-public sealed class KnightOath() : DocCard(1, CardType.Skill, CardRarity.Rare, TargetType.Self)
+public sealed class KnightOath() : CardModel(1, CardType.Skill, CardRarity.Rare, TargetType.Self)
 {
     protected override IEnumerable<DynamicVar> CanonicalVars =>
     [
         new CardsVar(2)
     ];
+
+    public override string PortraitPath => "knight_oath.png".CardImagePath();
+
+    public override string BetaPortraitPath => "knight_oath.png".CardImagePath();
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {

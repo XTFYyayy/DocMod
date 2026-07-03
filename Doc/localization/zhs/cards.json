@@ -47,8 +47,8 @@
   "DOC-PROVISO.description":"获得{Block:diff()}点格挡，令所有敌人在本回合失去{StrengthLoss:diff()}点力量。",
   "DOC-PROVISO.title":"但书",
 
-  "DOC-KNIGHT_OATH.description":"抽{Cards:diff()}张牌。\n 若其中至少有一张骑士牌，则本回合下一张骑士牌耗能为0。",
-  "DOC-KNIGHT_OATH.title":"骑士宣言",
+  "KNIGHT_OATH.description":"抽{Cards:diff()}张牌。\n 若其中至少有一张骑士牌，则本回合下一张骑士牌耗能为0。",
+  "KNIGHT_OATH.title":"骑士宣言",
 
   "UNDECLARED_RAGE.description": "进入[red]愤怒[/red]。{IfUpgraded:show:抽两张牌。}",
   "UNDECLARED_RAGE.title": "未声张的怒火",

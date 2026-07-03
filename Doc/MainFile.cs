@@ -46,7 +46,7 @@ public class MainFile
         ModHelper.AddModelToPool<DocCardPool, WildMane>();
         ModHelper.AddModelToPool<DocCardPool, Platinum>();
         ModHelper.AddModelToPool<DocCardPool, Whislash>();
-        ModHelper.AddModelToPool<DocCardPool,Meteor>();
+        ModHelper.AddModelToPool<DocCardPool, Meteor>();
         ModHelper.AddModelToPool<DocCardPool, Proviso>();
         ModHelper.AddModelToPool<DocCardPool, JusticeKnight>();
         ModHelper.AddModelToPool<DocCardPool, Blemishine>();

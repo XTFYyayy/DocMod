@@ -1,3 +1,5 @@
+using BaseLib.Abstracts;
+using Doc.DocCode.Extensions;
 using MegaCrit.Sts2.Core.Entities.Creatures;
 using MegaCrit.Sts2.Core.Entities.Powers;
 using MegaCrit.Sts2.Core.Models;
@@ -5,10 +7,14 @@ using MegaCrit.Sts2.Core.ValueProps;
 
 namespace Doc.DocCode.Powers;
 
-public sealed class BlazingSunDieForYouPower : PowerModel
+public sealed class BlazingSunDieForYouPower : CustomPowerModel
 {
     public override PowerType Type => PowerType.Buff;
     public override PowerStackType StackType => PowerStackType.Single;
+    public override string? CustomPackedIconPath => "blazing_sun_die_for_you_power.png".PowerImagePath();
+    public override string? CustomBigIconPath => "blazing_sun_die_for_you_power.png".PowerImagePath();
+
+    // 关键：禁用 VFX 播放
     public override bool ShouldPlayVfx => false;
 
     public override Creature ModifyUnblockedDamageTarget(Creature target, decimal _, ValueProp props, Creature? __)

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b0j4dj5bydkf8"
-path="res://.godot/imported/nearl_the_radian_knight..png-77f59637a331efd94cb99dbaa414eb9e.ctex"
+uid="uid://cumjakar61i6w"
+path="res://.godot/imported/blazing_sun_die_for_you_power.png-e792aaaf0e44218ead5d96db6ce9b007.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Doc/Images/Cards/Big/nearl_the_radian_knight..png"
-dest_files=["res://.godot/imported/nearl_the_radian_knight..png-77f59637a331efd94cb99dbaa414eb9e.ctex"]
+source_file="res://Doc/Images/Powers/blazing_sun_die_for_you_power.png"
+dest_files=["res://.godot/imported/blazing_sun_die_for_you_power.png-e792aaaf0e44218ead5d96db6ce9b007.ctex"]
 
 [params]
 

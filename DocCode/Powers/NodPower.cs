@@ -1,3 +1,5 @@
+using BaseLib.Abstracts;
+using Doc.DocCode.Extensions;
 using Godot;
 using MegaCrit.Sts2.Core.Commands.Builders;
 using MegaCrit.Sts2.Core.Entities.Creatures;
@@ -11,13 +13,16 @@ using System.Threading.Tasks;
 
 namespace Doc.DocCode.Powers;
 
-public sealed class NodPower : PowerModel
+public sealed class NodPower : CustomPowerModel
 {
     private bool _hasBeenUsedThisTurn = false;
 
     public override PowerType Type => PowerType.Buff;
     public override PowerStackType StackType => PowerStackType.Single;
     public override bool AllowNegative => false;
+
+    public override string? CustomPackedIconPath => "nod_power.png".PowerImagePath();
+    public override string? CustomBigIconPath => "nod_power.png".PowerImagePath();
 
     // 缓存反射字段以提高性能
     private static FieldInfo? _damagePropsField;
