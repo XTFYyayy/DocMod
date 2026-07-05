@@ -7,12 +7,12 @@ using MegaCrit.Sts2.Core.ValueProps;
 
 namespace Doc.DocCode.Powers;
 
-public sealed class BlazingSunDieForYouPower : CustomPowerModel
+public sealed class DesertObeliskDieForYouPower : CustomPowerModel
 {
     public override PowerType Type => PowerType.Buff;
     public override PowerStackType StackType => PowerStackType.Single;
-    public override string? CustomPackedIconPath => "blazing_sun_die_for_you_power.png".PowerImagePath();
-    public override string? CustomBigIconPath => "blazing_sun_die_for_you_power.png".PowerImagePath();
+    public override string? CustomPackedIconPath => "desert_obelisk_die_for_you_power.png".PowerImagePath();
+    public override string? CustomBigIconPath => "desert_obelisk_die_for_you_power.png".PowerImagePath();
     public override bool ShouldPlayVfx => false;
 
     // 只保留标记功能，伤害分配由 DieForYouManager 统一处理

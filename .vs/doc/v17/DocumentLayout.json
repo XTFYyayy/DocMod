@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|c:\\users\\xtfy\\desktop\\\u8C46\u8C46\u7684\u5305\u554A\\docmod\\doc\\doc\\doccode\\powers\\nodpower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|solutionrelative:doccode\\powers\\nodpower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|c:\\users\\xtfy\\desktop\\\u8C46\u8C46\u7684\u5305\u554A\\docmod\\doc\\doc\\doccode\\patch\\dieforyoudamageinterceptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|solutionrelative:doccode\\patch\\dieforyoudamageinterceptor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|c:\\users\\xtfy\\desktop\\\u8C46\u8C46\u7684\u5305\u554A\\docmod\\doc\\doc\\doccode\\managers\\dieforyoumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|solutionrelative:doccode\\managers\\dieforyoumanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|c:\\users\\xtfy\\desktop\\\u8C46\u8C46\u7684\u5305\u554A\\docmod\\doc\\doc\\doccode\\managers\\summonpositionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|solutionrelative:doccode\\managers\\summonpositionmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|c:\\users\\xtfy\\desktop\\\u8C46\u8C46\u7684\u5305\u554A\\docmod\\doc\\doc\\doccode\\commads\\desertobeliskcmd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|solutionrelative:doccode\\commads\\desertobeliskcmd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "NodPower.cs",
-              "DocumentMoniker": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Powers\\NodPower.cs",
-              "RelativeDocumentMoniker": "DocCode\\Powers\\NodPower.cs",
-              "ToolTip": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Powers\\NodPower.cs",
-              "RelativeToolTip": "DocCode\\Powers\\NodPower.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAYwCAAAAAMAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "DesertObeliskCmd.cs",
+              "DocumentMoniker": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Commads\\DesertObeliskCmd.cs",
+              "RelativeDocumentMoniker": "DocCode\\Commads\\DesertObeliskCmd.cs",
+              "ToolTip": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Commads\\DesertObeliskCmd.cs",
+              "RelativeToolTip": "DocCode\\Commads\\DesertObeliskCmd.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAuwHYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-03T17:28:41.822Z",
+              "WhenOpened": "2026-07-05T07:22:16.503Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SummonPositionManager.cs",
+              "DocumentMoniker": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Managers\\SummonPositionManager.cs",
+              "RelativeDocumentMoniker": "DocCode\\Managers\\SummonPositionManager.cs",
+              "ToolTip": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Managers\\SummonPositionManager.cs",
+              "RelativeToolTip": "DocCode\\Managers\\SummonPositionManager.cs",
+              "ViewState": "AgIAAH8AAAAAAAAAAADwv4wAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-05T06:35:11.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DieForYouDamageInterceptor.cs",
+              "DocumentMoniker": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Patch\\DieForYouDamageInterceptor.cs",
+              "RelativeDocumentMoniker": "DocCode\\Patch\\DieForYouDamageInterceptor.cs",
+              "ToolTip": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Patch\\DieForYouDamageInterceptor.cs",
+              "RelativeToolTip": "DocCode\\Patch\\DieForYouDamageInterceptor.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAuwIIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-05T06:17:42.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DieForYouManager.cs",
+              "DocumentMoniker": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Managers\\DieForYouManager.cs",
+              "RelativeDocumentMoniker": "DocCode\\Managers\\DieForYouManager.cs",
+              "ToolTip": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Managers\\DieForYouManager.cs",
+              "RelativeToolTip": "DocCode\\Managers\\DieForYouManager.cs",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAuwJMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-04T16:29:50.282Z",
               "EditorCaption": ""
             }
           ]

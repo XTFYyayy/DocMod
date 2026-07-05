@@ -63,5 +63,8 @@
   "DOC-BLEMISHINE.title":"瑕光",
 
   "DOC-NEARL_THE_RADIAN_KNIGHT.description":"[gold]耀阳召唤[/gold]{SummonAmount:diff()}。\n若打出的上一张牌为卡西米尔势力，获得{Energy:energyIcons()}，将一张复制品加入[gold]抽牌堆[/gold]。",
-  "DOC-NEARL_THE_RADIAN_KNIGHT.title":"耀骑士临光"
+  "DOC-NEARL_THE_RADIAN_KNIGHT.title":"耀骑士临光",
+
+  "DOC-BEESWAX.description":"[gold]方尖召唤[/gold]{SummonAmount:diff()}。",
+  "DOC-BEESWAX.title":"蜜蜡"
 }

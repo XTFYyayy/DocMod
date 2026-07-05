@@ -10,17 +10,17 @@ using System.Threading.Tasks;
 
 namespace Doc.DocCode.Monsters;
 
-public sealed class BlazingSun : MonsterModel, ICustomSummon
+public sealed class DesertObelisk : MonsterModel, ICustomSummon
 {
-    public const string MonsterId = "BlazingSun";
+    public const string MonsterId = "DesertObelisk";
 
     public override int MinInitialHp => 1;
     public override int MaxInitialHp => 1;
     public override bool IsHealthBarVisible => true;
 
     // 实现接口属性
-    public string VisualsScenePath => "res://scenes/creature_visuals/blazing_sun.tscn";
-    public string FallbackTexturePath => "res://Doc/Images/Monsters/summon_blazing_sun.png";
+    public string VisualsScenePath => "res://scenes/creature_visuals/desert_obelisk.tscn";
+    public string FallbackTexturePath => "res://Doc/Images/Monster/summon_desert_obelisk.png";
 
     protected override MonsterMoveStateMachine GenerateMoveStateMachine()
     {

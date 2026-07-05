@@ -26,6 +26,12 @@
   "DOC-BLAZING_SUN_DIE_FOR_YOU_POWER.title":"为你而死",
   
   "DOC-NOD_POWER.description": "你每回合的第一张攻击牌无视目标的格挡。",
-  "DOC-NOD_POWER.title": "颔首"
+  "DOC-NOD_POWER.title": "颔首",
   
+  "DOC-DESERT_OBELISK_DIE_FOR_YOU_POWER.description":"[gold]沙之碑[/gold]会吸收所有未被格挡的攻击伤害。",
+  "DOC-DESERT_OBELISK_DIE_FOR_YOU_POWER.title":"为你而死",
+	
+  "DOC-DESERT_OBELISK_ATTACK_APPEND_POWER.description":"你每打出一张攻击牌，[gold]沙之碑[/gold]就对所有敌人造成等同于自身生命值一半的伤害",
+  "DOC-DESERT_OBELISK_ATTACK_APPEND_POWER.title":"攻击追加"
+
 }

@@ -17,11 +17,23 @@ using System.Threading.Tasks;
 
 namespace Doc.DocCode.Commands;
 
-public static class BlazingSunCmd
+public static class DesertObeliskCmd
 {
     public static async Task<SummonResult> Summon(PlayerChoiceContext choiceContext, Player summoner, decimal amount, CardModel? source)
     {
+        if (summoner == null || summoner.Creature == null || summoner.Creature.IsDead)
+        {
+            MainFile.Logger.Warn("DesertObeliskCmd: summoner is null or dead");
+            return new SummonResult(null, 0m);
+        }
+
         CombatState combatState = (CombatState)summoner.Creature.CombatState;
+        if (combatState == null)
+        {
+            MainFile.Logger.Warn("DesertObeliskCmd: combatState is null");
+            return new SummonResult(null, 0m);
+        }
+
         amount = Hook.ModifySummonAmount(combatState, summoner, amount, source);
 
         if (amount == 0m)
@@ -29,58 +41,50 @@ public static class BlazingSunCmd
             return new SummonResult(null, 0m);
         }
 
-        // 检查是否已有耀阳（耀阳是唯一存在型）
-        var existingSun = combatState.Allies.FirstOrDefault(c =>
-            c.Monster is BlazingSun && c.PetOwner == summoner);
+        // 注意：不再检查是否已存在沙之碑，每次召唤都创建新的
 
-        Creature sun;
+        // 创建新的沙之碑
+        var obelisk = await PlayerCmd.AddPet<DesertObelisk>(summoner);
 
-        if (existingSun != null && existingSun.IsAlive)
+        // 等待一帧，确保 Creature 节点完全初始化
+        await Cmd.CustomScaledWait(0.1f, 0.1f);
+
+        // 检查创建的宠物是否还活着
+        if (obelisk == null || obelisk.IsDead)
         {
-            sun = existingSun;
-            await CreatureCmd.GainMaxHp(sun, amount);
+            MainFile.Logger.Warn("DesertObeliskCmd: created obelisk is null or dead");
+            return new SummonResult(null, 0m);
         }
-        else
+
+        // 获取 Creature 节点并播放入场动画
+        NCreature? obeliskNode = NCombatRoom.Instance?.GetCreatureNode(obelisk);
+        if (obeliskNode != null)
         {
-            bool isReviving = existingSun != null;
-            if (isReviving)
-            {
-                if (existingSun.IsAlive)
-                {
-                    throw new InvalidOperationException("BlazingSun is already alive!");
-                }
-                sun = existingSun;
-                summoner.PlayerCombatState.AddPetInternal(sun);
-            }
-            else
-            {
-                sun = await PlayerCmd.AddPet<BlazingSun>(summoner);
-                await Cmd.CustomScaledWait(0.1f, 0.1f);
-
-                NCreature? sunNode = NCombatRoom.Instance?.GetCreatureNode(sun);
-                if (sunNode != null)
-                {
-                    sunNode.Modulate = Colors.Transparent;
-                    Tween tween = sunNode.CreateTween();
-                    tween.TweenProperty(sunNode, "modulate:a", 1, 0.35f).From(0);
-                    ShowHealthBar(sunNode);
-                    MainFile.Logger.Info("BlazingSun spawned");
-                }
-            }
-
-            await CreatureCmd.SetMaxHp(sun, amount);
-            await CreatureCmd.Heal(sun, amount, isReviving);
-
-            await PowerCmd.Apply<BlazingSunDieForYouPower>(choiceContext, sun, 1m, summoner.Creature, source);
-            await PowerCmd.Apply<NodPower>(choiceContext, sun, 1m, summoner.Creature, source);
+            obeliskNode.Modulate = Colors.Transparent;
+            Tween tween = obeliskNode.CreateTween();
+            tween.TweenProperty(obeliskNode, "modulate:a", 1, 0.35f).From(0);
+            ShowHealthBar(obeliskNode);
+            MainFile.Logger.Info("DesertObelisk spawned");
         }
+
+        // 设置生命值
+        await CreatureCmd.SetMaxHp(obelisk, amount);
+        await CreatureCmd.Heal(obelisk, amount, false);
+
+        // 施加"为你而死" Power
+        await PowerCmd.Apply<DesertObeliskDieForYouPower>(choiceContext, obelisk, 1m, summoner.Creature, source);
+
+        // 施加攻击追加 Power
+        await PowerCmd.Apply<DesertObeliskAttackAppendPower>(choiceContext, obelisk, 1m, summoner.Creature, source);
 
         // 更新所有召唤物站位
+        MainFile.Logger.Info($"=== About to call UpdateAllSummonPositions ===");
         await SummonPositionManager.UpdateAllSummonPositions(summoner);
+        MainFile.Logger.Info($"=== UpdateAllSummonPositions completed ===");
 
         CombatManager.Instance.History.Summoned(combatState, (int)amount, summoner);
         await Hook.AfterSummon(combatState, choiceContext, summoner, amount);
-        return new SummonResult(sun, amount);
+        return new SummonResult(obelisk, amount);
     }
 
     private static void ShowHealthBar(NCreature creatureNode)
