@@ -66,5 +66,11 @@
   "DOC-NEARL_THE_RADIAN_KNIGHT.title":"耀骑士临光",
 
   "DOC-BEESWAX.description":"[gold]方尖召唤[/gold]{SummonAmount:diff()}。",
-  "DOC-BEESWAX.title":"蜜蜡"
+  "DOC-BEESWAX.title":"蜜蜡",
+
+  "DOC-ESTELLE.description":"{IfUpgraded:show:对所有敌人}造成{Damage:diff}点伤害。",
+  "DOC-ESTELLE.title":"艾斯黛尔",
+
+  "DOC-BUBBLE.description":"获得1层[gold]倒映[/gold]。\n获得{Block:diff()}点格挡。",
+  "DOC-BUBBLE.title":"泡泡"
 }

@@ -53,6 +53,9 @@ public class MainFile
         ModHelper.AddModelToPool<DocCardPool, NearlTheRadianKnight>();
         ModHelper.AddModelToPool<DocCardPool, Beeswax>();
 
+        ModHelper.AddModelToPool<DocCardPool, Estelle>();
+        ModHelper.AddModelToPool<DocCardPool, Bubble>();
+
         //衍生
         ModHelper.AddModelToPool<TokenCardPool, UndeclaredRage>();
         ModHelper.AddModelToPool<TokenCardPool, UnexoneratedSorrow>();
