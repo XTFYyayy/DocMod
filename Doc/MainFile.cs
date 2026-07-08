@@ -12,6 +12,7 @@ using Doc.DocCode.CardPools;
 using Doc.DocCode.Cards.Doctor;
 using Doc.DocCode.Cards.Doctor.Basic;
 using Doc.DocCode.Relics;
+using Doc.DocCode.Cards;
 
 namespace Doc;
 
@@ -55,6 +56,11 @@ public class MainFile
 
         ModHelper.AddModelToPool<DocCardPool, Estelle>();
         ModHelper.AddModelToPool<DocCardPool, Bubble>();
+        ModHelper.AddModelToPool<DocCardPool, Papyrus>();
+
+
+
+
 
         //衍生
         ModHelper.AddModelToPool<TokenCardPool, UndeclaredRage>();

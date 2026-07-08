@@ -72,5 +72,8 @@
   "DOC-ESTELLE.title":"艾斯黛尔",
 
   "DOC-BUBBLE.description":"获得1层[gold]倒映[/gold]。\n获得{Block:diff()}点格挡。",
-  "DOC-BUBBLE.title":"泡泡"
+  "DOC-BUBBLE.title":"泡泡",
+
+  "DOC-PAPYRUS.description":"回复{Heal:diff()}点生命。\n获得{PlatingPower:diff()}层[gold]覆甲[/gold]。",
+  "DOC-PAPYRUS.title":"莎草"
 }

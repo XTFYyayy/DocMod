@@ -1,4 +1,5 @@
 using BaseLib.Abstracts;
+using Doc.DocCode.Cards;
 using Doc.DocCode.Cards.Doctor;
 using Doc.DocCode.Cards.Doctor.Basic;
 using Doc.DocCode.Characters;
@@ -51,6 +52,7 @@ public class DocCardPool : CustomCardPoolModel
 
             ModelDb.Card<Estelle>(),
             ModelDb.Card<Bubble>(),
+            ModelDb.Card<Papyrus>(),
         };
     }
 }
