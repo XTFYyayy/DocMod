@@ -11,4 +11,5 @@ public sealed class ProvisoStrengthLossPower : TemporaryStrengthPower
     public override AbstractModel OriginModel => ModelDb.Card<Proviso>();
 
     protected override bool IsPositive => false;
+
 }

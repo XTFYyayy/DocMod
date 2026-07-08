@@ -1,9 +1,7 @@
 using BaseLib.Abstracts;
 using Doc.DocCode.Extensions;
-using MegaCrit.Sts2.Core.Entities.Creatures;
 using MegaCrit.Sts2.Core.Entities.Powers;
 using MegaCrit.Sts2.Core.Models;
-using MegaCrit.Sts2.Core.ValueProps;
 
 namespace Doc.DocCode.Powers;
 
@@ -15,6 +13,6 @@ public sealed class BlazingSunDieForYouPower : CustomPowerModel
     public override string? CustomBigIconPath => "blazing_sun_die_for_you_power.png".PowerImagePath();
     public override bool ShouldPlayVfx => false;
 
-    // 只保留标记功能，伤害分配由 DieForYouManager 统一处理
-    // 移除 ModifyUnblockedDamageTarget 方法
+    // 移除所有 ModifyUnblockedDamageTarget 和其他覆盖方法
+    // 这个类现在只是一个标记，由 DieForYouManager 和 LoseHpPatch 处理
 }
