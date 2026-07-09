@@ -32,6 +32,8 @@
   "DOC-DESERT_OBELISK_DIE_FOR_YOU_POWER.title":"为你而死",
   
   "DOC-DESERT_OBELISK_ATTACK_APPEND_POWER.description":"你每打出一张攻击牌，[gold]沙之碑[/gold]就对所有敌人造成等同于自身生命值一半的伤害",
-  "DOC-DESERT_OBELISK_ATTACK_APPEND_POWER.title":"攻击追加"
+  "DOC-DESERT_OBELISK_ATTACK_APPEND_POWER.title":"攻击追加",
 
+  "DOC-STYGIAN_CURSE_POWER.description":"受到攻击时，给予攻击者8层[gold]灾厄[/gold]。",
+  "DOC-STYGIAN_CURSE_POWER.title":"冥河诅咒"
 }

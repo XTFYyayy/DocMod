@@ -75,5 +75,8 @@
   "DOC-BUBBLE.title":"泡泡",
 
   "DOC-PAPYRUS.description":"回复{Heal:diff()}点生命。\n获得{PlatingPower:diff()}层[gold]覆甲[/gold]。",
-  "DOC-PAPYRUS.title":"莎草"
+  "DOC-PAPYRUS.title":"莎草",
+
+  "DOC-PHILAE.description":"获得1层[gold]冥河诅咒[/gold]，获得{Block:diff()}点格挡。",
+  "DOC-PHILAE.title":"菲莱"
 }

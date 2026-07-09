@@ -8,21 +8,22 @@ using MegaCrit.Sts2.Core.Entities.Creatures;
 using MegaCrit.Sts2.Core.Entities.Powers;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
 using MegaCrit.Sts2.Core.Models;
+using MegaCrit.Sts2.Core.Models.Powers;
 using MegaCrit.Sts2.Core.ValueProps;
 using System.Threading.Tasks;
 
 namespace Doc.DocCode.Powers;
 
-public sealed class ApatheticPower : CustomPowerModel
+public sealed class StygianCursePower : CustomPowerModel
 {
     private CardModel _sourceCard;
 
-    public override PowerType Type => PowerType.Buff;
+    public override PowerType Type => PowerType.Debuff;
     public override PowerStackType StackType => PowerStackType.Counter;
     public override bool AllowNegative => false;
 
-    public override string? CustomPackedIconPath => "apathetic_power.png".PowerImagePath();
-    public override string? CustomBigIconPath => "apathetic_power.png".PowerImagePath();
+    public override string? CustomPackedIconPath => "stygian_curse_power.png".PowerImagePath();
+    public override string? CustomBigIconPath => "stygian_curse_power.png".PowerImagePath();
 
     public void SetSourceCard(CardModel sourceCard)
     {
@@ -35,8 +36,9 @@ public sealed class ApatheticPower : CustomPowerModel
         if (!props.HasFlag(ValueProp.Move)) return;
         if (dealer == null) return;
 
-        await CreatureCmd.Damage(choiceContext, dealer, Amount, ValueProp.Unblockable | ValueProp.Unpowered | ValueProp.Move, _sourceCard);
+        await PowerCmd.Apply<DoomPower>(choiceContext, dealer, 8m, Owner, _sourceCard);
     }
+
     public override async Task AfterSideTurnEnd(PlayerChoiceContext choiceContext, CombatSide side, IEnumerable<Creature> participants)
     {
         if (side == CombatSide.Enemy)
