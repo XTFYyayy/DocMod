@@ -60,8 +60,8 @@ public class MainFile
         ModHelper.AddModelToPool<DocCardPool, Philae>();
         ModHelper.AddModelToPool<DocCardPool, Minimalist>();
         ModHelper.AddModelToPool<DocCardPool, Gavial>();
-
-
+        ModHelper.AddModelToPool<DocCardPool, Titi>();
+        ModHelper.AddModelToPool<DocCardPool, Eunectes>();
 
 
 

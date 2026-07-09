@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cih8vxjcn8xit"
-path="res://.godot/imported/gavial.png-707a6e1bfdb66d7a0b25954d0bcd7b97.ctex"
+uid="uid://c6pyc082e01ox"
+path="res://.godot/imported/challenge_power.png-73ab3297215372caa4a88cdad8f93280.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Doc/Images/Cards/gavial.png"
-dest_files=["res://.godot/imported/gavial.png-707a6e1bfdb66d7a0b25954d0bcd7b97.ctex"]
+source_file="res://Doc/Images/Powers/challenge_power.png"
+dest_files=["res://.godot/imported/challenge_power.png-73ab3297215372caa4a88cdad8f93280.ctex"]
 
 [params]
 

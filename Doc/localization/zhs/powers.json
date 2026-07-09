@@ -18,8 +18,8 @@
   "DOC-ARMOR_BREAK_POWER.smartdescription":"受到未被格挡的攻击伤害时，将[blue]{Amount}[/blue]张[gold]小刀[/gold]加入[gold]手牌[/gold]。伤害来源是小刀不会触发。效果将在目标没有[gold]易伤[/gold]时结束。",
   "DOC-ARMOR_BREAK_POWER.title":"碎甲",
 
-  "DOC-FARTOOTH_ACCURACY_POWER.description":"每打出一张牌就获得1层[gold]精准[/gold]，打出骑士牌时额外获得1层[gold]精准[/gold]。小刀[red]不会触发效果[/red]。",
-  "DOC-FARTOOTH_ACCURACY_POWER.smartdescription":"每打出一张牌就获得[blue]{Amount}[/blue]层[gold]精准[/gold]，打出骑士牌时额外获得[blue]{Amount}[/blue]层[gold]精准[/gold]。小刀[red]不会触发效果[/red]。",
+  "DOC-FARTOOTH_ACCURACY_POWER.description":"每打出一张牌就获得1层[gold]精准[/gold]，打出骑士牌时额外获得1层[gold]精准[/gold]。[gold]小刀[/gold][red]不会触发效果[/red]。",
+  "DOC-FARTOOTH_ACCURACY_POWER.smartdescription":"每打出一张牌就获得[blue]{Amount}[/blue]层[gold]精准[/gold]，打出骑士牌时额外获得[blue]{Amount}[/blue]层[gold]精准[/gold]。[gold]小刀[/gold][red]不会触发效果[/red]。",
   "DOC-FARTOOTH_ACCURACY_POWER.title":"同盟支援",
 
   "DOC-BLAZING_SUN_DIE_FOR_YOU_POWER.description":"[gold]耀阳[/gold]会吸收所有未被格挡的攻击伤害。",
@@ -34,10 +34,13 @@
   "DOC-DESERT_OBELISK_ATTACK_APPEND_POWER.description":"你每打出一张攻击牌，[gold]沙之碑[/gold]就对所有敌人造成等同于自身生命值一半的伤害",
   "DOC-DESERT_OBELISK_ATTACK_APPEND_POWER.title":"攻击追加",
 
-  "DOC-STYGIAN_CURSE_POWER.smartdescription":"受到攻击时，给予攻击者8层[gold]灾厄[/gold]。",
+  "DOC-STYGIAN_CURSE_POWER.description":"受到攻击时，给予攻击者8层[gold]灾厄[/gold]。",
   "DOC-STYGIAN_CURSE_POWER.title":"冥河诅咒",
 
   "DOC-VITALITY_REGENERATION_POWER.description":"每次受到未被格挡的攻击时回复相应生命。",
   "DOC-VITALITY_REGENERATION_POWER.smartdescription":"每次受到未被格挡的攻击时回复[blue]{Amount}[/blue]生命。",
-  "DOC-VITALITY_REGENERATION_POWER.title":"活力再生"
+  "DOC-VITALITY_REGENERATION_POWER.title":"活力再生",
+
+  "DOC-CHALLENGE_POWER.description":"攻击造成双倍伤害，受到攻击伤害翻倍。",
+  "DOC-CHALLENGE_POWER.title":"挑战"
 }

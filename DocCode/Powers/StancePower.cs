@@ -85,7 +85,7 @@ public sealed class StancePower : CustomPowerModel
         // 检查是否是针对自己的伤害
         if (target != Owner) return 1m;
         if (!props.HasFlag(ValueProp.Move)) return 1m;
-        if (_stance != Stance.Wrath) return 1m;
+        if (_stance != Stance.Wrath) return 1m;//不在愤怒不受到双倍伤害
 
         // 伤害翻倍（返回 2 表示乘以 2）
         return 2m;

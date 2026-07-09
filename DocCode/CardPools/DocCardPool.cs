@@ -56,6 +56,8 @@ public class DocCardPool : CustomCardPoolModel
             ModelDb.Card<Philae>(),
             ModelDb.Card<Minimalist>(),
             ModelDb.Card<Gavial>(),
+            ModelDb.Card<Titi>(),
+            ModelDb.Card<Eunectes>(),
         };
     }
 }

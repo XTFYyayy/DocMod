@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cih8vxjcn8xit"
-path="res://.godot/imported/gavial.png-707a6e1bfdb66d7a0b25954d0bcd7b97.ctex"
+uid="uid://41y2jqb7dstd"
+path="res://.godot/imported/eunectes.png-76b447cf8c26f1b7ae682821d2b6f282.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Doc/Images/Cards/gavial.png"
-dest_files=["res://.godot/imported/gavial.png-707a6e1bfdb66d7a0b25954d0bcd7b97.ctex"]
+source_file="res://Doc/Images/Cards/Big/eunectes.png"
+dest_files=["res://.godot/imported/eunectes.png-76b447cf8c26f1b7ae682821d2b6f282.ctex"]
 
 [params]
 
