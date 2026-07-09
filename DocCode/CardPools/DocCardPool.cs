@@ -53,6 +53,9 @@ public class DocCardPool : CustomCardPoolModel
             ModelDb.Card<Estelle>(),
             ModelDb.Card<Bubble>(),
             ModelDb.Card<Papyrus>(),
+            ModelDb.Card<Philae>(),
+            ModelDb.Card<Minimalist>(),
+            ModelDb.Card<Gavial>(),
         };
     }
 }

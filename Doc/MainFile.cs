@@ -57,6 +57,9 @@ public class MainFile
         ModHelper.AddModelToPool<DocCardPool, Estelle>();
         ModHelper.AddModelToPool<DocCardPool, Bubble>();
         ModHelper.AddModelToPool<DocCardPool, Papyrus>();
+        ModHelper.AddModelToPool<DocCardPool, Philae>();
+        ModHelper.AddModelToPool<DocCardPool, Minimalist>();
+        ModHelper.AddModelToPool<DocCardPool, Gavial>();
 
 
 

@@ -9,6 +9,8 @@ using MegaCrit.Sts2.Core.Entities.Powers;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
 using MegaCrit.Sts2.Core.Models;
 using MegaCrit.Sts2.Core.ValueProps;
+using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace Doc.DocCode.Powers;
@@ -37,11 +39,12 @@ public sealed class ApatheticPower : CustomPowerModel
 
         await CreatureCmd.Damage(choiceContext, dealer, Amount, ValueProp.Unblockable | ValueProp.Unpowered | ValueProp.Move, _sourceCard);
     }
-    public override async Task AfterSideTurnEnd(PlayerChoiceContext choiceContext, CombatSide side, IEnumerable<Creature> participants)
+
+    public override async Task AfterSideTurnStart(CombatSide side, IReadOnlyList<Creature> participants, ICombatState combatState)
     {
-        if (side == CombatSide.Enemy)
+        if (participants.Contains(base.Owner))
         {
-            await PowerCmd.TickDownDuration(this);
+            await PowerCmd.Remove(this);
         }
     }
 }

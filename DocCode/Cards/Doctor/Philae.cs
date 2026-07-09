@@ -1,4 +1,6 @@
 using BaseLib.Utils;
+using Doc.DocCode.Attributes;
+using Doc.DocCode.Powers;
 using Godot;
 using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Cards;
@@ -11,9 +13,10 @@ using MegaCrit.Sts2.Core.Nodes.Combat;
 using MegaCrit.Sts2.Core.ValueProps;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Doc.DocCode.Powers;
 
-namespace Doc.DocCode.Cards;
+namespace Doc.DocCode.Cards.Doctor;
+
+[CardTags(isSargon: true)]
 
 public sealed class Philae() : DocCard(2, CardType.Skill, CardRarity.Uncommon, TargetType.Self)
 {

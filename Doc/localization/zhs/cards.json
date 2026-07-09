@@ -78,5 +78,11 @@
   "DOC-PAPYRUS.title":"莎草",
 
   "DOC-PHILAE.description":"获得1层[gold]冥河诅咒[/gold]，获得{Block:diff()}点格挡。",
-  "DOC-PHILAE.title":"菲莱"
+  "DOC-PHILAE.title":"菲莱",
+
+  "DOC-MINIMALIST.description":"对敌人造成{Damage:diff()}点伤害{Repeat:diff()}次。",
+  "DOC-MINIMALIST.title":"至简",
+
+  "DOC-GAVIAL.description":"每次受到未被格挡的攻击时回复{Heal:diff()}点生命。",
+  "DOC-GAVIAL.title":"嘉维尔"
 }

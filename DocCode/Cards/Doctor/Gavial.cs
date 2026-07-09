@@ -8,7 +8,6 @@ using MegaCrit.Sts2.Core.GameActions.Multiplayer;
 using MegaCrit.Sts2.Core.HoverTips;
 using MegaCrit.Sts2.Core.Localization.DynamicVars;
 using MegaCrit.Sts2.Core.Models;
-using MegaCrit.Sts2.Core.Models.Cards;
 using MegaCrit.Sts2.Core.Models.Powers;
 using MegaCrit.Sts2.Core.Nodes.Combat;
 using MegaCrit.Sts2.Core.ValueProps;
@@ -17,30 +16,25 @@ using System.Threading.Tasks;
 
 namespace Doc.DocCode.Cards.Doctor;
 
-[CardTags(isSargon: true)]
-
-public sealed class Bubble() : DocCard(2, CardType.Skill, CardRarity.Uncommon, TargetType.Self)
+[CardTags(isSargon:true)]
+public sealed class Gavial() : DocCard(2, CardType.Power, CardRarity.Uncommon, TargetType.Self)
 {
-    public override IEnumerable<CardKeyword> CanonicalKeywords => [CardKeyword.Sly];
-
-    protected override IEnumerable<IHoverTip> ExtraHoverTips =>
-    [
-        HoverTipFactory.FromPower<ReflectPower>()
-    ];
-
     protected override IEnumerable<DynamicVar> CanonicalVars =>
     [
-        new BlockVar(6, ValueProp.Move)
+        new HealVar(2m)
+    ];
+    protected override IEnumerable<IHoverTip> ExtraHoverTips =>
+    [
+        HoverTipFactory.FromPower<VitalityRegenerationPower>()
     ];
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
-        await PowerCmd.Apply<ReflectPower>(choiceContext,base.Owner.Creature, 1m, base.Owner.Creature, this);
-        await CommonActions.CardBlock(this, cardPlay);
+        await PowerCmd.Apply<VitalityRegenerationPower>(choiceContext, base.Owner.Creature, DynamicVars.Heal.BaseValue, base.Owner.Creature, this);
     }
 
     protected override void OnUpgrade()
     {
-        DynamicVars.Block.UpgradeValueBy(2m);
+        DynamicVars.Heal.UpgradeValueBy(1m);
     }
 }

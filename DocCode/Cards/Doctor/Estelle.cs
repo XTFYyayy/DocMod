@@ -1,4 +1,6 @@
 using BaseLib.Utils;
+using Doc.DocCode.Attributes;
+using Doc.DocCode.Patches;
 using Godot;
 using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Cards;
@@ -9,11 +11,12 @@ using MegaCrit.Sts2.Core.Models;
 using MegaCrit.Sts2.Core.Models.Powers;
 using MegaCrit.Sts2.Core.Nodes.Combat;
 using MegaCrit.Sts2.Core.ValueProps;
-using Doc.DocCode.Patches;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace Doc.DocCode.Cards.Doctor;
+
+[CardTags(isSargon: true)]
 
 public sealed class Estelle() : DocCard(0, CardType.Attack, CardRarity.Common, TargetType.AnyEnemy)
 {
