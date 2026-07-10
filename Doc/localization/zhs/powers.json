@@ -14,8 +14,8 @@
   "DOC-STANCE_POWER.description":"将鼠标精准对准能力图标以查看当前姿态。",
   "DOC-STANCE_POWER.title":"姿态",
 
-  "DOC-ARMOR_BREAK_POWER.description":"受到未被格挡的攻击伤害时，将一张[gold]小刀[/gold]加入[gold]手牌[/gold]。伤害来源是小刀不会触发。效果将在目标没有[gold]易伤[/gold]时结束。",
-  "DOC-ARMOR_BREAK_POWER.smartdescription":"受到未被格挡的攻击伤害时，将[blue]{Amount}[/blue]张[gold]小刀[/gold]加入[gold]手牌[/gold]。伤害来源是小刀不会触发。效果将在目标没有[gold]易伤[/gold]时结束。",
+  "DOC-ARMOR_BREAK_POWER.description":"受到未被格挡的攻击伤害时，将一张[gold]小刀[/gold]加入[gold]手牌[/gold]。伤害来源是小刀时[red]不会触发[/red]。效果将在目标没有[gold]易伤[/gold]时结束。",
+  "DOC-ARMOR_BREAK_POWER.smartdescription":"受到未被格挡的攻击伤害时，将[blue]{Amount}[/blue]张[gold]小刀[/gold]加入[gold]手牌[/gold]。伤害来源是小刀时[red]不会触发[/red]。效果将在目标没有[gold]易伤[/gold]时结束。",
   "DOC-ARMOR_BREAK_POWER.title":"碎甲",
 
   "DOC-FARTOOTH_ACCURACY_POWER.description":"每打出一张牌就获得1层[gold]精准[/gold]，打出骑士牌时额外获得1层[gold]精准[/gold]。[gold]小刀[/gold][red]不会触发效果[/red]。",
@@ -42,5 +42,12 @@
   "DOC-VITALITY_REGENERATION_POWER.title":"活力再生",
 
   "DOC-CHALLENGE_POWER.description":"攻击造成双倍伤害，受到攻击伤害翻倍。",
-  "DOC-CHALLENGE_POWER.title":"挑战"
+  "DOC-CHALLENGE_POWER.title":"挑战",
+
+  "DOC-FACE_POWER.description":"本回合造成的攻击伤害减半。",
+  "DOC-FACE_POWER.title":"面对",
+
+  "DOC-EATING_MARK_POWER.description":"回合开始时对所有敌人造成等同于[gold]格挡[/gold]值的伤害。",
+  "DOC-EATING_MARK_POWER.smartdescription":"回合开始时对所有敌人造成等同于[gold]格挡[/gold]值的伤害{Amount}次。",
+  "DOC-EATING_MARK_POWER.title":"食噬之印"
 }

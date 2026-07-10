@@ -36,6 +36,8 @@ public sealed class ChallengePower : CustomPowerModel
     //受到双倍攻击伤害
     public override decimal ModifyDamageMultiplicative(Creature? target, decimal damage, ValueProp props, Creature? dealer, CardModel? cardSource)
     {
+        if (target != Owner) return 1m;
+        if (!props.HasFlag(ValueProp.Move)) return 1m;
         return 2m;
     }
     public override async Task AfterSideTurnEnd(PlayerChoiceContext choiceContext, CombatSide side, IEnumerable<Creature> participants)

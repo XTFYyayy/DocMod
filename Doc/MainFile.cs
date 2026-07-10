@@ -62,7 +62,8 @@ public class MainFile
         ModHelper.AddModelToPool<DocCardPool, Gavial>();
         ModHelper.AddModelToPool<DocCardPool, Titi>();
         ModHelper.AddModelToPool<DocCardPool, Eunectes>();
-
+        ModHelper.AddModelToPool<DocCardPool, GavialTheInvincible>();
+        ModHelper.AddModelToPool<DocCardPool, Carnelian>();
 
 
         //衍生

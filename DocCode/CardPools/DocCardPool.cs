@@ -58,6 +58,8 @@ public class DocCardPool : CustomCardPoolModel
             ModelDb.Card<Gavial>(),
             ModelDb.Card<Titi>(),
             ModelDb.Card<Eunectes>(),
+            ModelDb.Card<GavialTheInvincible>(),
+            ModelDb.Card<Carnelian>(),
         };
     }
 }

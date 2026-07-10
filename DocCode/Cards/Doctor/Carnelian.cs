@@ -4,6 +4,7 @@ using Doc.DocCode.Powers;
 using Godot;
 using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Cards;
+using MegaCrit.Sts2.Core.Entities.Creatures;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
 using MegaCrit.Sts2.Core.HoverTips;
 using MegaCrit.Sts2.Core.Localization.DynamicVars;
@@ -16,28 +17,28 @@ using System.Threading.Tasks;
 
 namespace Doc.DocCode.Cards.Doctor;
 
-[CardTags(isSargon:true)]
-public sealed class Eunectes() : DocCard(1, CardType.Skill, CardRarity.Uncommon, TargetType.AnyEnemy)
+[CardTags(isSargon: true, isLeithania: true)]
+
+public sealed class Carnelian() : DocCard(3, CardType.Skill, CardRarity.Uncommon, TargetType.Self)
 {
-    public override IEnumerable<CardKeyword> CanonicalKeywords => [CardKeyword.Exhaust];
     protected override IEnumerable<DynamicVar> CanonicalVars =>
     [
-        new DynamicVar("ChallengePower", 1m)
+        new BlockVar(20, ValueProp.Move)
     ];
 
     protected override IEnumerable<IHoverTip> ExtraHoverTips =>
     [
-        HoverTipFactory.FromPower<ChallengePower>()
+        HoverTipFactory.FromPower<EatingMarkPower>()
     ];
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
-        ArgumentNullException.ThrowIfNull(cardPlay.Target, "cardPlay.Target");
-        await PowerCmd.Apply<ChallengePower>(choiceContext, cardPlay.Target, DynamicVars["ChallengePower"].BaseValue, base.Owner.Creature, this);
+        await CommonActions.CardBlock(this, cardPlay);
+        await PowerCmd.Apply<EatingMarkPower>(choiceContext, base.Owner.Creature, 1m, base.Owner.Creature, this);
     }
 
     protected override void OnUpgrade()
     {
-        EnergyCost.SetThisCombat(0);
+        DynamicVars.Block.UpgradeValueBy(8m);
     }
 }
