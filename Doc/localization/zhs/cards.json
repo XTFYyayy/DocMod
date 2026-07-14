@@ -59,7 +59,7 @@
   "UNGLORIOUS_GLORY.description": "对所有敌人造成{Damage:diff()}点伤害。",
   "UNGLORIOUS_GLORY.title": "未照耀的荣光",
 
-  "DOC-BLEMISHINE.description":"给予{VulnerablePower:diff()}层[gold]易伤[/gold]。\n给予{AsleepPower:diff()}层[gold]沉睡[/gold]。",
+  "DOC-BLEMISHINE.description":"给予{VulnerablePower:diff()}层[gold]易伤[/gold]。\n给予{AsleepPower:diff()}层[gold]沉睡[/gold]，敌人意图为晕眩时不生效。。",
   "DOC-BLEMISHINE.title":"瑕光",
 
   "DOC-NEARL_THE_RADIAN_KNIGHT.description":"[gold]耀阳召唤[/gold]{SummonAmount:diff()}。\n若打出的上一张牌为卡西米尔势力，获得{Energy:energyIcons()}，将一张复制品加入[gold]抽牌堆[/gold]。",

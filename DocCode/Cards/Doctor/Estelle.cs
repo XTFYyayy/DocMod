@@ -1,6 +1,5 @@
 using BaseLib.Utils;
 using Doc.DocCode.Attributes;
-using Doc.DocCode.Patches;
 using Godot;
 using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Cards;
@@ -29,7 +28,7 @@ public sealed class Estelle() : DocCard(0, CardType.Attack, CardRarity.Common, T
     {
         if (IsUpgraded)
         {
-            // 升级后：AOE，对所有敌人造成7点伤害
+            // 升级后：AOE
             await DamageCmd.Attack(base.DynamicVars.Damage.BaseValue)
                 .FromCard(this)
                 .TargetingAllOpponents(base.CombatState)
@@ -49,7 +48,6 @@ public sealed class Estelle() : DocCard(0, CardType.Attack, CardRarity.Common, T
     protected override void OnUpgrade()
     {
         // 升级后伤害值不变，保持7点
-        // TargetType 的变更由补丁处理
-        CardModelTargetTypePatch.SetTargetType(this, TargetType.AllEnemies);
+        // 目标类型的变更由 CardModelTargetTypePatch 处理
     }
 }
