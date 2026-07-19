@@ -51,6 +51,6 @@
   "DOC-EATING_MARK_POWER.smartdescription":"回合开始时对所有敌人造成等同于[gold]格挡[/gold]值的伤害{Amount}次。",
   "DOC-EATING_MARK_POWER.title":"食噬之印",
 
-  "DOC-SLEEP_WELL_POWER.description":"好好睡，好好睡……",
+  "DOC-SLEEP_WELL_POWER.description":"[gold]无法行动[/gold]，[gold]无法选中[/gold]，[gold]无敌[/gold]；同名取最大值。",
   "DOC-SLEEP_WELL_POWER.title":"好好睡"
 }

@@ -3,28 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|c:\\users\\xtfy\\desktop\\\u8C46\u8C46\u7684\u5305\u554A\\docmod\\doc\\doc\\doccode\\patch\\ncreatureperformintentpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|solutionrelative:doccode\\patch\\ncreatureperformintentpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|c:\\users\\xtfy\\desktop\\\u8C46\u8C46\u7684\u5305\u554A\\docmod\\doc\\doc\\doccode\\patches\\cardmodeltargettypepatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|solutionrelative:doccode\\patches\\cardmodeltargettypepatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|c:\\users\\xtfy\\desktop\\\u8C46\u8C46\u7684\u5305\u554A\\docmod\\doc\\doc\\doccode\\patch\\monsterskipturnpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|solutionrelative:doccode\\patch\\monsterskipturnpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|c:\\users\\xtfy\\desktop\\\u8C46\u8C46\u7684\u5305\u554A\\docmod\\doc\\doc\\doccode\\attributes\\cantargetsleepingonlyattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|solutionrelative:doccode\\attributes\\cantargetsleepingonlyattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|c:\\users\\xtfy\\desktop\\\u8C46\u8C46\u7684\u5305\u554A\\docmod\\doc\\doc\\doccode\\powers\\sleepwellpower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|solutionrelative:doccode\\powers\\sleepwellpower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|c:\\users\\xtfy\\desktop\\\u8C46\u8C46\u7684\u5305\u554A\\docmod\\doc\\doc\\doccode\\patch\\hittableenemiespatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|solutionrelative:doccode\\patch\\hittableenemiespatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|c:\\users\\xtfy\\desktop\\\u8C46\u8C46\u7684\u5305\u554A\\docmod\\doc\\doc\\doccode\\attributes\\cantargetsleepingattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|solutionrelative:doccode\\attributes\\cantargetsleepingattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|c:\\users\\xtfy\\desktop\\\u8C46\u8C46\u7684\u5305\u554A\\docmod\\doc\\doc\\doccode\\cards\\doctor\\blemishine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|solutionrelative:doccode\\cards\\doctor\\blemishine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|c:\\users\\xtfy\\desktop\\\u8C46\u8C46\u7684\u5305\u554A\\docmod\\doc\\doc\\doccode\\extensions\\creaturecmdextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|solutionrelative:doccode\\extensions\\creaturecmdextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|c:\\users\\xtfy\\desktop\\\u8C46\u8C46\u7684\u5305\u554A\\docmod\\doc\\doc\\doccode\\powers\\sleepwellpower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|solutionrelative:doccode\\powers\\sleepwellpower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,79 +35,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "NCreaturePerformIntentPatch.cs",
-              "DocumentMoniker": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Patch\\NCreaturePerformIntentPatch.cs",
-              "RelativeDocumentMoniker": "DocCode\\Patch\\NCreaturePerformIntentPatch.cs",
-              "ToolTip": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Patch\\NCreaturePerformIntentPatch.cs",
-              "RelativeToolTip": "DocCode\\Patch\\NCreaturePerformIntentPatch.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAqwBoAAAAFAAAAAAAAAA==",
+              "Title": "CardModelTargetTypePatch.cs",
+              "DocumentMoniker": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Patches\\CardModelTargetTypePatch.cs",
+              "RelativeDocumentMoniker": "DocCode\\Patches\\CardModelTargetTypePatch.cs",
+              "ToolTip": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Patches\\CardModelTargetTypePatch.cs",
+              "RelativeToolTip": "DocCode\\Patches\\CardModelTargetTypePatch.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAYwEQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-14T11:30:34.422Z",
+              "WhenOpened": "2026-07-19T07:16:05.271Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MonsterSkipTurnPatch.cs",
-              "DocumentMoniker": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Patch\\MonsterSkipTurnPatch.cs",
-              "RelativeDocumentMoniker": "DocCode\\Patch\\MonsterSkipTurnPatch.cs",
-              "ToolTip": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Patch\\MonsterSkipTurnPatch.cs",
-              "RelativeToolTip": "DocCode\\Patch\\MonsterSkipTurnPatch.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAqwB0AAAABAAAAAAAAAA==",
+              "Title": "CanTargetSleepingOnlyAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Attributes\\CanTargetSleepingOnlyAttribute.cs",
+              "RelativeDocumentMoniker": "DocCode\\Attributes\\CanTargetSleepingOnlyAttribute.cs",
+              "ToolTip": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Attributes\\CanTargetSleepingOnlyAttribute.cs",
+              "RelativeToolTip": "DocCode\\Attributes\\CanTargetSleepingOnlyAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-14T11:18:39.266Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HittableEnemiesPatch.cs",
-              "DocumentMoniker": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Patch\\HittableEnemiesPatch.cs",
-              "RelativeDocumentMoniker": "DocCode\\Patch\\HittableEnemiesPatch.cs",
-              "ToolTip": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Patch\\HittableEnemiesPatch.cs",
-              "RelativeToolTip": "DocCode\\Patch\\HittableEnemiesPatch.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAA5wDYAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-14T10:33:49.954Z",
+              "WhenOpened": "2026-07-19T07:15:47.701Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "SleepWellPower.cs",
-              "DocumentMoniker": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Powers\\SleepWellPower.cs",
-              "RelativeDocumentMoniker": "DocCode\\Powers\\SleepWellPower.cs",
-              "ToolTip": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Powers\\SleepWellPower.cs",
-              "RelativeToolTip": "DocCode\\Powers\\SleepWellPower.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAIAxwCYAAAAAAAAAAAAAAA==",
+              "Title": "CanTargetSleepingAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Attributes\\CanTargetSleepingAttribute.cs",
+              "RelativeDocumentMoniker": "DocCode\\Attributes\\CanTargetSleepingAttribute.cs",
+              "ToolTip": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Attributes\\CanTargetSleepingAttribute.cs",
+              "RelativeToolTip": "DocCode\\Attributes\\CanTargetSleepingAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-14T10:28:08.594Z",
+              "WhenOpened": "2026-07-19T07:15:32.587Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CreatureCmdExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Extensions\\CreatureCmdExtensions.cs",
-              "RelativeDocumentMoniker": "DocCode\\Extensions\\CreatureCmdExtensions.cs",
-              "ToolTip": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Extensions\\CreatureCmdExtensions.cs",
-              "RelativeToolTip": "DocCode\\Extensions\\CreatureCmdExtensions.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAmwCEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-14T10:27:23.397Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Blemishine.cs",
               "DocumentMoniker": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Cards\\Doctor\\Blemishine.cs",
               "RelativeDocumentMoniker": "DocCode\\Cards\\Doctor\\Blemishine.cs",
               "ToolTip": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Cards\\Doctor\\Blemishine.cs",
               "RelativeToolTip": "DocCode\\Cards\\Doctor\\Blemishine.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAiwDAAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABAAAABjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-14T10:03:32.212Z",
+              "WhenOpened": "2026-07-15T14:01:26.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "SleepWellPower.cs",
+              "DocumentMoniker": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Powers\\SleepWellPower.cs",
+              "RelativeDocumentMoniker": "DocCode\\Powers\\SleepWellPower.cs",
+              "ToolTip": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Powers\\SleepWellPower.cs",
+              "RelativeToolTip": "DocCode\\Powers\\SleepWellPower.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAgwFgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-15T11:29:55.251Z",
               "EditorCaption": ""
             }
           ]

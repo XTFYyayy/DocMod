@@ -1,45 +1,46 @@
-using System;
-using System.Threading.Tasks;
-using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Creatures;
-using MegaCrit.Sts2.Core.GameActions.Multiplayer;
-using MegaCrit.Sts2.Core.Models;
-using Doc.DocCode.Powers;
+using MegaCrit.Sts2.Core.Helpers;
+using MegaCrit.Sts2.Core.MonsterMoves.Intents;
+using MegaCrit.Sts2.Core.MonsterMoves.MonsterMoveStateMachine;
+using MegaCrit.Sts2.Core.Nodes.Combat;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
-namespace Doc.DocCode.Commands;
-
-public static class CreatureCmdExtensions
+namespace Doc.DocCode.Extensions
 {
-    /// <summary>
-    /// 让目标沉睡（施加一个新实例）
-    /// </summary>
-    public static async Task SleepWell(
-        Creature target,
-        decimal duration,
-        Creature source,
-        CardModel? cardSource = null)
+    public static class CreatureCmdExtensions
     {
-        if (target == null) throw new ArgumentNullException(nameof(target));
-        if (source == null) throw new ArgumentNullException(nameof(source));
+        public static async Task SleepWell(this Creature creature)
+        {
+            if (!creature.IsMonster || creature.Monster == null)
+                return;
 
-        // 施加新的沉睡实例
-        await PowerCmd.Apply<SleepWellPower>(
-            new ThrowingPlayerChoiceContext(),
-            target,
-            duration,
-            source,
-            cardSource
-        );
-    }
+            var monster = creature.Monster;
 
-    /// <summary>
-    /// 让目标沉睡（默认持续1回合）
-    /// </summary>
-    public static async Task SleepWell(
-        Creature target,
-        Creature source,
-        CardModel? cardSource = null)
-    {
-        await SleepWell(target, 1m, source, cardSource);
+            // 创建一个"什么都不做"的执行方法
+            async Task DoNothing(IReadOnlyList<Creature> targets)
+            {
+                // 可以添加睡眠动画/特效
+                await Task.CompletedTask;
+            }
+
+            // 使用正确的构造函数创建 MoveState
+            var sleepState = new MoveState(
+                stateId: "SLEEP_WELL_MOVE",
+                onPerform: DoNothing,
+                intents: new SleepIntent()  // 官方睡眠意图
+            );
+
+            // 强制切换状态
+            monster.SetMoveImmediate(sleepState, forceTransition: true);
+
+            // 刷新意图图标
+            var creatureNode = creature.GetCreatureNode();
+            if (creatureNode != null)
+            {
+                await TaskHelper.RunSafely(creatureNode.RefreshIntents());
+            }
+            await Task.CompletedTask;
+        }
     }
 }

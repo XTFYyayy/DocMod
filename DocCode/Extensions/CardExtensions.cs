@@ -23,4 +23,22 @@ public static class CardExtensions
         var attr = card.GetCardTagsAttribute();
         return attr != null && attr.IsKazimierz;
     }
+
+    public static bool IsSargon(this CardModel card)
+    {
+        var attr = card.GetCardTagsAttribute();
+        return attr != null && attr.IsSargon;
+    }
+
+    public static bool IsRhodeIsland(this CardModel card)
+    {
+        var attr = card.GetCardTagsAttribute();
+        return attr != null && attr.IsRhodeIsland;
+    }
+
+    public static bool IsLeithania(this CardModel card)
+    {
+        var attr = card.GetCardTagsAttribute();
+        return attr != null && attr.IsLeithania;
+    }
 }

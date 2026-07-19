@@ -25,7 +25,7 @@ public sealed class Blemishine() : DocCard(2, CardType.Skill, CardRarity.Rare, T
     protected override IEnumerable<IHoverTip> ExtraHoverTips =>
     [
         HoverTipFactory.FromPower<VulnerablePower>(),
-        HoverTipFactory.FromPower<SleepWellPower>()
+        HoverTipFactory.FromPower<SleepWellPower>(),
     ];
 
     public override IEnumerable<CardKeyword> CanonicalKeywords => [CardKeyword.Exhaust];
@@ -44,10 +44,10 @@ public sealed class Blemishine() : DocCard(2, CardType.Skill, CardRarity.Rare, T
             this
         );
 
-        // 施加沉睡
-        await CreatureCmdExtensions.SleepWell(
+        await PowerCmd.Apply<SleepWellPower>(
+            choiceContext,
             target,
-            DynamicVars["SleepWellPower"].BaseValue,
+            1,
             Owner.Creature,
             this
         );
@@ -56,6 +56,5 @@ public sealed class Blemishine() : DocCard(2, CardType.Skill, CardRarity.Rare, T
     protected override void OnUpgrade()
     {
         DynamicVars.Vulnerable.UpgradeValueBy(1m);
-        // 沉睡层数不变
     }
 }

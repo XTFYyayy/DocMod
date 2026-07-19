@@ -10,7 +10,7 @@
     <EmbeddedResource Remove="Doc\DocCode\**" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Remove="DocCode\Patch\DoctorCharacterPatch.cs" />
+    <Compile Remove="DocCode\Patches\DoctorCharacterPatch.cs" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Alchyr.Sts2.BaseLib" Version="3.3.2" />
@@ -43,6 +43,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="DocCode\Nodes\summon.tscn" />
-    <None Include="DocCode\Patch\DoctorCharacterPatch.cs" />
+    <None Include="DocCode\Patches\DoctorCharacterPatch.cs" />
   </ItemGroup>
 </Project>

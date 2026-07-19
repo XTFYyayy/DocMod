@@ -3,7 +3,7 @@ using System;
 namespace Doc.DocCode.Attributes
 {
     [AttributeUsage(AttributeTargets.Class, AllowMultiple = false, Inherited = true)]
-    public class CanTargetSleepingAttribute : Attribute
+    public class CanTargetSleepingOnlyAttribute : Attribute
     {
     }
 }
