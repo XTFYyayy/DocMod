@@ -1,43 +1,54 @@
-using BaseLib.Utils;
+using BaseLib;
+using BaseLib.Abstracts;
 using Doc.DocCode.Attributes;
-using Doc.DocCode.Powers;
 using Godot;
+using MegaCrit.Sts2.Core.CardSelection;
 using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Cards;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
 using MegaCrit.Sts2.Core.HoverTips;
 using MegaCrit.Sts2.Core.Localization.DynamicVars;
 using MegaCrit.Sts2.Core.Models;
-using MegaCrit.Sts2.Core.Models.Powers;
-using MegaCrit.Sts2.Core.Nodes.Combat;
+using MegaCrit.Sts2.Core.Nodes.Rooms;
 using MegaCrit.Sts2.Core.ValueProps;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 
 namespace Doc.DocCode.Cards.Doctor;
 
-[CardTags(isSargon:true)]
-public sealed class Eunectes() : DocCard(1, CardType.Skill, CardRarity.Uncommon, TargetType.AnyEnemy)
+[CardTags(isSargon: true)]
+
+public sealed class SandReckoner(): DocCard(2, CardType.Skill, CardRarity.Rare, TargetType.Self)
 {
-    public override IEnumerable<CardKeyword> CanonicalKeywords => [CardKeyword.Exhaust];
     protected override IEnumerable<DynamicVar> CanonicalVars =>
     [
-        new DynamicVar("ChallengePower", 1m)
     ];
-
     protected override IEnumerable<IHoverTip> ExtraHoverTips =>
     [
-        HoverTipFactory.FromPower<ChallengePower>()
+        HoverTipFactory.FromKeyword(CardKeyword.Sly)
     ];
+
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
-        ArgumentNullException.ThrowIfNull(cardPlay.Target, "cardPlay.Target");
-        await PowerCmd.Apply<ChallengePower>(choiceContext, cardPlay.Target, DynamicVars["ChallengePower"].BaseValue, base.Owner.Creature, this);
+        var owner = Owner;
+        if (owner == null) return;
+
+        // 获取当前手牌
+        var handPile = PileType.Hand.GetPile(owner);
+        var cardsInHand = handPile.Cards.ToList();
+
+        // 给每张手牌添加"奇巧"关键词
+        foreach (var card in cardsInHand)
+        {
+            CardCmd.ApplyKeyword(card, CardKeyword.Sly);
+        }
     }
 
     protected override void OnUpgrade()
     {
+        // 升级时减少费用
         EnergyCost.UpgradeBy(-1);
     }
 }

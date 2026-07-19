@@ -60,6 +60,11 @@ public class DocCardPool : CustomCardPoolModel
             ModelDb.Card<Eunectes>(),
             ModelDb.Card<GavialTheInvincible>(),
             ModelDb.Card<Carnelian>(),
-        };
+            ModelDb.Card<Lancet_2>(),
+            ModelDb.Card<SandReckoner>(),
+            ModelDb.Card<Scene>(),
+            ModelDb.Card<Wulfenite>(),
+
+    };
     }
 }

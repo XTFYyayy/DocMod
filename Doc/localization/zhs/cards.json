@@ -26,7 +26,7 @@
   "DOC-FLAMETAIL.description":"造成{Damage:diff()}点伤害。\n获得1层[gold]缓冲[/gold]。",
   "DOC-FLAMETAIL.title":"焰尾",
 
-  "DOC-MLYNAR.description":"若打出的上一张牌为攻击牌，将一张未声张的怒火加入[gold]手牌[/gold]；否则将一张未宽解的悲哀加入[gold]手牌[/gold]。\n 若打出的上一张牌为卡西米尔势力，将一张未照耀的荣光加入[gold]手牌[/gold]。\n本回合受到攻击时，使攻击者失去3点生命。",
+  "DOC-MLYNAR.description":"若打出的上一张牌为攻击牌，将一张[gold]未声张的怒火[/gold]加入[gold]手牌[/gold]；否则将一张[gold]未宽解的悲哀[/gold]加入[gold]手牌[/gold]。\n 若打出的上一张牌为卡西米尔势力，将一张[gold]未照耀的荣光[/gold]加入[gold]手牌[/gold]。\n本回合受到攻击时，使攻击者失去3点生命。",
   "DOC-MLYNAR.title":"玛恩纳",
 
   "DOC-PLATINUM.description":"造成{Damage:diff()}点伤害。\n如果这张牌是第一次在本回合打出，则造双倍伤害。\n本场战斗中打出一次，此牌耗能就增加{Energy:energyIcons()}",
@@ -96,5 +96,23 @@
   "DOC-GAVIAL_THE_INVINCIBLE.title":"百炼嘉维尔",
 
   "DOC-CARNELIAN.description":"获得{Block:diff()}点格挡。\n下回合开始时对所有敌人造成等同于当时[gold]格挡[/gold]的伤害。",
-  "DOC-CARNELIAN.title":"卡涅利安"
+  "DOC-CARNELIAN.title":"卡涅利安",
+
+  "DOC-LANCET_2.description":"回复{Heal:diff()}点生命。",
+  "DOC-LANCET_2.title":"LANCET-2",
+
+  "DOC-SAND_RECKONER.description":"本场战斗中为当前所有手牌添加[gold]奇巧[/gold]。",
+  "DOC-SAND_RECKONER.title":"衡沙",
+
+  "DOC-SCENE.description":"用[gold]侦查[/gold]填满你的手牌。",
+  "DOC-SCENE.title":"稀音",
+
+  "RECON.description":"去除敌人身上的所有人工制品。\n给予{VulnerablePower:diff()}层[gold]易伤[/gold]。",
+  "RECON.title":"侦查",
+
+  "DOC-WULFENITE.description":"造成{Damage:diff()}点伤害。\n将一张[gold]矿石杀手[/gold]加入手牌。",
+  "DOC-WULFENITE.title":"钼铅",
+
+  "ROCKY_CHOMPER.description":"造成{Damage:diff()}点伤害。\n[gold]击晕[/gold]该敌人",
+  "ROCKY_CHOMPER.title":"矿石杀手"
 }

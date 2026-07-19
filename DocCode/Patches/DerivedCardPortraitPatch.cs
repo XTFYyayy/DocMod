@@ -14,7 +14,7 @@ public static class DerivedCardPortraitPatch
     public static void OverrideDerivedCardPortraitPath(CardModel __instance, ref string __result)
     {
         // 检查是否是衍生牌
-        if (__instance is UndeclaredRage or UnexoneratedSorrow or UngloriousGlory)
+        if (__instance is UndeclaredRage or UnexoneratedSorrow or UngloriousGlory or Recon or RockyChomper)
         {
             var cardName = __instance.GetType().Name.ToLowerInvariant();
             __result = $"{cardName}.png".CardImagePath();

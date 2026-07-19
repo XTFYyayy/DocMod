@@ -64,12 +64,18 @@ public class MainFile
         ModHelper.AddModelToPool<DocCardPool, Eunectes>();
         ModHelper.AddModelToPool<DocCardPool, GavialTheInvincible>();
         ModHelper.AddModelToPool<DocCardPool, Carnelian>();
+        ModHelper.AddModelToPool<DocCardPool, Lancet_2>();
+        ModHelper.AddModelToPool<DocCardPool, SandReckoner>();
+        ModHelper.AddModelToPool<DocCardPool, Scene>();
+        ModHelper.AddModelToPool<DocCardPool, Wulfenite>();
 
 
         //衍生
         ModHelper.AddModelToPool<TokenCardPool, UndeclaredRage>();
         ModHelper.AddModelToPool<TokenCardPool, UnexoneratedSorrow>();
         ModHelper.AddModelToPool<TokenCardPool, UngloriousGlory>();
+        ModHelper.AddModelToPool<TokenCardPool, Recon>();
+        ModHelper.AddModelToPool<TokenCardPool, RockyChomper>();
 
         //普通无色
         ModHelper.AddModelToPool<ColorlessCardPool, KnightOath>();
