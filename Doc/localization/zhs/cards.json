@@ -110,9 +110,24 @@
   "RECON.description":"去除敌人身上的所有人工制品。\n给予{VulnerablePower:diff()}层[gold]易伤[/gold]。",
   "RECON.title":"侦查",
 
-  "DOC-WULFENITE.description":"造成{Damage:diff()}点伤害。\n将一张[gold]矿石杀手[/gold]加入手牌。",
+  "DOC-WULFENITE.description":"造成{Damage:diff()}点伤害。\n将一张[gold]矿石杀手{IfUpgraded:show:+}[/gold]加入手牌。",
   "DOC-WULFENITE.title":"钼铅",
 
   "ROCKY_CHOMPER.description":"造成{Damage:diff()}点伤害。\n[gold]击晕[/gold]该敌人",
-  "ROCKY_CHOMPER.title":"矿石杀手"
+  "ROCKY_CHOMPER.title":"矿石杀手",
+
+  "DOC-KESTREL.description":"回合结束时，每有一张手牌，下回合开始时就额外抽1张牌并丢弃1张牌。",
+  "DOC-KESTREL.title":"红隼",
+
+  "DOC-HADIYA.description":"造成{Damage:diff()}点伤害。\n丢弃1张牌。\n将1张[gold]哈蒂娅II型{IfUpgraded:show:+}[/gold]加入手牌。",
+  "DOC-HADIYA.title":"哈蒂娅",
+
+  "HADIYA_I_I.description":"获得{Block:diff()}点格挡。",
+  "HADIYA_I_I.title":"哈蒂娅II型",
+
+  "DOC-MANTICORE.description":"造成{Damage:diff()}点伤害。\n给予{VulnerablePower:diff()}层[gold]易伤[/gold]。",
+  "DOC-MANTICORE.title":"狮蝎",
+
+  "DOC-PEPE.description":"造成未被格挡的攻击伤害时，对其他所有敌人造成一半伤害。",
+  "DOC-PEPE.title":"佩佩"
 }

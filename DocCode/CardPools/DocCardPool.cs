@@ -64,6 +64,10 @@ public class DocCardPool : CustomCardPoolModel
             ModelDb.Card<SandReckoner>(),
             ModelDb.Card<Scene>(),
             ModelDb.Card<Wulfenite>(),
+            ModelDb.Card<Kestrel>(),
+            ModelDb.Card<Hadiya>(),
+            ModelDb.Card<Manticore>(),
+            ModelDb.Card<Pepe>(),
 
     };
     }

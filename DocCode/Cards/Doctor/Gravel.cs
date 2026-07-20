@@ -30,6 +30,7 @@ public sealed class Gravel() : DocCard(3, CardType.Skill, CardRarity.Uncommon, T
         HoverTipFactory.FromPower<RatSwarmPower>()
     ];
 
+    //怀疑这个是不是没用的，但是我不敢删
     protected override void AddExtraArgsToDescription(LocString description)
     {
         decimal finalAmount = DynamicVars["GravelThreshold"].BaseValue;

@@ -68,6 +68,10 @@ public class MainFile
         ModHelper.AddModelToPool<DocCardPool, SandReckoner>();
         ModHelper.AddModelToPool<DocCardPool, Scene>();
         ModHelper.AddModelToPool<DocCardPool, Wulfenite>();
+        ModHelper.AddModelToPool<DocCardPool, Kestrel>();
+        ModHelper.AddModelToPool<DocCardPool, Hadiya>();
+        ModHelper.AddModelToPool<DocCardPool, Manticore>();
+        ModHelper.AddModelToPool<DocCardPool, Pepe>();
 
 
         //衍生
@@ -76,6 +80,7 @@ public class MainFile
         ModHelper.AddModelToPool<TokenCardPool, UngloriousGlory>();
         ModHelper.AddModelToPool<TokenCardPool, Recon>();
         ModHelper.AddModelToPool<TokenCardPool, RockyChomper>();
+        ModHelper.AddModelToPool<TokenCardPool, HadiyaII>();
 
         //普通无色
         ModHelper.AddModelToPool<ColorlessCardPool, KnightOath>();

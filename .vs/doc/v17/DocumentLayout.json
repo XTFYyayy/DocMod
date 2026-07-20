@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|c:\\users\\xtfy\\desktop\\\u8C46\u8C46\u7684\u5305\u554A\\docmod\\doc\\doc\\doccode\\cards\\doctor\\rockychomper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|solutionrelative:doccode\\cards\\doctor\\rockychomper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|c:\\users\\xtfy\\desktop\\\u8C46\u8C46\u7684\u5305\u554A\\docmod\\doc\\doc\\doccode\\powers\\pepepower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|solutionrelative:doccode\\powers\\pepepower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|c:\\users\\xtfy\\desktop\\\u8C46\u8C46\u7684\u5305\u554A\\docmod\\doc\\doc\\doccode\\cards\\doctor\\pepe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|solutionrelative:doccode\\cards\\doctor\\pepe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|c:\\users\\xtfy\\desktop\\\u8C46\u8C46\u7684\u5305\u554A\\docmod\\doc\\doc\\doccode\\cards\\doctor\\flametail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|solutionrelative:doccode\\cards\\doctor\\flametail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|c:\\users\\xtfy\\desktop\\\u8C46\u8C46\u7684\u5305\u554A\\docmod\\doc\\doc\\doccode\\patches\\derivedcardportraitpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|solutionrelative:doccode\\patches\\derivedcardportraitpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|c:\\users\\xtfy\\desktop\\\u8C46\u8C46\u7684\u5305\u554A\\docmod\\doc\\doc\\doc\\mainfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,45 +34,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "RockyChomper.cs",
-              "DocumentMoniker": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Cards\\Doctor\\RockyChomper.cs",
-              "RelativeDocumentMoniker": "DocCode\\Cards\\Doctor\\RockyChomper.cs",
-              "ToolTip": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Cards\\Doctor\\RockyChomper.cs",
-              "RelativeToolTip": "DocCode\\Cards\\Doctor\\RockyChomper.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAABfAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Flametail.cs",
+              "DocumentMoniker": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Cards\\Doctor\\Flametail.cs",
+              "RelativeDocumentMoniker": "DocCode\\Cards\\Doctor\\Flametail.cs",
+              "ToolTip": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Cards\\Doctor\\Flametail.cs",
+              "RelativeToolTip": "DocCode\\Cards\\Doctor\\Flametail.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-19T14:16:41.532Z",
+              "WhenOpened": "2026-07-20T03:25:27.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PepePower.cs",
+              "DocumentMoniker": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Powers\\PepePower.cs",
+              "RelativeDocumentMoniker": "DocCode\\Powers\\PepePower.cs",
+              "ToolTip": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Powers\\PepePower.cs",
+              "RelativeToolTip": "DocCode\\Powers\\PepePower.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAgwCIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T02:31:55.837Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Pepe.cs",
+              "DocumentMoniker": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Cards\\Doctor\\Pepe.cs",
+              "RelativeDocumentMoniker": "DocCode\\Cards\\Doctor\\Pepe.cs",
+              "ToolTip": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Cards\\Doctor\\Pepe.cs",
+              "RelativeToolTip": "DocCode\\Cards\\Doctor\\Pepe.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAAB8AAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T02:30:47.455Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "MainFile.cs",
               "DocumentMoniker": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\Doc\\MainFile.cs",
               "RelativeDocumentMoniker": "Doc\\MainFile.cs",
               "ToolTip": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\Doc\\MainFile.cs",
               "RelativeToolTip": "Doc\\MainFile.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAAArwFIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAArwEUAAAA7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-19T10:51:54.416Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "DocCardPool.cs",
               "DocumentMoniker": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\CardPools\\DocCardPool.cs",
               "RelativeDocumentMoniker": "DocCode\\CardPools\\DocCardPool.cs",
               "ToolTip": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\CardPools\\DocCardPool.cs",
               "RelativeToolTip": "DocCode\\CardPools\\DocCardPool.cs",
-              "ViewState": "AgIAADUAAAAAAAAAAAAYwEEAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAADUAAAAAAAAAAAAYwEUAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-07-19T10:16:34.963Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DerivedCardPortraitPatch.cs",
+              "DocumentMoniker": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Patches\\DerivedCardPortraitPatch.cs",
+              "RelativeDocumentMoniker": "DocCode\\Patches\\DerivedCardPortraitPatch.cs",
+              "ToolTip": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Patches\\DerivedCardPortraitPatch.cs",
+              "RelativeToolTip": "DocCode\\Patches\\DerivedCardPortraitPatch.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAArwBMAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-20T01:27:15.017Z",
               "EditorCaption": ""
             }
           ]

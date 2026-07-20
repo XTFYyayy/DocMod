@@ -55,5 +55,14 @@
   "DOC-SLEEP_WELL_POWER.title":"好好睡",
 
   "DOC-STUN_POWER.description":"这个敌人在其一回合无法行动。",
-  "DOC-STUN_POWER.title":"击晕"
+  "DOC-STUN_POWER.title":"击晕",
+
+  "DOC-OUT_OF_HABIT_POWER.smartdescription":"回合结束时，每有一张手牌，下回合开始时就额外抽1张牌并丢弃等量1张牌。",
+  "DOC-OUT_OF_HABIT_POWER.description":"回合结束时，每有一张手牌，下回合开始时就额外抽1张牌并丢弃等量1张牌。若牌组中的牌不足以在完成抽牌会中断抽牌，但是弃牌数量不变。",
+  "DOC-OUT_OF_HABIT_POWER.title":"习惯使然",
+
+  "DOC-PEPE_POWER.smartdescription":"造成未被格挡的攻击伤害时，对其他所有敌人造成一半伤害[blue]{Amount}[/blue]次。",
+  "DOC-PEPE_POWER.description":"造成未被格挡的攻击伤害时，对其他所有敌人造成一半伤害。",
+  "DOC-PEPE_POWER.title":"有力气"
+
 }
