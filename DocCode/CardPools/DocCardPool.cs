@@ -68,7 +68,9 @@ public class DocCardPool : CustomCardPoolModel
             ModelDb.Card<Hadiya>(),
             ModelDb.Card<Manticore>(),
             ModelDb.Card<Pepe>(),
-
+            ModelDb.Card<Sesa>(),
+            ModelDb.Card<Narantuya>(),
+            ModelDb.Card<Passenger>(),
     };
     }
 }

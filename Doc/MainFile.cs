@@ -72,6 +72,9 @@ public class MainFile
         ModHelper.AddModelToPool<DocCardPool, Hadiya>();
         ModHelper.AddModelToPool<DocCardPool, Manticore>();
         ModHelper.AddModelToPool<DocCardPool, Pepe>();
+        ModHelper.AddModelToPool<DocCardPool, Sesa>();
+        ModHelper.AddModelToPool<DocCardPool, Narantuya>();
+        ModHelper.AddModelToPool<DocCardPool, Passenger>();
 
 
         //衍生

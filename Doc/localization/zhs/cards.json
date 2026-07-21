@@ -129,5 +129,14 @@
   "DOC-MANTICORE.title":"狮蝎",
 
   "DOC-PEPE.description":"造成未被格挡的攻击伤害时，对其他所有敌人造成一半伤害。",
-  "DOC-PEPE.title":"佩佩"
+  "DOC-PEPE.title":"佩佩",
+
+  "DOC-SESA.description":"造成{Damage:diff()}点伤害。若造成了未被格挡的伤害，额外对所有敌人造成等同此伤害一半的伤害。",
+  "DOC-SESA.title":"慑砂",
+
+  "DOC-NARANTUYA.description":"造成未被格挡的攻击伤害时，偷取目标{ISeeIGainPower:diff()}点[gold]力量[/gold]。",
+  "DOC-NARANTUYA.title":"娜仁图亚",
+
+  "DOC-PASSENGER.description":"你每在本场战斗中造成过一次未被格挡的攻击伤害，就随机造成一次{Damage:diff()}点伤害。{InCombat:\n（命中{HitsCount:diff()}次）|}",
+  "DOC-PASSENGER.title":"异客"
 }

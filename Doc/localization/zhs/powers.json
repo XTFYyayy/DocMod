@@ -63,6 +63,9 @@
 
   "DOC-PEPE_POWER.smartdescription":"造成未被格挡的攻击伤害时，对其他所有敌人造成一半伤害[blue]{Amount}[/blue]次。",
   "DOC-PEPE_POWER.description":"造成未被格挡的攻击伤害时，对其他所有敌人造成一半伤害。",
-  "DOC-PEPE_POWER.title":"有力气"
+  "DOC-PEPE_POWER.title":"有力气",
 
+  "DOC-I_SEE_I_GAIN_POWER.smartdescription":"造成未被格挡的攻击伤害时，偷取目标{Amout}点[gold]力量[/gold]。",
+  "DOC-I_SEE_I_GAIN_POWER.description":"造成未被格挡的攻击伤害时，偷取目标[gold]力量[/gold]。",
+  "DOC-I_SEE_I_GAIN_POWER.title":"我见，我得"
 }

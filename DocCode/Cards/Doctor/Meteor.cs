@@ -21,7 +21,7 @@ public sealed class Meteor() : DocCard(2, CardType.Attack, CardRarity.Uncommon, 
     [
         new DamageVar(3m, ValueProp.Move),
         new PowerVar<VulnerablePower>(2m),
-        new PowerVar<ArmorBreakPower>(1m)
+        new DynamicVar("ArmorBreakPower", 1m)
     ];
 
     protected override IEnumerable<IHoverTip> ExtraHoverTips =>
