@@ -75,6 +75,7 @@ public class MainFile
         ModHelper.AddModelToPool<DocCardPool, Sesa>();
         ModHelper.AddModelToPool<DocCardPool, Narantuya>();
         ModHelper.AddModelToPool<DocCardPool, Passenger>();
+        ModHelper.AddModelToPool<DocCardPool, Tuye>();
 
 
         //衍生

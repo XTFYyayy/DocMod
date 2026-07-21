@@ -22,7 +22,8 @@ public sealed class Philae() : DocCard(2, CardType.Skill, CardRarity.Uncommon, T
 {
     protected override IEnumerable<DynamicVar> CanonicalVars =>
     [
-        new BlockVar(12, ValueProp.Move)
+        new BlockVar(12, ValueProp.Move),
+        new DynamicVar("StygianCursePower", 1m)
     ];
 
     protected override IEnumerable<IHoverTip> ExtraHoverTips =>
@@ -32,7 +33,7 @@ public sealed class Philae() : DocCard(2, CardType.Skill, CardRarity.Uncommon, T
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
-        var power = await PowerCmd.Apply<StygianCursePower>(choiceContext, base.Owner.Creature, 1m, base.Owner.Creature, this);
+        var power = await PowerCmd.Apply<StygianCursePower>(choiceContext, base.Owner.Creature, DynamicVars["StygianCursePower"].BaseValue, base.Owner.Creature, this);
         power?.SetSourceCard(this);
         await CommonActions.CardBlock(this, cardPlay);
     }

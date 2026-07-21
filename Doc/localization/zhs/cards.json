@@ -138,5 +138,8 @@
   "DOC-NARANTUYA.title":"娜仁图亚",
 
   "DOC-PASSENGER.description":"你每在本场战斗中造成过一次未被格挡的攻击伤害，就随机造成一次{Damage:diff()}点伤害。{InCombat:\n（命中{HitsCount:diff()}次）|}",
-  "DOC-PASSENGER.title":"异客"
+  "DOC-PASSENGER.title":"异客",
+
+  "DOC-TUYE.description":"回复{Heal:diff()}点生命。",
+  "DOC-TUYE.title":"图耶"
 }

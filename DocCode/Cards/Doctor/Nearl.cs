@@ -22,7 +22,7 @@ public sealed class Nearl() : DocCard(1, CardType.Skill, CardRarity.Common, Targ
     protected override IEnumerable<DynamicVar> CanonicalVars =>
     [
         new BlockVar(5m, ValueProp.Move),
-        new DynamicVar("DexterityPower", 1m)
+        new PowerVar<DexterityPower>(1m)
     ];
 
     protected override IEnumerable<IHoverTip> ExtraHoverTips =>
@@ -36,7 +36,7 @@ public sealed class Nearl() : DocCard(1, CardType.Skill, CardRarity.Common, Targ
         await CreatureCmd.GainBlock(base.Owner.Creature, DynamicVars.Block, cardPlay);
 
         // 获得1点敏捷
-        await PowerCmd.Apply<DexterityPower>(choiceContext, base.Owner.Creature, DynamicVars["DexterityPower"].BaseValue, base.Owner.Creature, this);
+        await PowerCmd.Apply<DexterityPower>(choiceContext, base.Owner.Creature, DynamicVars.Dexterity.BaseValue, base.Owner.Creature, this);
     }
 
     protected override void OnUpgrade()

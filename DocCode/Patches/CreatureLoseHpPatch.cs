@@ -20,6 +20,7 @@ public static class CreatureLoseHpPatch
         if (_isProcessing) return true;
         if (__instance.Player == null) return true;
         if (amount <= 0) return true;
+        if (!props.HasFlag(ValueProp.Move)) return true; // 非攻击伤害，不处理
 
         Player targetPlayer = __instance.Player;
 

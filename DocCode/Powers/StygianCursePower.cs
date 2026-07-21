@@ -7,6 +7,7 @@ using MegaCrit.Sts2.Core.Entities.Cards;
 using MegaCrit.Sts2.Core.Entities.Creatures;
 using MegaCrit.Sts2.Core.Entities.Powers;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
+using MegaCrit.Sts2.Core.Localization.DynamicVars;
 using MegaCrit.Sts2.Core.Models;
 using MegaCrit.Sts2.Core.Models.Powers;
 using MegaCrit.Sts2.Core.ValueProps;
@@ -18,7 +19,12 @@ public sealed class StygianCursePower : CustomPowerModel
 {
     private CardModel _sourceCard;
 
-    public override PowerType Type => PowerType.Debuff;
+    protected override IEnumerable<DynamicVar> CanonicalVars =>
+    [
+        new PowerVar<DoomPower>(8m),
+    ];
+
+    public override PowerType Type => PowerType.Buff;
     public override PowerStackType StackType => PowerStackType.Counter;
     public override bool AllowNegative => false;
 
@@ -36,7 +42,13 @@ public sealed class StygianCursePower : CustomPowerModel
         if (!props.HasFlag(ValueProp.Move)) return;
         if (dealer == null) return;
 
-        await PowerCmd.Apply<DoomPower>(choiceContext, dealer, 8m, Owner, _sourceCard);
+        await PowerCmd.Apply<DoomPower>(
+            choiceContext: choiceContext,
+            target: dealer,
+            amount: DynamicVars.Doom.BaseValue,
+            applier: Owner,
+            cardSource: _sourceCard
+        );
     }
 
     public override async Task AfterSideTurnEnd(PlayerChoiceContext choiceContext, CombatSide side, IEnumerable<Creature> participants)

@@ -71,6 +71,10 @@ public class DocCardPool : CustomCardPoolModel
             ModelDb.Card<Sesa>(),
             ModelDb.Card<Narantuya>(),
             ModelDb.Card<Passenger>(),
+            ModelDb.Card<Tuye>(),
+
+
+
     };
     }
 }
