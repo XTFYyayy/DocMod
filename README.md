@@ -1,7 +1,7 @@
 《明日方舟》博士mod
 =====================================
 
-为《杀戮尖塔2》带来更多角色、卡牌、遗物、时间、怪物等。
+为《杀戮尖塔2》带来更多角色、卡牌、遗物、事件、怪物等。
 
 模组简介
 ---------
@@ -27,14 +27,9 @@
 
 安装方法
 ---------
-直接下载项目中的Mods压缩包，解压后添加至游戏文件根目录，如提示有重复文件选择合并
-或下载项目源码或源资源
-1. 从 Releases 页面下载最新版本的 Doc.zip 压缩包
-2. 解压得到 Doc 文件夹
-3. 将 Doc 文件夹复制到游戏根目录的 mods 文件夹中
-   路径：SteamLibrary/steamapps/common/Slay the Spire 2/Mods/
-   （注意依赖BaseLib）
-5. 启动游戏，在模组管理界面启用"博士"模组
+直接下载项目中的Mods压缩包，解压后添加至游戏文件夹的Mods中，如提示有重复文件选择合并。（Mods压缩包将在下次更新时开始同步推送）
+或下载项目源码或源资源。
+
 
 开发环境
 ---------
@@ -95,14 +90,9 @@ I plan to submit this mod to the Steam Workshop once the card count reaches roug
 
 Installation Guide
 ---------
-Option 1: Download the Mods archive file from the project repository, extract it, and place the contents into the game’s root directory. Select merge if duplicate file prompts appear.
-Option 2: Download the full source code and raw assets
-1. Download the latest Doc.zip archive from the Releases page
-2. Extract the archive to get the Doc folder
-3. Copy the Doc folder into the mods directory within the game’s root folder
-   File path: SteamLibrary/steamapps/common/Slay the Spire 2/Mods/
-   (BaseLib is a required dependency)
-5. Launch the game and enable the "Doctor" mod in the mod management menu
+Directly download the Mods archive from the project, extract it and add it to the Mods folder of the game. Choose to merge if a duplicate file prompt appears. (The Mods archive will be rolled out synchronously starting from the next update.)
+Alternatively, download the project source code or source assets.
+
 
 Development Environment
 ---------
