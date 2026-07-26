@@ -17,6 +17,7 @@ public sealed class DoctorRelicPool : RelicPoolModel
         return new RelicModel[]
         {
             ModelDb.Relic<HrBronzeSeal>(),
+            ModelDb.Relic<DoctorSilverSeal>(),
         };
     }
 }

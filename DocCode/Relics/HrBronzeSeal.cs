@@ -1,5 +1,8 @@
+using BaseLib.Abstracts;
+using BaseLib.Utils;
 using Doc.DocCode.CardPools;
 using Doc.DocCode.Extensions;
+using Doc.DocCode.RelicPools;
 using MegaCrit.Sts2.Core.Combat;
 using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Cards;
@@ -13,7 +16,9 @@ using System.Threading.Tasks;
 
 namespace Doc.DocCode.Relics;
 
-public sealed class HrBronzeSeal : RelicModel
+[Pool(typeof(DoctorRelicPool))]
+
+public sealed class HrBronzeSeal : CustomRelicModel
 {
     public override RelicRarity Rarity => RelicRarity.Starter;
 
@@ -62,4 +67,6 @@ public sealed class HrBronzeSeal : RelicModel
             MainFile.Logger.Error($"HrBronzeSeal error: {e.Message}");
         }
     }
+
+    public override RelicModel? GetUpgradeReplacement() => ModelDb.Relic<DoctorSilverSeal>();
 }

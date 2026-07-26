@@ -1,5 +1,7 @@
+using BaseLib.Utils;
 using Doc.DocCode.CardPools;
 using Doc.DocCode.Extensions;
+using Doc.DocCode.RelicPools;
 using MegaCrit.Sts2.Core.Combat;
 using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Cards;
@@ -12,7 +14,7 @@ using System.Linq;
 using System.Threading.Tasks;
 
 namespace Doc.DocCode.Relics;
-
+[Pool(typeof(DoctorRelicPool))]
 public sealed class DoctorSilverSeal : RelicModel
 {
     public override RelicRarity Rarity => RelicRarity.Starter;

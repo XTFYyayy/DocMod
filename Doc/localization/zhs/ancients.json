@@ -432,5 +432,43 @@
   "VAKUU.talk.SILENT.2-1.next": "继续",
   "VAKUU.talk.SILENT.2-2.ancient": "无需言语，我们两个是一样的。",
   "VAKUU.talk.firstVisitEver.0-0.ancient": "把你自己交给我，你就能变得和我一样万众畏惧。",
-  "VAKUU.title": "瓦库"
+  "VAKUU.title": "瓦库",
+
+  "THE_ARCHITECT.talk.DOC_DOCTOR.0-0r.ancient": "你走进我的塔。你是医者，还是指挥官什么的？",
+  "THE_ARCHITECT.talk.DOC_DOCTOR.0-0r.next": "回答",
+  "THE_ARCHITECT.talk.DOC_DOCTOR.0-1r.char": "……我只是一个会计算的人。不会治伤，也不会杀人。我……两者都不是，又两者都是。",
+  "THE_ARCHITECT.talk.DOC_DOCTOR.0-1r.next": "继续",
+  "THE_ARCHITECT.talk.DOC_DOCTOR.0-2r.ancient": "有趣的答案。那你为何而来？为治愈这座塔，还是为征服它？",
+
+  "THE_ARCHITECT.talk.DOC_DOCTOR.1-0r.ancient": "你又来了。这次带着更深的伤。你的责任感，正在杀死你。",
+  "THE_ARCHITECT.talk.DOC_DOCTOR.1-0r.next": "继续",
+  "THE_ARCHITECT.talk.DOC_DOCTOR.1-1r.char": "我的生命早已不只是我一个人的。每一道伤，都是我的一次选择。",
+  "THE_ARCHITECT.talk.DOC_DOCTOR.1-1r.next": "继续",
+  "THE_ARCHITECT.talk.DOC_DOCTOR.1-2r.ancient": "选择……那你选好了吗？是继续背负，还是放下？",
+
+  "THE_ARCHITECT.talk.DOC_DOCTOR.2-0r.ancient": "塔顶就在那里。你站在这里。你在犹豫什么？是怕终点，还是怕终点之后？",
+  "THE_ARCHITECT.talk.DOC_DOCTOR.2-0r.next": "继续",
+  "THE_ARCHITECT.talk.DOC_DOCTOR.2-1r.char": "终点之前，终点之后……阿米娅……凯尔希……总会有人等我回去。我不能停在这里。",
+  "THE_ARCHITECT.talk.DOC_DOCTOR.2-1r.next": "继续",
+  "THE_ARCHITECT.talk.DOC_DOCTOR.2-2r.ancient": "那你就走吧。你的塔在别处，你早已知道。",
+
+  "DARV.talk.DOC_DOCTOR.0-0r.ancient": "啊，又一个带着故事来的旅人！我这里有很多旧东西……你感兴趣吗？",
+  "DARV.talk.DOC_DOCTOR.0-0r.next": "继续",
+  "DARV.talk.DOC_DOCTOR.0-1r.char": "我只是路过。但你的收藏……确实值得一看。",
+  "DARV.talk.DOC_DOCTOR.0-1r.next": "继续",
+  "DARV.talk.DOC_DOCTOR.0-2r.ancient": "那你自己挑一件吧。来都来了，不拿点什么就走，太可惜了。",
+
+  "DARV.talk.DOC_DOCTOR.1-0r.ancient": "你又来了！这次又是来我这儿找东西的吗？",
+  "DARV.talk.DOC_DOCTOR.1-0r.next": "继续",
+  "DARV.talk.DOC_DOCTOR.1-1r.char": "……也许吧。你的东西里，总有一些让人在意。",
+  "DARV.talk.DOC_DOCTOR.1-1r.next": "继续",
+  "DARV.talk.DOC_DOCTOR.1-2r.ancient": "哈哈哈！那就别客气，再挑一件！",
+
+  "DARV.talk.DOC_DOCTOR.2-0r.ancient": "你来得越来越频繁了。这是找到什么好东西了吗？",
+  "DARV.talk.DOC_DOCTOR.2-0r.next": "继续",
+  "DARV.talk.DOC_DOCTOR.2-1r.char": "不……只是路过了很多次。每次都能看到不一样的东西。",
+  "DARV.talk.DOC_DOCTOR.2-1r.next": "继续",
+  "DARV.talk.DOC_DOCTOR.2-2r.ancient": "那就继续看吧。反正我这里的东西，永远也拿不完。"
+
+
 }

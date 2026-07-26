@@ -46,6 +46,7 @@ public sealed class OutOfHabitPower : CustomPowerModel
     {
         if (player == base.Owner.Player)
         {
+            if (_handCountAtTurnEnd == 0) return;
             await CardPileCmd.Draw(choiceContext, _handCountAtTurnEnd, player);
             await CardCmd.Discard(choiceContext, await CardSelectCmd.FromHandForDiscard(choiceContext, player, new CardSelectorPrefs(CardSelectorPrefs.DiscardSelectionPrompt, PileType.Hand.GetPile(player).Cards.Count < _handCountAtTurnEnd? PileType.Hand.GetPile(player).Cards.Count:_handCountAtTurnEnd), null, this));
         }

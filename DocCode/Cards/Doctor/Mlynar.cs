@@ -9,6 +9,7 @@ using MegaCrit.Sts2.Core.GameActions.Multiplayer;
 using MegaCrit.Sts2.Core.HoverTips;
 using MegaCrit.Sts2.Core.Localization.DynamicVars;
 using MegaCrit.Sts2.Core.Models;
+using MegaCrit.Sts2.Core.Models.Powers;
 using MegaCrit.Sts2.Core.ValueProps;
 using System.Collections.Generic;
 using System.Linq;
@@ -21,7 +22,7 @@ public sealed class Mlynar() : DocCard(2, CardType.Skill, CardRarity.Rare, Targe
 {
     protected override IEnumerable<DynamicVar> CanonicalVars =>
     [
-        new DynamicVar("ApatheticPower", 1m)
+        new DynamicVar("ApatheticPower", 3m)
     ];
     protected override IEnumerable<IHoverTip> ExtraHoverTips =>
     [
@@ -57,16 +58,7 @@ public sealed class Mlynar() : DocCard(2, CardType.Skill, CardRarity.Rare, Targe
         }
 
         // 2. 施加无动于衷 Buff
-        var existingPower = Owner.Creature.GetPower<ApatheticPower>();
-        if (existingPower != null)
-        {
-            existingPower.SetAmount(existingPower.Amount + 3);
-        }
-        else
-        {
-            var newPower = await PowerCmd.Apply<ApatheticPower>(choiceContext, Owner.Creature, DynamicVars["ApatheticPower"].BaseValue, Owner.Creature, this);
-            newPower?.SetSourceCard(this);
-        }
+        await PowerCmd.Apply<ApatheticPower>(choiceContext, Owner.Creature, DynamicVars["ApatheticPower"].BaseValue, Owner.Creature, this);
     }
 
     private CardModel? GetLastPlayedCard()

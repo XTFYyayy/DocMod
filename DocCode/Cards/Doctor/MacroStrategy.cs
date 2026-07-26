@@ -1,4 +1,3 @@
-using BaseLib.Abstracts;
 using BaseLib.Utils;
 using Godot;
 using MegaCrit.Sts2.Core.Commands;
@@ -12,25 +11,22 @@ using MegaCrit.Sts2.Core.Nodes.Combat;
 using MegaCrit.Sts2.Core.ValueProps;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-namespace Doc.DocCode.Cards.Doctor.Basic;
+namespace Doc.DocCode.Cards.Doctor;
 
-public sealed class Plan() : DocCard(1, CardType.Skill, CardRarity.Basic, TargetType.Self), ITranscendenceCard
+public sealed class MacroStrategy() : DocCard(1, CardType.Power, CardRarity.Ancient, TargetType.Self)
 {
     protected override IEnumerable<DynamicVar> CanonicalVars =>
     [
-        new CardsVar(3)  // 下回合抽3张牌
+        new CardsVar(3)
     ];
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
-        await PowerCmd.Apply<DrawCardsNextTurnPower>(choiceContext,Owner.Creature, DynamicVars.Cards.BaseValue, Owner.Creature, this);
+        await PowerCmd.Apply<DrawCardsNextTurnPower>(choiceContext, Owner.Creature, DynamicVars["MachineLearningPower"].BaseValue, Owner.Creature, this);
     }
 
     protected override void OnUpgrade()
     {
-        DynamicVars.Cards.UpgradeValueBy(1m);  // 升级后抽4张
+        DynamicVars.Cards.UpgradeValueBy(1m);
     }
-
-    public CardModel GetTranscendenceTransformedCard() => ModelDb.Card<MacroStrategy>();
-
 }

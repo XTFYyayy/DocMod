@@ -39,6 +39,10 @@ public class MainFile
         ModHelper.AddModelToPool<DocCardPool, DocDefence>();
         ModHelper.AddModelToPool<DocCardPool, Orchestrate>();
         ModHelper.AddModelToPool<DocCardPool, Plan>();
+        ModHelper.AddModelToPool<DocCardPool, MacroStrategy>();
+        ModHelper.AddModelToPool<DocCardPool, LessonLearned>();
+
+
         ModHelper.AddModelToPool<DocCardPool, Gravel>();
         ModHelper.AddModelToPool<DocCardPool, Nearl>();
         ModHelper.AddModelToPool<DocCardPool, Mlynar>();

@@ -35,6 +35,9 @@ public class DocCardPool : CustomCardPoolModel
             ModelDb.Card<DocDefence>(),
             ModelDb.Card<Orchestrate>(),
             ModelDb.Card<Plan>(),
+            ModelDb.Card<MacroStrategy>(),
+            ModelDb.Card<LessonLearned>(),
+
             ModelDb.Card<Gravel>(),
             ModelDb.Card<Nearl>(),
             ModelDb.Card<Mlynar>(),
