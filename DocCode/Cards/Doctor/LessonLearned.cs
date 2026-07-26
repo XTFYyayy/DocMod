@@ -1,6 +1,7 @@
 using BaseLib;
 using BaseLib.Abstracts;
 using Doc.DocCode.Attributes;
+using Doc.DocCode.Powers;
 using Godot;
 using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Commands.Builders;
@@ -29,7 +30,8 @@ public sealed class LessonLearned():DocCard(2, CardType.Attack, CardRarity.Ancie
 
     protected override IEnumerable<IHoverTip> ExtraHoverTips =>
     [
-        HoverTipFactory.Static(StaticHoverTip.Fatal)
+        HoverTipFactory.Static(StaticHoverTip.Fatal),
+        HoverTipFactory.FromPower<ImprovementPower>()
     ];
 
     public override IEnumerable<CardKeyword> CanonicalKeywords => [CardKeyword.Exhaust];
@@ -48,11 +50,7 @@ public sealed class LessonLearned():DocCard(2, CardType.Attack, CardRarity.Ancie
             .Execute(choiceContext);
         if (shouldTriggerFatal && attackCommand.Results.SelectMany((List<DamageResult> r) => r).Any((DamageResult r) => r.WasTargetKilled))
         {
-            if (monsterPos.HasValue)
-            {
                 await PowerCmd.Apply<ImprovementPower>(choiceContext, base.Owner.Creature, 1m, base.Owner.Creature, this);
-            }
-            
         }
     }
 

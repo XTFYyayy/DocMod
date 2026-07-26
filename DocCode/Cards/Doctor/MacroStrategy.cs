@@ -22,7 +22,7 @@ public sealed class MacroStrategy() : DocCard(1, CardType.Power, CardRarity.Anci
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
-        await PowerCmd.Apply<DrawCardsNextTurnPower>(choiceContext, Owner.Creature, DynamicVars["MachineLearningPower"].BaseValue, Owner.Creature, this);
+        await PowerCmd.Apply<DrawCardsNextTurnPower>(choiceContext, Owner.Creature, base.DynamicVars.Cards.BaseValue, Owner.Creature, this);
     }
 
     protected override void OnUpgrade()

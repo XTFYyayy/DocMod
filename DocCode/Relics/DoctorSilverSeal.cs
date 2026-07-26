@@ -1,7 +1,7 @@
 using BaseLib.Utils;
 using Doc.DocCode.CardPools;
 using Doc.DocCode.Extensions;
-using Doc.DocCode.RelicPools;
+using Doc.DocCode.RelicsPools;
 using MegaCrit.Sts2.Core.Combat;
 using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Cards;

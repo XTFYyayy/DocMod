@@ -1,18 +1,17 @@
 using BaseLib.Utils;
+using Doc.DocCode.CardPools;
+using Doc.DocCode.Cards;
+using Doc.DocCode.Cards.Doctor;
+using Doc.DocCode.Cards.Doctor.Basic;
+using Doc.DocCode.RelicsPools;
+using Doc.DocCode.Relics;
+using Doc.DocCode.RelicsPools;
+using Godot.Bridge;
 using HarmonyLib;
 using MegaCrit.Sts2.Core.Logging;
 using MegaCrit.Sts2.Core.Modding;
-using MegaCrit.Sts2.Core.Nodes.Screens.Timeline;
-using MegaCrit.Sts2.Core.Saves;
-using MegaCrit.Sts2.Core.Saves.Managers;
-using MegaCrit.Sts2.Core.Timeline;
 using MegaCrit.Sts2.Core.Models.CardPools;
 using MegaCrit.Sts2.Core.Models.RelicPools;
-using Doc.DocCode.CardPools;
-using Doc.DocCode.Cards.Doctor;
-using Doc.DocCode.Cards.Doctor.Basic;
-using Doc.DocCode.Relics;
-using Doc.DocCode.Cards;
 
 namespace Doc;
 
@@ -25,23 +24,30 @@ public class MainFile
 
     public static void Initialize()
     {
+        // 1. 先扫描所有标记了 [Pool] 的类型（这是关键！）
+        ScriptManagerBridge.LookupScriptsInAssembly(typeof(MainFile).Assembly);
+
+        // 2. 应用 Harmony 补丁
         Harmony harmony = new(ModId);
         harmony.PatchAll();
 
+        // 3. 添加卡牌到卡池
         AddCardsToPools();
+
+        // 4. 添加遗物到遗物池
         AddRelicsToPools();
+
+        Logger.Info("Doc mod initialized.");
     }
 
     private static void AddCardsToPools()
     {
-        
         ModHelper.AddModelToPool<DocCardPool, DocAttack>();
         ModHelper.AddModelToPool<DocCardPool, DocDefence>();
         ModHelper.AddModelToPool<DocCardPool, Orchestrate>();
         ModHelper.AddModelToPool<DocCardPool, Plan>();
         ModHelper.AddModelToPool<DocCardPool, MacroStrategy>();
         ModHelper.AddModelToPool<DocCardPool, LessonLearned>();
-
 
         ModHelper.AddModelToPool<DocCardPool, Gravel>();
         ModHelper.AddModelToPool<DocCardPool, Nearl>();
@@ -81,8 +87,7 @@ public class MainFile
         ModHelper.AddModelToPool<DocCardPool, Passenger>();
         ModHelper.AddModelToPool<DocCardPool, Tuye>();
 
-
-        //衍生
+        // 衍生卡
         ModHelper.AddModelToPool<TokenCardPool, UndeclaredRage>();
         ModHelper.AddModelToPool<TokenCardPool, UnexoneratedSorrow>();
         ModHelper.AddModelToPool<TokenCardPool, UngloriousGlory>();
@@ -90,13 +95,15 @@ public class MainFile
         ModHelper.AddModelToPool<TokenCardPool, RockyChomper>();
         ModHelper.AddModelToPool<TokenCardPool, HadiyaII>();
 
-        //普通无色
+        // 普通无色
         ModHelper.AddModelToPool<ColorlessCardPool, KnightOath>();
     }
 
     private static void AddRelicsToPools()
     {
-        // 银印添加到共享池（用于先古之民事件）
-        ModHelper.AddModelToPool<SharedRelicPool, DoctorSilverSeal>();
+        // 铜印添加到遗物池
+        ModHelper.AddModelToPool<DoctorRelicPool, HrBronzeSeal>();
+
+        ModHelper.AddModelToPool<EventRelicPool, DoctorSilverSeal>();
     }
 }

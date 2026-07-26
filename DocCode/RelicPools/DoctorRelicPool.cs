@@ -1,12 +1,8 @@
 using Doc.DocCode.Relics;
-using Godot;
 using MegaCrit.Sts2.Core.Models;
-using MegaCrit.Sts2.Core.Models.RelicPools;
-using MegaCrit.Sts2.Core.Models.Relics;
-using System.Collections.Generic;
+using Godot;
 
-namespace Doc.DocCode.RelicPools;
-
+namespace Doc.DocCode.RelicsPools;
 public sealed class DoctorRelicPool : RelicPoolModel
 {
     public override string EnergyColorName => "doc";

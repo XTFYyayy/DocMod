@@ -1,7 +1,7 @@
 {
-  "HR_BRONZE_SEAL.description":"战斗开始时，将一张升级过的罕见牌加入手牌，且本回合耗能为0。",
-  "HR_BRONZE_SEAL.flavor":"■■■收到紧急部署口令后派发给特定干员的印记，你得到它就代表着■■■已完成嘱托。",
-  "HR_BRONZE_SEAL.title":"人事部铜印",
+  "DOC-HR_BRONZE_SEAL.description":"战斗开始时，将一张升级过的罕见牌加入手牌，且本回合耗能为0。",
+  "DOC-HR_BRONZE_SEAL.flavor":"■■■收到紧急部署口令后派发给特定干员的印记，你得到它就代表着■■■已完成嘱托。",
+  "DOC-HR_BRONZE_SEAL.title":"人事部铜印",
 
   "DOCTOR_SILVER_SEAL.description":"战斗开始时，将一张升级过的稀有牌加入手牌，且本回合耗能为0。",
   "DOCTOR_SILVER_SEAL.flavor":"这块印记是你出发前嘱咐指挥中枢在合适时间送出的，现在你选定的干员已经赶到宿营处加入外勤任务，顺带把东西原封不动交还给了你。",
