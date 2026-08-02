@@ -3,14 +3,15 @@ using Doc.DocCode.CardPools;
 using Doc.DocCode.Cards;
 using Doc.DocCode.Cards.Doctor;
 using Doc.DocCode.Cards.Doctor.Basic;
-using Doc.DocCode.RelicsPools;
 using Doc.DocCode.Relics;
+using Doc.DocCode.RelicsPools;
 using Doc.DocCode.RelicsPools;
 using Godot.Bridge;
 using HarmonyLib;
 using MegaCrit.Sts2.Core.Logging;
 using MegaCrit.Sts2.Core.Modding;
 using MegaCrit.Sts2.Core.Models.CardPools;
+using MegaCrit.Sts2.Core.Models.Cards;
 using MegaCrit.Sts2.Core.Models.RelicPools;
 
 namespace Doc;
@@ -38,6 +39,7 @@ public class MainFile
         AddRelicsToPools();
 
         Logger.Info("Doc mod initialized.");
+
     }
 
     private static void AddCardsToPools()
