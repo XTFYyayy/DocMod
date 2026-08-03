@@ -22,13 +22,13 @@
   "DOC-FARTOOTH_ACCURACY_POWER.smartDescription":"每打出一张牌就获得[blue]{Amount}[/blue]层[gold]精准[/gold]，打出骑士牌时额外获得[blue]{Amount}[/blue]层[gold]精准[/gold]。[gold]小刀[/gold][red]不会触发效果[/red]。",
   "DOC-FARTOOTH_ACCURACY_POWER.title":"同盟支援",
 
-  "DOC-BLAZING_SUN_DIE_FOR_YOU_POWER.description":"[gold]耀阳[/gold]会吸收所有未被格挡的攻击伤害。",
+  "DOC-BLAZING_SUN_DIE_FOR_YOU_POWER.description":"[gold]耀阳[/gold]会吸收所有未被格挡的伤害。",
   "DOC-BLAZING_SUN_DIE_FOR_YOU_POWER.title":"为你而死",
   
   "DOC-NOD_POWER.description": "你每回合的第1张攻击牌无视目标的格挡。",
   "DOC-NOD_POWER.title": "颔首",
   
-  "DOC-DESERT_OBELISK_DIE_FOR_YOU_POWER.description":"[gold]沙之碑[/gold]会吸收所有未被格挡的攻击伤害。",
+  "DOC-DESERT_OBELISK_DIE_FOR_YOU_POWER.description":"[gold]沙之碑[/gold]会吸收所有未被格挡的伤害。",
   "DOC-DESERT_OBELISK_DIE_FOR_YOU_POWER.title":"为你而死",
   
   "DOC-DESERT_OBELISK_ATTACK_APPEND_POWER.description":"你每打出一张攻击牌，[gold]沙之碑[/gold]就对所有敌人造成等同于自身生命值一半的伤害",
@@ -46,6 +46,7 @@
   "DOC-CHALLENGE_POWER.title":"挑战",
 
   "DOC-FACE_POWER.description":"本回合造成的攻击伤害减半。",
+  "DOC-FACE_POWER.smartDescription":"本回合造成的攻击伤害减半{Amount}次。",
   "DOC-FACE_POWER.title":"面对",
 
   "DOC-EATING_MARK_POWER.description":"回合开始时对所有敌人造成等同于[gold]格挡[/gold]值的伤害。",

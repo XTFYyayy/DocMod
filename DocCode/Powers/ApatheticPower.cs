@@ -37,7 +37,7 @@ public sealed class ApatheticPower : CustomPowerModel
         if (!props.HasFlag(ValueProp.Move)) return;
         if (dealer == null) return;
 
-        await CreatureCmd.Damage(choiceContext, dealer, Amount, ValueProp.Unblockable | ValueProp.Unpowered | ValueProp.Move, _sourceCard);
+        await CreatureCmd.Damage(choiceContext, dealer, Amount, ValueProp.Unblockable | ValueProp.Unpowered | ValueProp.Move, base.Owner);
     }
 
     public override async Task AfterSideTurnStart(CombatSide side, IReadOnlyList<Creature> participants, ICombatState combatState)
