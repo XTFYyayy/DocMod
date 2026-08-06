@@ -1,5 +1,6 @@
 using Doc.DocCode;
 using Doc.DocCode.Attributes;
+using Doc.DocCode.Powers;
 using Godot;
 using MegaCrit.Sts2.Core.Combat;
 using MegaCrit.Sts2.Core.Commands;
@@ -25,7 +26,8 @@ public sealed class UnexoneratedSorrow() : CardModel(0, CardType.Skill, CardRari
 
     protected override IEnumerable<IHoverTip> ExtraHoverTips => new[]
     {
-        HoverTipFactory.FromPower<WeakPower>()
+        HoverTipFactory.FromPower<WeakPower>(),
+        HoverTipFactory.FromPower<CalmStancePower>()
     };
 
     public override IEnumerable<CardKeyword> CanonicalKeywords => new[]

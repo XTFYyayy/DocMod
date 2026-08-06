@@ -13,5 +13,8 @@
   "DOC-BLAZING_SUN.title":"耀阳",
 
   "DOC-DESERT_OBELISK.description":"初始自带[gold]攻击追加[/gold]和[gold]为你而死[/gold]。",
-  "DOC-DESERT_OBELISK.title":"沙之碑"
+  "DOC-DESERT_OBELISK.title":"沙之碑",
+
+  "DOC-STANCE.description":"你同一时刻只能处于一种姿态。\n进入或退出姿态统称为转换姿态或姿态转换。\n你无法进入你正处于的姿态。",
+  "DOC-STANCE.title":"姿态"
 }

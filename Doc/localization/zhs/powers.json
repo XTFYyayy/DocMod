@@ -11,8 +11,15 @@
   "DOC-NEXT_KNIGHT_CARD_FREE_POWER.smartDescription": "打出的下[blue]{Amount}[/blue]张骑士牌耗能为0。",
   "DOC-NEXT_KNIGHT_CARD_FREE_POWER.title": "骑士宣言",
 
-  "DOC-STANCE_POWER.description":"将鼠标精准对准能力图标以查看当前姿态。",
-  "DOC-STANCE_POWER.title":"姿态",
+  "DOC-WRATH_STANCE_POWER.description":"造成和受到双倍攻击伤害。",
+  "DOC-WRATH_STANCE_POWER.title":"愤怒",
+
+  "DOC-CALM_STANCE_POWER.description":"离开此[gold]姿态[/gold]时获得[blue]2[/blue]点能量。",
+  "DOC-CALM_STANCE_POWER.smartDescription":"离开此[gold]姿态[/gold]时获得{Energy:energyIcons()}。",
+  "DOC-CALM_STANCE_POWER.title":"平静",
+
+  "DOC-DIVINITY_STANCE_POWER.description":"进入此[gold]姿态[/gold]时获得{Energy:energyIcons()}{Energy:energyIcons()}{Energy:energyIcons()}。攻击造成三倍伤害，下回合开始时自动离开这一[gold]姿态[/gold]。",
+  "DOC-DIVINITY_STANCE_POWER.title":"神格",
 
   "DOC-ARMOR_BREAK_POWER.description":"受到未被格挡的攻击伤害时，将[blue]1[/blue]张[gold]小刀[/gold]加入[gold]手牌[/gold]。伤害来源是小刀时[red]不会触发[/red]。效果将在目标没有[gold]易伤[/gold]时结束。",
   "DOC-ARMOR_BREAK_POWER.smartDescription":"受到未被格挡的攻击伤害时，将[blue]{Amount}[/blue]张[gold]小刀[/gold]加入[gold]手牌[/gold]。伤害来源是小刀时[red]不会触发[/red]。效果将在目标没有[gold]易伤[/gold]时结束。",
@@ -42,7 +49,7 @@
   "DOC-VITALITY_REGENERATION_POWER.smartDescription":"每次受到未被格挡的攻击时回复[blue]{Amount}[/blue]生命。",
   "DOC-VITALITY_REGENERATION_POWER.title":"活力再生",
 
-  "DOC-CHALLENGE_POWER.description":"攻击造成双倍伤害，受到攻击伤害翻倍。",
+  "DOC-CHALLENGE_POWER.description":"造成和受到双倍攻击伤害。",
   "DOC-CHALLENGE_POWER.title":"挑战",
 
   "DOC-FACE_POWER.description":"本回合造成的攻击伤害减半。",
