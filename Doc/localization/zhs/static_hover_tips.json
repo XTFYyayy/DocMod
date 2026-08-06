@@ -1,0 +1,17 @@
+{
+  "DOC-BLAZING_SUN_SUMMON_DYNAMIC.description": "以[blue]{SummonAmount}[/blue]生命值召唤[gold]耀阳[/gold]。\n如果已经召唤，则在本场战斗中将其最大生命值提升[blue]{SummonAmount}[/blue]点。",
+  "DOC-BLAZING_SUN_SUMMON.description": "以[blue]{SummonAmount}[/blue]生命值召唤[gold]耀阳[/gold]。\n如果已经召唤，则在本场战斗中将其最大生命值提升[blue]{SummonAmount}[/blue]点。",
+  "DOC-BLAZING_SUN_SUMMON_STATIC.description": "召唤[gold]耀阳[/gold]。\n如果已经召唤，则在本场战斗中提升其最大命值。",
+  "DOC-BLAZING_SUN_SUMMON.title": "耀阳召唤",
+
+  "DOC-DESERT_OBELISK_SUMMON_DYNAMIC.description": "以[blue]{SummonAmount}[/blue]生命值召唤[gold]沙之碑[/gold]。\n如果已经召唤，则召唤一个新的[gold]沙之碑[/gold]。",
+  "DOC-DESERT_OBELISK_SUMMON.description": "以[blue]{SummonAmount}[/blue]生命值召唤[gold]沙之碑[/gold]。\n如果已经召唤，则召唤一个新的[gold]沙之碑[/gold]。",
+  "DOC-DESERT_OBELISK_SUMMON_STATIC.description": "召唤[gold]沙之碑[/gold]。\n如果已经召唤，则召唤一个新的[gold]沙之碑[/gold]。",
+  "DOC-DESERT_OBELISK_SUMMON.title": "方尖召唤",
+
+  "DOC-BLAZING_SUN.description":"初始自带[gold]颔首[/gold]和[gold]为你而死[/gold]。",
+  "DOC-BLAZING_SUN.title":"耀阳",
+
+  "DOC-DESERT_OBELISK.description":"初始自带[gold]攻击追加[/gold]和[gold]为你而死[/gold]。",
+  "DOC-DESERT_OBELISK.title":"沙之碑"
+}

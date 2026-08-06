@@ -1,11 +1,14 @@
+using BaseLib.Extensions;
 using BaseLib.Utils;
 using Doc.DocCode.Attributes;
 using Doc.DocCode.Commands;
 using Doc.DocCode.Extensions;
+using Doc.DocCode.Powers;
 using MegaCrit.Sts2.Core.Combat;
 using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Cards;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
+using MegaCrit.Sts2.Core.HoverTips;
 using MegaCrit.Sts2.Core.Localization.DynamicVars;
 using MegaCrit.Sts2.Core.Models;
 using MegaCrit.Sts2.Core.ValueProps;
@@ -20,11 +23,18 @@ public sealed class NearlTheRadianKnight() : DocCard(3, CardType.Skill, CardRari
 {
     protected override IEnumerable<DynamicVar> CanonicalVars =>
     [
-        new DynamicVar("SummonAmount", 30m),
+        new DynamicVar("SummonAmount", 30m).WithTooltip("DOC-BLAZING_SUN_SUMMON"),
+        new DynamicVar("BlazingSun",0).WithTooltip("DOC-BLAZING_SUN"),
         new EnergyVar(1)
     ];
 
     public override IEnumerable<CardKeyword> CanonicalKeywords => [CardKeyword.Exhaust];
+
+    protected override IEnumerable<IHoverTip> ExtraHoverTips =>
+    [
+        HoverTipFactory.FromPower<NodPower>(),
+        HoverTipFactory.FromPower<BlazingSunDieForYouPower>(),
+    ];
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {

@@ -59,6 +59,12 @@
   "DOC-STUN_POWER.description":"这个敌人在其一回合无法行动。",
   "DOC-STUN_POWER.title":"击晕",
 
+  "DOC-BLAZING_SUN_SUMMON_POWER.description":"召唤一个[gold]耀阳[/gold]。如果已经召唤，则在本场战斗中提升其最大生命值。",
+  "DOC-BLAZING_SUN_SUMMON_POWER.title":"耀阳召唤",
+
+  "DOC-DESERT_OBELISK_SUMMON_POWER.description":"召唤一个[gold]沙之碑[/gold]。如果已经召唤，则召唤一个新的[gold]沙之碑[/gold]。",
+  "DOC-DESERT_OBELISK_SUMMON_POWER.title":"方尖召唤",
+
   "DOC-OUT_OF_HABIT_POWER.smartDescription":"回合结束时，每有一张手牌，下回合开始时就额外抽1张牌并丢弃等量1张牌。",
   "DOC-OUT_OF_HABIT_POWER.description":"回合结束时，每有一张手牌，下回合开始时就额外抽1张牌并丢弃等量1张牌。若牌组中的牌不足以在完成抽牌会中断抽牌，但是弃牌数量不变。",
   "DOC-OUT_OF_HABIT_POWER.title":"习惯使然",

@@ -113,7 +113,7 @@
   "DOC-SCENE.description":"用[gold]侦查[/gold]填满你的手牌。",
   "DOC-SCENE.title":"稀音",
 
-  "RECON.description":"去除敌人身上的所有人工制品。\n给予{VulnerablePower:diff()}层[gold]易伤[/gold]。",
+  "RECON.description":"去除敌人身上的所有[gold]人工制品[/gold]。\n给予{VulnerablePower:diff()}层[gold]易伤[/gold]。",
   "RECON.title":"侦查",
 
   "DOC-WULFENITE.description":"造成{Damage:diff()}点伤害。\n将一张[gold]矿石杀手{IfUpgraded:show:+}[/gold]加入手牌。",

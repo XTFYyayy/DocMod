@@ -37,6 +37,7 @@ public sealed class SleepWellPower : CustomPowerModel
     //将所有生命损失降为0
     public override decimal ModifyHpLostAfterOsty(Creature target, decimal amount, ValueProp props, Creature? dealer, CardModel? cardSource)
     {
+        if (target != Owner) return amount;
         return 0;
     }
 
