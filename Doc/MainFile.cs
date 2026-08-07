@@ -64,8 +64,8 @@ public class MainFile
         ModHelper.AddModelToPool<DocCardPool, JusticeKnight>();
         ModHelper.AddModelToPool<DocCardPool, Blemishine>();
         ModHelper.AddModelToPool<DocCardPool, NearlTheRadianKnight>();
-        ModHelper.AddModelToPool<DocCardPool, Beeswax>();
 
+        ModHelper.AddModelToPool<DocCardPool, Beeswax>();
         ModHelper.AddModelToPool<DocCardPool, Estelle>();
         ModHelper.AddModelToPool<DocCardPool, Bubble>();
         ModHelper.AddModelToPool<DocCardPool, Papyrus>();
@@ -88,6 +88,9 @@ public class MainFile
         ModHelper.AddModelToPool<DocCardPool, Narantuya>();
         ModHelper.AddModelToPool<DocCardPool, Passenger>();
         ModHelper.AddModelToPool<DocCardPool, Tuye>();
+
+        ModHelper.AddModelToPool<DocCardPool, Sideroca>();
+        ModHelper.AddModelToPool<DocCardPool, Vulcan>();
 
         // 衍生卡
         ModHelper.AddModelToPool<TokenCardPool, UndeclaredRage>();

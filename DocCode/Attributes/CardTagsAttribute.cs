@@ -11,6 +11,7 @@ public class CardTagsAttribute : Attribute
     public bool IsRhodeIsland { get; set; }
     public bool IsLeithania { get; set; }
     public bool IsColumbia { get; set; }
+    public bool IsMinos { get; set; }
 
     public CardTagsAttribute()
     {
@@ -20,10 +21,11 @@ public class CardTagsAttribute : Attribute
         IsRhodeIsland = false;
         IsLeithania = false;
         IsColumbia = false;
+        IsMinos = false;
     }
 
     // 便捷构造函数
-    public CardTagsAttribute(bool isKazimierz = false, bool isKnight = false, bool isSargon = false, bool isRhodeIsland = false, bool isLeithania=false, bool isColumbia = false)
+    public CardTagsAttribute(bool isKazimierz = false, bool isKnight = false, bool isSargon = false, bool isRhodeIsland = false, bool isLeithania=false, bool isColumbia = false, bool isMinos = false)
     {
         IsKazimierz = isKazimierz;
         IsKnight = isKnight;
@@ -31,5 +33,6 @@ public class CardTagsAttribute : Attribute
         IsRhodeIsland = isRhodeIsland;
         IsLeithania = isLeithania;
         IsColumbia = isColumbia;
+        IsMinos = isMinos;
     }
 }

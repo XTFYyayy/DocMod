@@ -3,68 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|c:\\users\\xtfy\\desktop\\\u8C46\u8C46\u7684\u5305\u554A\\docmod\\doc\\doc\\doccode\\powers\\calmstancepower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|solutionrelative:doccode\\powers\\calmstancepower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|c:\\users\\xtfy\\desktop\\\u8C46\u8C46\u7684\u5305\u554A\\docmod\\doc\\doc\\doccode\\powers\\forcemodepower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|solutionrelative:doccode\\powers\\forcemodepower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|c:\\users\\xtfy\\desktop\\\u8C46\u8C46\u7684\u5305\u554A\\docmod\\doc\\doc\\doccode\\cards\\doctor\\wildmane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|solutionrelative:doccode\\cards\\doctor\\wildmane.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|c:\\users\\xtfy\\desktop\\\u8C46\u8C46\u7684\u5305\u554A\\docmod\\doc\\doc\\doccode\\cards\\doctor\\sideroca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|solutionrelative:doccode\\cards\\doctor\\sideroca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|c:\\users\\xtfy\\desktop\\\u8C46\u8C46\u7684\u5305\u554A\\docmod\\doc\\doc\\doccode\\cards\\doctor\\beeswax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|solutionrelative:doccode\\cards\\doctor\\beeswax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|c:\\users\\xtfy\\desktop\\\u8C46\u8C46\u7684\u5305\u554A\\docmod\\doc\\doc\\doccode\\cards\\doctor\\vulcan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|solutionrelative:doccode\\cards\\doctor\\vulcan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|c:\\users\\xtfy\\desktop\\\u8C46\u8C46\u7684\u5305\u554A\\docmod\\doc\\doc\\doccode\\cards\\doctor\\nearl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|solutionrelative:doccode\\cards\\doctor\\nearl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|c:\\users\\xtfy\\desktop\\\u8C46\u8C46\u7684\u5305\u554A\\docmod\\doc\\doc\\doccode\\powers\\apatheticpower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|solutionrelative:doccode\\powers\\apatheticpower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|c:\\users\\xtfy\\desktop\\\u8C46\u8C46\u7684\u5305\u554A\\docmod\\doc\\doc\\doccode\\powers\\vitalityregenerationpower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|solutionrelative:doccode\\powers\\vitalityregenerationpower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|c:\\users\\xtfy\\desktop\\\u8C46\u8C46\u7684\u5305\u554A\\docmod\\doc\\doc\\doccode\\characters\\doctorcharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|solutionrelative:doccode\\characters\\doctorcharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|c:\\users\\xtfy\\desktop\\\u8C46\u8C46\u7684\u5305\u554A\\docmod\\doc\\doc\\doc\\mainfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|solutionrelative:doc\\mainfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|c:\\users\\xtfy\\desktop\\\u8C46\u8C46\u7684\u5305\u554A\\docmod\\doc\\doc\\doccode\\relics\\doctorsilverseal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|solutionrelative:doccode\\relics\\doctorsilverseal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|c:\\users\\xtfy\\desktop\\\u8C46\u8C46\u7684\u5305\u554A\\docmod\\doc\\doc\\doccode\\powers\\nextknightcardfreepower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|solutionrelative:doccode\\powers\\nextknightcardfreepower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|c:\\users\\xtfy\\desktop\\\u8C46\u8C46\u7684\u5305\u554A\\docmod\\doc\\doc\\doccode\\cards\\doctor\\knightoath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|solutionrelative:doccode\\cards\\doctor\\knightoath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|c:\\users\\xtfy\\desktop\\\u8C46\u8C46\u7684\u5305\u554A\\docmod\\doc\\doc\\doccode\\powers\\armorbreakpower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|solutionrelative:doccode\\powers\\armorbreakpower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|c:\\users\\xtfy\\desktop\\\u8C46\u8C46\u7684\u5305\u554A\\docmod\\doc\\doc\\doccode\\cards\\doctor\\lessonlearned.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|solutionrelative:doccode\\cards\\doctor\\lessonlearned.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|c:\\users\\xtfy\\desktop\\\u8C46\u8C46\u7684\u5305\u554A\\docmod\\doc\\doc\\doccode\\cards\\doctor\\fartooth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|solutionrelative:doccode\\cards\\doctor\\fartooth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|c:\\users\\xtfy\\desktop\\\u8C46\u8C46\u7684\u5305\u554A\\docmod\\doc\\doc\\doccode\\powers\\theresilienceofmercenariespower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|solutionrelative:doccode\\powers\\theresilienceofmercenariespower.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|c:\\users\\xtfy\\desktop\\\u8C46\u8C46\u7684\u5305\u554A\\docmod\\doc\\doc\\doccode\\cardpools\\doccardpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|solutionrelative:doccode\\cardpools\\doccardpool.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|c:\\users\\xtfy\\desktop\\\u8C46\u8C46\u7684\u5305\u554A\\docmod\\doc\\doc\\doccode\\patches\\derivedcardportraitpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|solutionrelative:doccode\\patches\\derivedcardportraitpatch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|c:\\users\\xtfy\\desktop\\\u8C46\u8C46\u7684\u5305\u554A\\docmod\\doc\\doc\\doc\\mainfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|solutionrelative:doc\\mainfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|c:\\users\\xtfy\\desktop\\\u8C46\u8C46\u7684\u5305\u554A\\docmod\\doc\\doc\\doccode\\extensions\\cardextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|solutionrelative:doccode\\extensions\\cardextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|c:\\users\\xtfy\\desktop\\\u8C46\u8C46\u7684\u5305\u554A\\docmod\\doc\\doc\\doccode\\attributes\\cardtagsattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|solutionrelative:doccode\\attributes\\cardtagsattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|c:\\users\\xtfy\\desktop\\\u8C46\u8C46\u7684\u5305\u554A\\docmod\\doc\\doc\\doccode\\characters\\doctorcharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AE14C897-6885-4778-BD1D-FE638A956410}|Doc.csproj|solutionrelative:doccode\\characters\\doctorcharacter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -79,131 +51,84 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "CalmStancePower.cs",
-              "DocumentMoniker": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Powers\\CalmStancePower.cs",
-              "RelativeDocumentMoniker": "DocCode\\Powers\\CalmStancePower.cs",
-              "ToolTip": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Powers\\CalmStancePower.cs",
-              "RelativeToolTip": "DocCode\\Powers\\CalmStancePower.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAADwvxgAAAAFAAAAAAAAAA==",
+              "Title": "ForceModePower.cs",
+              "DocumentMoniker": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Powers\\ForceModePower.cs",
+              "RelativeDocumentMoniker": "DocCode\\Powers\\ForceModePower.cs",
+              "ToolTip": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Powers\\ForceModePower.cs",
+              "RelativeToolTip": "DocCode\\Powers\\ForceModePower.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-06T16:10:40.979Z",
+              "WhenOpened": "2026-08-07T18:14:52.902Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "WildMane.cs",
-              "DocumentMoniker": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Cards\\Doctor\\WildMane.cs",
-              "RelativeDocumentMoniker": "DocCode\\Cards\\Doctor\\WildMane.cs",
-              "ToolTip": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Cards\\Doctor\\WildMane.cs",
-              "RelativeToolTip": "DocCode\\Cards\\Doctor\\WildMane.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAcwDkAAAAFAAAAAAAAAA==",
+              "Title": "Sideroca.cs",
+              "DocumentMoniker": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Cards\\Doctor\\Sideroca.cs",
+              "RelativeDocumentMoniker": "DocCode\\Cards\\Doctor\\Sideroca.cs",
+              "ToolTip": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Cards\\Doctor\\Sideroca.cs",
+              "RelativeToolTip": "DocCode\\Cards\\Doctor\\Sideroca.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-06T16:10:06.313Z",
+              "WhenOpened": "2026-08-07T18:08:46.345Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Beeswax.cs",
-              "DocumentMoniker": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Cards\\Doctor\\Beeswax.cs",
-              "RelativeDocumentMoniker": "DocCode\\Cards\\Doctor\\Beeswax.cs",
-              "ToolTip": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Cards\\Doctor\\Beeswax.cs",
-              "RelativeToolTip": "DocCode\\Cards\\Doctor\\Beeswax.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Title": "Vulcan.cs",
+              "DocumentMoniker": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Cards\\Doctor\\Vulcan.cs",
+              "RelativeDocumentMoniker": "DocCode\\Cards\\Doctor\\Vulcan.cs",
+              "ToolTip": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Cards\\Doctor\\Vulcan.cs",
+              "RelativeToolTip": "DocCode\\Cards\\Doctor\\Vulcan.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAA0wCYAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-06T14:09:14.981Z",
+              "WhenOpened": "2026-08-07T17:57:27.982Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Nearl.cs",
-              "DocumentMoniker": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Cards\\Doctor\\Nearl.cs",
-              "RelativeDocumentMoniker": "DocCode\\Cards\\Doctor\\Nearl.cs",
-              "ToolTip": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Cards\\Doctor\\Nearl.cs",
-              "RelativeToolTip": "DocCode\\Cards\\Doctor\\Nearl.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAIwB0AAAAzAAAAAAAAAA==",
+              "Title": "TheResilienceOfMercenariesPower.cs",
+              "DocumentMoniker": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Powers\\TheResilienceOfMercenariesPower.cs",
+              "RelativeDocumentMoniker": "DocCode\\Powers\\TheResilienceOfMercenariesPower.cs",
+              "ToolTip": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Powers\\TheResilienceOfMercenariesPower.cs",
+              "RelativeToolTip": "DocCode\\Powers\\TheResilienceOfMercenariesPower.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAADwvxoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-06T12:24:33.499Z",
+              "WhenOpened": "2026-08-07T17:38:28.011Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ApatheticPower.cs",
-              "DocumentMoniker": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Powers\\ApatheticPower.cs",
-              "RelativeDocumentMoniker": "DocCode\\Powers\\ApatheticPower.cs",
-              "ToolTip": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Powers\\ApatheticPower.cs",
-              "RelativeToolTip": "DocCode\\Powers\\ApatheticPower.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "CardTagsAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Attributes\\CardTagsAttribute.cs",
+              "RelativeDocumentMoniker": "DocCode\\Attributes\\CardTagsAttribute.cs",
+              "ToolTip": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Attributes\\CardTagsAttribute.cs",
+              "RelativeToolTip": "DocCode\\Attributes\\CardTagsAttribute.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA4wAkAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-02T09:50:51.773Z",
+              "WhenOpened": "2026-08-07T15:46:37.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CardExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Extensions\\CardExtensions.cs",
+              "RelativeDocumentMoniker": "DocCode\\Extensions\\CardExtensions.cs",
+              "ToolTip": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Extensions\\CardExtensions.cs",
+              "RelativeToolTip": "DocCode\\Extensions\\CardExtensions.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAgwC8AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-08-07T15:46:53.532Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "DoctorSilverSeal.cs",
-              "DocumentMoniker": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Relics\\DoctorSilverSeal.cs",
-              "RelativeDocumentMoniker": "DocCode\\Relics\\DoctorSilverSeal.cs",
-              "ToolTip": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Relics\\DoctorSilverSeal.cs",
-              "RelativeToolTip": "DocCode\\Relics\\DoctorSilverSeal.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAADwvxMAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-01T15:47:32.121Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "KnightOath.cs",
-              "DocumentMoniker": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Cards\\Doctor\\KnightOath.cs",
-              "RelativeDocumentMoniker": "DocCode\\Cards\\Doctor\\KnightOath.cs",
-              "ToolTip": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Cards\\Doctor\\KnightOath.cs",
-              "RelativeToolTip": "DocCode\\Cards\\Doctor\\KnightOath.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAADwvwwAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-01T15:27:33.079Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "VitalityRegenerationPower.cs",
-              "DocumentMoniker": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Powers\\VitalityRegenerationPower.cs",
-              "RelativeDocumentMoniker": "DocCode\\Powers\\VitalityRegenerationPower.cs",
-              "ToolTip": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Powers\\VitalityRegenerationPower.cs",
-              "RelativeToolTip": "DocCode\\Powers\\VitalityRegenerationPower.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAIwB8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-02T09:54:59.801Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "NextKnightCardFreePower.cs",
-              "DocumentMoniker": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Powers\\NextKnightCardFreePower.cs",
-              "RelativeDocumentMoniker": "DocCode\\Powers\\NextKnightCardFreePower.cs",
-              "ToolTip": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Powers\\NextKnightCardFreePower.cs",
-              "RelativeToolTip": "DocCode\\Powers\\NextKnightCardFreePower.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAADwvxIAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-01T15:26:39.684Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ArmorBreakPower.cs",
-              "DocumentMoniker": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Powers\\ArmorBreakPower.cs",
-              "RelativeDocumentMoniker": "DocCode\\Powers\\ArmorBreakPower.cs",
-              "ToolTip": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Powers\\ArmorBreakPower.cs",
-              "RelativeToolTip": "DocCode\\Powers\\ArmorBreakPower.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAADwvw8AAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-01T14:20:10.336Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "DoctorCharacter.cs",
               "DocumentMoniker": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Characters\\DoctorCharacter.cs",
               "RelativeDocumentMoniker": "DocCode\\Characters\\DoctorCharacter.cs",
@@ -215,63 +140,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Fartooth.cs",
-              "DocumentMoniker": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Cards\\Doctor\\Fartooth.cs",
-              "RelativeDocumentMoniker": "DocCode\\Cards\\Doctor\\Fartooth.cs",
-              "ToolTip": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Cards\\Doctor\\Fartooth.cs",
-              "RelativeToolTip": "DocCode\\Cards\\Doctor\\Fartooth.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAADwvxsAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-26T04:02:37.259Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "MainFile.cs",
               "DocumentMoniker": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\Doc\\MainFile.cs",
               "RelativeDocumentMoniker": "Doc\\MainFile.cs",
               "ToolTip": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\Doc\\MainFile.cs",
               "RelativeToolTip": "Doc\\MainFile.cs",
-              "ViewState": "AgIAAGAAAAAAAAAAAAAgwCMAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAgwFoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-19T10:51:54.416Z"
+              "WhenOpened": "2026-07-19T10:51:54.416Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "LessonLearned.cs",
-              "DocumentMoniker": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Cards\\Doctor\\LessonLearned.cs",
-              "RelativeDocumentMoniker": "DocCode\\Cards\\Doctor\\LessonLearned.cs",
-              "ToolTip": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Cards\\Doctor\\LessonLearned.cs",
-              "RelativeToolTip": "DocCode\\Cards\\Doctor\\LessonLearned.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAkwCsAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-25T16:12:15.56Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 4,
               "Title": "DocCardPool.cs",
               "DocumentMoniker": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\CardPools\\DocCardPool.cs",
               "RelativeDocumentMoniker": "DocCode\\CardPools\\DocCardPool.cs",
               "ToolTip": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\CardPools\\DocCardPool.cs",
               "RelativeToolTip": "DocCode\\CardPools\\DocCardPool.cs",
-              "ViewState": "AgIAABkAAAAAAAAAAAAwwCcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAAAYwEcAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-19T10:16:34.963Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "DerivedCardPortraitPatch.cs",
-              "DocumentMoniker": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Patches\\DerivedCardPortraitPatch.cs",
-              "RelativeDocumentMoniker": "DocCode\\Patches\\DerivedCardPortraitPatch.cs",
-              "ToolTip": "C:\\Users\\XTFY\\Desktop\\\u8C46\u8C46\u7684\u5305\u554A\\DocMod\\Doc\\Doc\\DocCode\\Patches\\DerivedCardPortraitPatch.cs",
-              "RelativeToolTip": "DocCode\\Patches\\DerivedCardPortraitPatch.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAArwBMAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-07-20T01:27:15.017Z"
+              "WhenOpened": "2026-07-19T10:16:34.963Z",
+              "EditorCaption": ""
             }
           ]
         }

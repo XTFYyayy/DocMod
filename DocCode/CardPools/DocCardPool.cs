@@ -51,8 +51,8 @@ public class DocCardPool : CustomCardPoolModel
             ModelDb.Card<JusticeKnight>(),
             ModelDb.Card<Blemishine>(),
             ModelDb.Card<NearlTheRadianKnight>(),
-            ModelDb.Card<Beeswax>(),
 
+            ModelDb.Card<Beeswax>(),
             ModelDb.Card<Estelle>(),
             ModelDb.Card<Bubble>(),
             ModelDb.Card<Papyrus>(),
@@ -76,6 +76,8 @@ public class DocCardPool : CustomCardPoolModel
             ModelDb.Card<Passenger>(),
             ModelDb.Card<Tuye>(),
 
+            ModelDb.Card<Vulcan>(),
+            ModelDb.Card<Sideroca>(),
 
 
     };

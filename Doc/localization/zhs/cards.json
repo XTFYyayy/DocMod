@@ -147,5 +147,12 @@
   "DOC-PASSENGER.title":"异客",
 
   "DOC-TUYE.description":"回复{Heal:diff()}点生命。",
-  "DOC-TUYE.title":"图耶"
+  "DOC-TUYE.title":"图耶",
+
+  "DOC-SIDEROCA.description":"打出[gold]君王之剑[/gold]时，自身所有负面效果减少1层。",
+  "DOC-SIDEROCA.title":"铸铁",
+
+  "DOC-VULCAN.description":"[gold]铸造[/gold]{Forge:diff()}。[gold]君王之剑[/gold]的耗能减1。",
+  "DOC-VULCAN.title":"火神"
+
 }

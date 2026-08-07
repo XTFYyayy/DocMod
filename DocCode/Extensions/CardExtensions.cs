@@ -41,4 +41,10 @@ public static class CardExtensions
         var attr = card.GetCardTagsAttribute();
         return attr != null && attr.IsLeithania;
     }
+
+    public static bool IsMinos(this CardModel card)
+    {
+        var attr = card.GetCardTagsAttribute();
+        return attr != null && attr.IsMinos;
+    }
 }

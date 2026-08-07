@@ -82,5 +82,13 @@
 
   "DOC-I_SEE_I_GAIN_POWER.smartDescription":"造成未被格挡的攻击伤害时，偷取目标{Amout}点[gold]力量[/gold]。",
   "DOC-I_SEE_I_GAIN_POWER.description":"造成未被格挡的攻击伤害时，偷取目标[gold]力量[/gold]。",
-  "DOC-I_SEE_I_GAIN_POWER.title":"我见，我得"
+  "DOC-I_SEE_I_GAIN_POWER.title":"我见，我得",
+
+  "DOC-FORCE_MODE_POWER.smartDescription":"[gold]君王之剑[/gold]的耗能减少[blue]{Amount}[/blue]。",
+  "DOC-FORCE_MODE_POWER.description":"[gold]君王之剑[/gold]的耗能减少[blue]1[/blue]。",
+  "DOC-FORCE_MODE_POWER.title":"武力模式",
+
+  "DOC-THE_RESILIENCE_OF_MERCENARIES_POWER.smartDescription":"打出[gold]君王之剑[/gold]时，自身所有负面效果减少[blue]{Amount}[/blue]层。",
+  "DOC-THE_RESILIENCE_OF_MERCENARIES_POWER.description":"打出[gold]君王之剑[/gold]时，自身所有负面效果减少[blue]1[/blue]层。",
+  "DOC-THE_RESILIENCE_OF_MERCENARIES_POWER.title":"佣兵之韧"
 }
