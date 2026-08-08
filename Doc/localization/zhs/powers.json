@@ -1,10 +1,10 @@
 {
-  "DOC-RAT_SWARM_POWER.description":"受到未被格挡的攻击伤害时，将此伤害降至[blue]0[/blue]。受到大于层数的未格挡的攻击伤害后消失。",
+  "DOC-RAT_SWARM_POWER.description":"受到未被格挡的攻击伤害时，将此伤害降至[blue]0[/blue]。受到大于层数的未格挡的攻击伤害后失效。",
   "DOC-RAT_SWARM_POWER.smartDescription":"受到未被格挡的攻击伤害时，将此伤害降至[blue]0[/blue]。\n受到大于[blue]{Amount}[/blue]点未被格挡的攻击伤害后消失。",
   "DOC-RAT_SWARM_POWER.title":"鼠群",
 
-  "DOC-APATHETIC_POWER.description":"受到攻击时，使攻击者失去[blue]1[/blue]点生命。",
-  "DOC-APATHETIC_POWER.smartDescription": "受到攻击时，使攻击者失去[blue]{Amount}[/blue]点生命。",
+  "DOC-APATHETIC_POWER.description":"受到攻击时，使攻击者失去[blue]1[/blue]点生命。回合开始时失效。",
+  "DOC-APATHETIC_POWER.smartDescription": "受到攻击时，使攻击者失去[blue]{Amount}[/blue]点生命。回合开始时失效。",
   "DOC-APATHETIC_POWER.title": "无动于衷",
 
   "DOC-NEXT_KNIGHT_CARD_FREE_POWER.description": "你打出的下[blue]1[/blue]张骑士牌耗能为0。",

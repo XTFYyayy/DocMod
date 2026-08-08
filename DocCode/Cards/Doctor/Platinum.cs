@@ -16,7 +16,7 @@ using System.Threading.Tasks;
 
 namespace Doc.DocCode.Cards.Doctor;
 
-[CardTags(isKazimierz: true, isKnight: true)]
+[CardTags(isKazimierz: true)]
 public sealed class Platinum() : DocCard(0, CardType.Attack, CardRarity.Common, TargetType.AnyEnemy)
 {
     private int _timesPlayedThisCombat = 0;

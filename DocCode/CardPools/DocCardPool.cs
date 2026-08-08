@@ -78,6 +78,7 @@ public class DocCardPool : CustomCardPoolModel
 
             ModelDb.Card<Vulcan>(),
             ModelDb.Card<Sideroca>(),
+            ModelDb.Card<Varkaris>(),
 
 
     };

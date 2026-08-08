@@ -91,6 +91,11 @@ public class MainFile
 
         ModHelper.AddModelToPool<DocCardPool, Sideroca>();
         ModHelper.AddModelToPool<DocCardPool, Vulcan>();
+        ModHelper.AddModelToPool<DocCardPool, Varkaris>();
+
+
+
+
 
         // 衍生卡
         ModHelper.AddModelToPool<TokenCardPool, UndeclaredRage>();

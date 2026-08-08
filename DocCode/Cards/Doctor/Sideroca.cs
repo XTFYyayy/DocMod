@@ -16,8 +16,6 @@ public sealed class Sideroca() : DocCard(4, CardType.Power, CardRarity.Rare, Tar
 {
     // 关键词：固有(Innate) + 奇巧(Sly)
     public override IEnumerable<CardKeyword> CanonicalKeywords => [CardKeyword.Innate, CardKeyword.Sly];
-
-    // 固有 + 奇巧 + 能力 悬浮提示
     protected override IEnumerable<IHoverTip> ExtraHoverTips =>
     [
         HoverTipFactory.FromPower<TheResilienceOfMercenariesPower>(),

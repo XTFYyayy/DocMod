@@ -12,8 +12,8 @@ using System.Threading.Tasks;
 
 namespace Doc.DocCode.Cards.Doctor;
 
-[CardTags(isKazimierz: true, isKnight: true)]
-public sealed class JusticeKnight() : DocCard(1, CardType.Skill, CardRarity.Uncommon, TargetType.AllEnemies)
+[CardTags(isKazimierz: true)]
+public sealed class JusticeKnight() : DocCard(1, CardType.Skill, CardRarity.Common, TargetType.AllEnemies)
 {
     public override IEnumerable<CardKeyword> CanonicalKeywords => [CardKeyword.Exhaust];
 

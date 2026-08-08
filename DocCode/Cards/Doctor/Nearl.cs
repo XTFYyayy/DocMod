@@ -13,7 +13,7 @@ using System.Threading.Tasks;
 
 namespace Doc.DocCode.Cards.Doctor;
 
-[CardTags(isKazimierz: true, isKnight: true)]
+[CardTags(isKazimierz: true, isKnight: true, isApostle: true)]
 public sealed class Nearl() : DocCard(1, CardType.Skill, CardRarity.Common, TargetType.Self)
 {
     // 基础版本有 Exhaust 关键词
