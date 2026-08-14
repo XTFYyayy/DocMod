@@ -64,4 +64,40 @@ public static class CardExtensions
         var attr = card.GetCardTagsAttribute();
         return attr != null && attr.IsApostle;
     }
+
+    public static bool IsEliteOperator(this CardModel card)//精英干员
+    {
+        var attr = card.GetCardTagsAttribute();
+        return attr != null && attr.IsEliteOperator;
+    }
+
+    public static bool IsYan(this CardModel card)//炎
+    {
+        var attr = card.GetCardTagsAttribute();
+        return attr != null && attr.IsYan;
+    }
+
+    public static bool IsVictoria(this CardModel card)//维多利亚
+    {
+        var attr = card.GetCardTagsAttribute();
+        return attr != null && attr.IsVictoria;
+    }
+
+    public static bool IsTara(this CardModel card)//塔拉
+    {
+        var attr = card.GetCardTagsAttribute();
+        return attr != null && attr.IsTara;
+    }
+
+    public static bool IsSweep(this CardModel card)//S.W.E.E.P
+    {
+        var attr = card.GetCardTagsAttribute();
+        return attr != null && attr.IsSweep;
+    }
+
+    public static bool IsSiracusa(this CardModel card)//叙拉古
+    {
+        var attr = card.GetCardTagsAttribute();
+        return attr != null && attr.IsSiracusa;
+    }
 }

@@ -79,7 +79,15 @@ public class DocCardPool : CustomCardPoolModel
             ModelDb.Card<Vulcan>(),
             ModelDb.Card<Sideroca>(),
             ModelDb.Card<Varkaris>(),
+            ModelDb.Card<Conviction>(),
+            ModelDb.Card<Closure>(),
 
+            ModelDb.Card<Blaze>(),
+            ModelDb.Card<Bagpipe>(),
+            ModelDb.Card<Horn>(),
+            ModelDb.Card<Reed>(),
+            ModelDb.Card<Nightingale>(),
+            ModelDb.Card<ProjektRed>(),
 
     };
     }

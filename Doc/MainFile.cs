@@ -92,7 +92,15 @@ public class MainFile
         ModHelper.AddModelToPool<DocCardPool, Sideroca>();
         ModHelper.AddModelToPool<DocCardPool, Vulcan>();
         ModHelper.AddModelToPool<DocCardPool, Varkaris>();
+        ModHelper.AddModelToPool<DocCardPool, Conviction>();
+        ModHelper.AddModelToPool<DocCardPool, Closure>();
 
+        ModHelper.AddModelToPool<DocCardPool, Blaze>();
+        ModHelper.AddModelToPool<DocCardPool, Bagpipe>();
+        ModHelper.AddModelToPool<DocCardPool, Horn>();
+        ModHelper.AddModelToPool<DocCardPool, Reed>();
+        ModHelper.AddModelToPool<DocCardPool, Nightingale>();
+        ModHelper.AddModelToPool<DocCardPool, ProjektRed>();
 
 
 
@@ -104,6 +112,11 @@ public class MainFile
         ModHelper.AddModelToPool<TokenCardPool, Recon>();
         ModHelper.AddModelToPool<TokenCardPool, RockyChomper>();
         ModHelper.AddModelToPool<TokenCardPool, HadiyaII>();
+        ModHelper.AddModelToPool<TokenCardPool, Atk>();
+        ModHelper.AddModelToPool<TokenCardPool, Dfc>();
+        ModHelper.AddModelToPool<TokenCardPool, Ctrl>();
+        ModHelper.AddModelToPool<TokenCardPool, Bst>();
+
 
         // 普通无色
         ModHelper.AddModelToPool<ColorlessCardPool, KnightOath>();

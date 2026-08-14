@@ -14,10 +14,10 @@
   "DOC-MACRO_STRATEGY.description":"在你的回合开始时，额外抽{Cards:diff()}张牌。",
   "DOC-MACRO_STRATEGY.title":"宏观战略",
 
-  "DOC-LESSON_LEARNED.description":"造成{Damage:diff()}点伤害。\n斩杀时，升级你牌组中的一张随机牌。",
+  "DOC-LESSON_LEARNED.description":"造成{Damage:diff()}点伤害。\n[gold]斩杀[/gold]时，升级你牌组中的一张随机牌。",
   "DOC-LESSON_LEARNED.title":"勤学精进",
 
-  "DOC-GRAVEL.description": "获得{FinalAmount}层[gold]鼠群[/gold]。此值受敏捷影响。",
+  "DOC-GRAVEL.description": "获得{FinalAmount}层[gold]鼠群[/gold]。此值受[gold]敏捷[/gold]影响。",
   "DOC-GRAVEL.title": "砾",
 
   "DOC-NEARL.description": "获得 {Block:diff()} 点[gold]格挡[/gold]。\n获得{DexterityPower:diff()}点[gold]敏捷[/gold]。",
@@ -156,6 +156,42 @@
   "DOC-VULCAN.title":"火神",
 
   "DOC-VARKARIS.description":"抽牌直到手牌上限，丢弃等同抽牌数量张牌。",
-  "DOC-VARKARIS.title":"摆渡人"
+  "DOC-VARKARIS.title":"摆渡人",
+
+  "DOC-CONVICTION.description":"从[gold]输出[/gold]、[gold]生存[/gold]、[gold]控场[/gold]、[gold]爆发[/gold]中随机的三张牌中选择一张加入[gold]手牌[/gold]。",
+  "DOC-CONVICTION.title":"断罪者",
+
+  "ATK.description":"在这个回合内每打出过一张技能牌，就造成{Damage:diff()}点伤害一次。{InCombat:\n（攻击{CalculatedHits:diff()}次）|}。",
+  "ATK.title":"输出",
+
+  "DFC.description":"获得{Block:diff()}点[gold]格挡[/gold]。\n丢弃1张牌。\n如果你的[gold]手牌[/gold]为空，则抽1张牌。",
+  "DFC.title":"生存",
+
+  "CTRL.description":"给予敌人{ParalyzePower}层[gold]麻痹[/gold]。",
+  "CTRL.title":"控场",
+
+  "BST.description":"在这个回合，你打出的下一张攻击牌会被额外打出一次。",
+  "BST.title":"爆发",
+
+  "DOC-BLAZE.description":"造成{Damage:diff()}点伤害。\n这张牌每被打出一次，它在本场战斗中的耗能减少1。",
+  "DOC-BLAZE.title":"煌",
+
+  "DOC-BAGPIPE.description":"造成{Damage:diff()}点伤害两次。\n若击杀了敌人，获得{Energy:energyIcons()}。",
+  "DOC-BAGPIPE.title":"风笛",
+
+  "DOC-HORN.description":"造成{Damage:diff()}点伤害。\n如果你的[gold]手牌[/gold]为空，则造成双倍伤害并获得{Energy:energyIcons()}。",
+  "DOC-HORN.title":"号角",
+
+  "DOC-REED.description":"受到未被格挡的非攻击伤害或生命流失时获得{BloodOfBlightedMagicPower}层[gold]生灵火花[/gold]。",
+  "DOC-REED.title":"苇草",
+
+  "DOC-NIGHTINGALE.description":"获得{BufferPower:diff()}层[gold]缓冲[/gold]。将受到的非攻击伤害和生命流失降为1点。",
+  "DOC-NIGHTINGALE.title":"夜莺",
+
+  "DOC-PROJEKT_RED.description":"[gold]击晕[/gold]敌人。\n给予[gold]刺骨[/gold]。",
+  "DOC-PROJEKT_RED.title":"红",
+
+  "DOC-CLOSURE.description":"给予所有敌人[gold]缓慢[/gold]。",
+  "DOC-CLOSURE.title":"可露希尔"
 
 }
