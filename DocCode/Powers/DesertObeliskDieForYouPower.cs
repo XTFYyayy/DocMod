@@ -9,8 +9,8 @@ public sealed class DesertObeliskDieForYouPower : CustomPowerModel
 {
     public override PowerType Type => PowerType.Buff;
     public override PowerStackType StackType => PowerStackType.Single;
-    public override string? CustomPackedIconPath => "desert_obelisk_die_for_you_power.png".PowerImagePath();
-    public override string? CustomBigIconPath => "desert_obelisk_die_for_you_power.png".PowerImagePath();
+    public override string? CustomPackedIconPath => "die_for_you_power.png".PowerImagePath();
+    public override string? CustomBigIconPath => "die_for_you_power.png".PowerImagePath();
     public override bool ShouldPlayVfx => false;
 
     // 移除所有 ModifyUnblockedDamageTarget 和其他覆盖方法

@@ -63,7 +63,7 @@
   "DOC-SLEEP_WELL_POWER.description":"[gold]无法行动[/gold]，[gold]无法选中[/gold]，[gold]无敌[/gold]；同名取最大值。",
   "DOC-SLEEP_WELL_POWER.title":"好好睡",
 
-  "DOC-STUN_POWER.description":"这个敌人在其一回合无法行动。",
+  "DOC-STUN_POWER.description":"这个敌人在这一回合无法行动。",
   "DOC-STUN_POWER.title":"击晕",
 
   "DOC-BLAZING_SUN_SUMMON_POWER.description":"召唤一个[gold]耀阳[/gold]。如果已经召唤，则在本场战斗中提升其最大生命值。",
@@ -102,6 +102,7 @@
   "DOC-UNSTABLE_PLASMA_POWER.description":"攻击造成额外50%伤害。回合开始时候失去2生命，层数减1。",
   "DOC-UNSTABLE_PLASMA_POWER.title":"不稳定血浆",
 
+
   "DOC-HOLY_LAND_POWER.description":"将受到的非攻击伤害和生命流失降为[blue]1[/blue]。",
   "DOC-HOLY_LAND_POWER.title":"圣域",
 
@@ -115,5 +116,19 @@
 
   "DOC-BLOOD_OF_BLIGHTED_MAGIC_POWER.description":"受到未被格挡的非攻击伤害或生命流失时获得[blue]1[/blue]层[gold]生灵火花[/gold]。",
   "DOC-BLOOD_OF_BLIGHTED_MAGIC_POWER.smartDescription":"受到未被格挡的非攻击伤害或生命流失时获得[blue]{Amount}[/blue]层[gold]生灵火花[/gold]。",
-  "DOC-BLOOD_OF_BLIGHTED_MAGIC_POWER.title":"枯法之血"
+  "DOC-BLOOD_OF_BLIGHTED_MAGIC_POWER.title":"枯法之血",
+
+  "DOC-LOCK_ON_TRACKING_POWER.description": "从[gold]闪电充能球[/gold]中受到的伤害增加50%。",
+  "DOC-LOCK_ON_TRACKING_POWER.title": "跟踪锁定",
+
+  "DOC-FLYING_POWER.description": "从攻击中受到的伤害减半。每受到一次未被格挡的攻击伤害，层数减1。",
+  "DOC-FLYING_POWER.title": "起飞",
+
+  "DOC-LIGHTNING_STRIKES_ALL_POWER.description": "[gold]闪电[/gold]充能球现在会击中所有敌人。",
+  "DOC-LIGHTNING_STRIKES_ALL_POWER.title": "“电力洞穴”",
+
+  "DOC-TUNE_THE_STRINGS_POWER.description": "攻击无视格挡。回合结束时层数减1。",
+  "DOC-TUNE_THE_STRINGS_POWER.title": "调弦"
+
+
 }

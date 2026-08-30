@@ -31,4 +31,10 @@ public sealed class Closure() : DocCard(3, CardType.Skill, CardRarity.Uncommon, 
         // 给予所有敌人缓慢
         await PowerCmd.Apply<SlowPower>(choiceContext, CombatState.HittableEnemies, 1m, Owner.Creature, this);
     }
+
+    protected override void OnUpgrade()
+    {
+        EnergyCost.UpgradeBy(-1);
+    }
+
 }

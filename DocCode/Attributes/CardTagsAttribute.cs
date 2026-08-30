@@ -20,6 +20,10 @@ public class CardTagsAttribute : Attribute
     public bool IsTara { get; set; }//塔拉
     public bool IsSweep { get; set; }//S.W.E.E.P
     public bool IsSiracusa { get; set; }//叙拉古
+    public bool IsChiaveTeam { get; set; }//贾维团伙
+    public bool IsRimBilliton { get; set; }//雷姆必拓
+    public bool IsBabel { get; set; }//巴别塔
+
     public CardTagsAttribute()
     {
         IsKnight = false;
@@ -37,10 +41,13 @@ public class CardTagsAttribute : Attribute
         IsTara = false;
         IsSweep = false;
         IsSiracusa = false;
+        IsChiaveTeam = false;
+        IsRimBilliton = false;
+        IsBabel = false;
     }
 
     // 便捷构造函数
-    public CardTagsAttribute(bool isKazimierz = false, bool isKnight = false, bool isSargon = false, bool isRhodeIsland = false, bool isLeithania=false, bool isColumbia = false, bool isMinos = false, bool isBolivar = false, bool isApostle = false, bool isEliteOperator = false, bool isYan = false, bool isVictoria = false, bool isTara = false, bool isSweep = false, bool isSiracusa = false)
+    public CardTagsAttribute(bool isKazimierz = false, bool isKnight = false, bool isSargon = false, bool isRhodeIsland = false, bool isLeithania=false, bool isColumbia = false, bool isMinos = false, bool isBolivar = false, bool isApostle = false, bool isEliteOperator = false, bool isYan = false, bool isVictoria = false, bool isTara = false, bool isSweep = false, bool isSiracusa = false, bool isChiaveTeam = false, bool isRimBilliton= false, bool isBabel = false)
     {
         IsKazimierz = isKazimierz;
         IsKnight = isKnight;
@@ -57,5 +64,8 @@ public class CardTagsAttribute : Attribute
         IsTara = isTara;
         IsSweep = isSweep;
         IsSiracusa = isSiracusa;
+        IsChiaveTeam = isChiaveTeam;
+        IsRimBilliton = isRimBilliton;
+        IsBabel = isBabel;
     }
 }

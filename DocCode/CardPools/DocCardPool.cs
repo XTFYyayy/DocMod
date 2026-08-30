@@ -89,6 +89,18 @@ public class DocCardPool : CustomCardPoolModel
             ModelDb.Card<Nightingale>(),
             ModelDb.Card<ProjektRed>(),
 
+            // 罗德岛新干员（2026.8）
+            ModelDb.Card<F12>(),
+            ModelDb.Card<Contrail>(),
+            ModelDb.Card<Leizi>(),
+            ModelDb.Card<LeiziTheThunderbringer>(),
+            ModelDb.Card<Aosta>(),
+            ModelDb.Card<Pudding>(),
+            ModelDb.Card<Broca>(),
+            ModelDb.Card<Greyy>(),
+            ModelDb.Card<Goldenglow>(),
+            ModelDb.Card<Amiya>(),
+            ModelDb.Card<AmiyaGuard>(),
     };
     }
 }

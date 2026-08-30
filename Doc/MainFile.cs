@@ -102,7 +102,18 @@ public class MainFile
         ModHelper.AddModelToPool<DocCardPool, Nightingale>();
         ModHelper.AddModelToPool<DocCardPool, ProjektRed>();
 
-
+        // （2026.8.15-2）
+        ModHelper.AddModelToPool<DocCardPool, F12>();
+        ModHelper.AddModelToPool<DocCardPool, Contrail>();
+        ModHelper.AddModelToPool<DocCardPool, Leizi>();
+        ModHelper.AddModelToPool<DocCardPool, LeiziTheThunderbringer>();
+        ModHelper.AddModelToPool<DocCardPool, Aosta>();
+        ModHelper.AddModelToPool<DocCardPool, Pudding>();
+        ModHelper.AddModelToPool<DocCardPool, Broca>();
+        ModHelper.AddModelToPool<DocCardPool, Greyy>();
+        ModHelper.AddModelToPool<DocCardPool, Goldenglow>();
+        ModHelper.AddModelToPool<DocCardPool, Amiya>();
+        ModHelper.AddModelToPool<DocCardPool, AmiyaGuard>();
 
 
         // 衍生卡

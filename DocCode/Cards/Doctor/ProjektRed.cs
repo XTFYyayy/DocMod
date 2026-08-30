@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 namespace Doc.DocCode.Cards.Doctor;
 
 [CardTags(isRhodeIsland: true, isSweep: true, isSiracusa: true)]
-public sealed class ProjektRed() : DocCard(2, CardType.Skill, CardRarity.Uncommon, TargetType.AnyEnemy)
+public sealed class ProjektRed() : DocCard(3, CardType.Skill, CardRarity.Uncommon, TargetType.AnyEnemy)
 {
     public override IEnumerable<CardKeyword> CanonicalKeywords => [CardKeyword.Exhaust];
 
@@ -27,5 +27,10 @@ public sealed class ProjektRed() : DocCard(2, CardType.Skill, CardRarity.Uncommo
 
         // 施加刺骨：这名敌人每次从攻击中受到的伤害至少为5
         await PowerCmd.Apply<BoneCuttingPower>(choiceContext, cardPlay.Target, 1, Owner.Creature, this);
+    }
+
+    protected override void OnUpgrade()
+    {
+        EnergyCost.UpgradeBy(-1);
     }
 }

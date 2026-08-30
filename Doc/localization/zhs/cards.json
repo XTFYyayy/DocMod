@@ -20,7 +20,7 @@
   "DOC-GRAVEL.description": "获得{FinalAmount}层[gold]鼠群[/gold]。此值受[gold]敏捷[/gold]影响。",
   "DOC-GRAVEL.title": "砾",
 
-  "DOC-NEARL.description": "获得 {Block:diff()} 点[gold]格挡[/gold]。\n获得{DexterityPower:diff()}点[gold]敏捷[/gold]。",
+  "DOC-NEARL.description": "获得{Block:diff()}点[gold]格挡[/gold]。\n获得{DexterityPower:diff()}点[gold]敏捷[/gold]。",
   "DOC-NEARL.title": "临光",
 
   "DOC-WILD_MANE.description":"造成{Damage:diff()}点伤害。若击杀了敌人，获得{Energy:energyIcons()}，抽一张牌。",
@@ -167,7 +167,7 @@
   "DFC.description":"获得{Block:diff()}点[gold]格挡[/gold]。\n丢弃1张牌。\n如果你的[gold]手牌[/gold]为空，则抽1张牌。",
   "DFC.title":"生存",
 
-  "CTRL.description":"给予敌人{ParalyzePower}层[gold]麻痹[/gold]。",
+  "CTRL.description":"给予敌人{ParalyzePower:diff()}层[gold]麻痹[/gold]。",
   "CTRL.title":"控场",
 
   "BST.description":"在这个回合，你打出的下一张攻击牌会被额外打出一次。",
@@ -182,7 +182,7 @@
   "DOC-HORN.description":"造成{Damage:diff()}点伤害。\n如果你的[gold]手牌[/gold]为空，则造成双倍伤害并获得{Energy:energyIcons()}。",
   "DOC-HORN.title":"号角",
 
-  "DOC-REED.description":"受到未被格挡的非攻击伤害或生命流失时获得{BloodOfBlightedMagicPower}层[gold]生灵火花[/gold]。",
+  "DOC-REED.description":"受到未被格挡的非攻击伤害或生命流失时获得{BloodOfBlightedMagicPower:diff()}层[gold]生灵火花[/gold]。",
   "DOC-REED.title":"苇草",
 
   "DOC-NIGHTINGALE.description":"获得{BufferPower:diff()}层[gold]缓冲[/gold]。将受到的非攻击伤害和生命流失降为1点。",
@@ -192,6 +192,41 @@
   "DOC-PROJEKT_RED.title":"红",
 
   "DOC-CLOSURE.description":"给予所有敌人[gold]缓慢[/gold]。",
-  "DOC-CLOSURE.title":"可露希尔"
+  "DOC-CLOSURE.title":"可露希尔",
 
+  "DOC-F12.description": "给予目标敌人{LockOnTrackingPower:diff()}层[gold]跟踪锁定[/gold]。",
+  "DOC-F12.title": "12F？？？",
+
+  "DOC-CONTRAIL.description": "获得{FlyingPower:diff()}层[gold]起飞[/gold]。",
+  "DOC-CONTRAIL.title": "云迹",
+
+  "DOC-AOSTA.description": "造成{Damage:diff()}点伤害。\n如果敌人的意图是攻击，则[gold]击晕[/gold]敌人。",
+  "DOC-AOSTA.title": "奥斯塔",
+
+  "DOC-PUDDING.description": "[gold]生成[/gold]1个[gold]闪电[/gold]充能球。\n抽{Cards:diff()}张牌。",
+  "DOC-PUDDING.title": "布丁",
+
+  "DOC-BROCA.description": "移除目标的所有[gold]格挡[/gold]值。[gold]激发[/gold]所有[gold]闪电[/gold]充能球,每[gold]激发[/gold]1个就造成{Damage:diff()}点伤害1次。",
+  "DOC-BROCA.title": "布洛卡",
+
+  "DOC-GREYY.description": "[gold]闪电[/gold]充能球现在会击中所有敌人。\n生成{Repeat:diff()}个[gold]闪电[/gold]充能球。",
+  "DOC-GREYY.title": "格雷伊",
+
+  "DOC-GOLDENGLOW.description": "你当前每有1个[gold]闪电[/gold]充能球，就生成3个[gold]闪电[/gold]充能球。",
+  "DOC-GOLDENGLOW.title": "澄闪",
+
+  "DOC-AMIYA.description": "造成{Damage:diff()}点伤害{Repeat:diff()}次。\n在你的回合结束时，如果这张牌在你的手牌中，对所有敌人造成次数减1的三倍伤害。{InCombat:\n（造成{DamageInHand}点伤害{HitCountInHand}次）|}",
+  "DOC-AMIYA.title": "阿米娅",
+
+  "DOC-AMIYA_GUARD.description": "对生命值最少的敌人造成{Damage:diff()}点伤害{DamageHits:diff()}次，获得{TuneLayers}层[gold]调弦[/gold]。\n[gold]斩杀[/gold]时，此牌的伤害次数与获得的[gold]调弦[/gold]层数永久加1。",
+  "DOC-AMIYA_GUARD.title": "阿米娅·影霄",
+
+  "DOC-LEIZI.description":"当前每有一名敌人，就[gold]生成[/gold]1个[gold]闪电[/gold]充能球。",
+  "DOC-LEIZI.title":"惊蛰",
+
+  "DOC-LEIZI_THE_THUNDERBRINGER.description":"获得{FlyingPower:diff()}层[gold]起飞[/gold]。[gold]生成[/gold]{Repeat:diff()}个[gold]闪电[/gold]充能球。",
+  "DOC-LEIZI_THE_THUNDERBRINGER.title":"司霆惊蛰",
+
+  "DOC-CASTLE_3.description":"在本回合获得{StrengthPower:diff()}点[gold]力量[/gold]和{DexterityPower:diff()}[gold]敏捷[/gold]。",
+  "DOC-CASTLE_3.title":"Castle-3"
 }

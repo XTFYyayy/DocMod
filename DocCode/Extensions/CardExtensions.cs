@@ -100,4 +100,19 @@ public static class CardExtensions
         var attr = card.GetCardTagsAttribute();
         return attr != null && attr.IsSiracusa;
     }
+    public static bool IsChiaveTeam(this CardModel card)//贾维团伙
+    {
+        var attr = card.GetCardTagsAttribute();
+        return attr != null && attr.IsChiaveTeam;
+    }
+    public static bool IsRimBilliton(this CardModel card)//雷姆必拓
+    {
+        var attr = card.GetCardTagsAttribute();
+        return attr != null && attr.IsRimBilliton;
+    }
+    public static bool IsBabel(this CardModel card)//巴别塔
+    {
+        var attr = card.GetCardTagsAttribute();
+        return attr != null && attr.IsBabel;
+    }
 }

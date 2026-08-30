@@ -26,7 +26,6 @@ namespace Doc.DocCode.Cards.Doctor;
 [CardTags(isSargon: true)]
 public sealed class Passenger() : DocCard(3, CardType.Attack, CardRarity.Rare, TargetType.RandomEnemy)
 {
-    private const string _calculatedHitsKey = "HitsCount";
     protected override IEnumerable<DynamicVar> CanonicalVars =>
     [
         

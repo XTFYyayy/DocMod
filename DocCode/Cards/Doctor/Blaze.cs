@@ -29,4 +29,8 @@ public sealed class Blaze() : DocCard(3, CardType.Attack, CardRarity.Uncommon, T
         // 每打出一次，本场战斗耗能减1
         EnergyCost.AddThisCombat(-1);
     }
+    protected override void OnUpgrade()
+    {
+        DynamicVars.Damage.UpgradeValueBy(8m);
+    }
 }

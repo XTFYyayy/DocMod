@@ -23,7 +23,17 @@ public static class TemporaryStrengthPowerIconPatch
         // 只处理特定的 Power 类型
         if (__instance.GetType().Name == "ProvisoStrengthLossPower")
         {
-            var path = "proviso_strength_loss_power.png".PowerImagePath();
+            var path = "strength_loss_power.png".PowerImagePath();
+            if (ResourceLoader.Exists(path))
+            {
+                __result = ResourceLoader.Load<Texture2D>(path);
+                return false; // 跳过原方法
+            }
+        }
+
+        if (__instance.GetType().Name == "Castle_3StrengthPower")
+        {
+            var path = "strength_loss_power.png".PowerImagePath();
             if (ResourceLoader.Exists(path))
             {
                 __result = ResourceLoader.Load<Texture2D>(path);

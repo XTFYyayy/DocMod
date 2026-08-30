@@ -8,6 +8,8 @@
   <ItemGroup>
     <Compile Remove="Doc\DocCode\**" />
     <EmbeddedResource Remove="Doc\DocCode\**" />
+    <Compile Remove="参考官方代码\**" />
+    <EmbeddedResource Remove="参考官方代码\**" />
   </ItemGroup>
   <ItemGroup>
     <Compile Remove="DocCode\Patches\DoctorCharacterPatch.cs" />

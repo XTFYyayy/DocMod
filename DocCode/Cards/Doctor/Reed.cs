@@ -17,6 +17,7 @@ public sealed class Reed() : DocCard(2, CardType.Power, CardRarity.Uncommon, Tar
     [
         new DynamicVar("BloodOfBlightedMagicPower", 1m)
     ];
+    public override IEnumerable<CardKeyword> CanonicalKeywords => [CardKeyword.Ethereal];
     protected override IEnumerable<IHoverTip> ExtraHoverTips =>
     [
         HoverTipFactory.FromPower<BloodOfBlightedMagicPower>(),
@@ -25,8 +26,15 @@ public sealed class Reed() : DocCard(2, CardType.Power, CardRarity.Uncommon, Tar
 
     protected override async Task OnPlay(PlayerChoiceContext choiceContext, CardPlay cardPlay)
     {
-        // 获得1层枯萎魔血：受到未被格挡的非攻击伤害或生命流失时获得1层生灵火花
+        // 获得1层枯法之血：受到未被格挡的非攻击伤害或生命流失时获得1层生灵火花
         // 叠层后每次触发获得对应层数的生灵火花
         await PowerCmd.Apply<BloodOfBlightedMagicPower>(choiceContext, Owner.Creature, DynamicVars["BloodOfBlightedMagicPower"].BaseValue, Owner.Creature, this);
     }
+
+    protected override void OnUpgrade()
+    {
+        // 升级：移除虚无关键词
+        RemoveKeyword(CardKeyword.Ethereal);
+    }
+
 }
