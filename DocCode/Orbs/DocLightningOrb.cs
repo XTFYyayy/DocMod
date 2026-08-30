@@ -1,4 +1,5 @@
 using Doc.DocCode.Powers;
+using Godot;
 using MegaCrit.Sts2.Core.Commands;
 using MegaCrit.Sts2.Core.Entities.Creatures;
 using MegaCrit.Sts2.Core.GameActions.Multiplayer;
@@ -13,6 +14,8 @@ namespace Doc.DocCode.Orbs;
 
 public sealed class DocLightningOrb : LightningOrb
 {
+    // DocLightningOrb 是 LightningOrb 的补丁，图标/sprite 资源完全复用 LightningOrb
+    // Icon 和 CreateSprite 的重定向通过 DocLightningOrbPatch.Harmony 实现
     public override async Task Passive(PlayerChoiceContext choiceContext, Creature? target)
     {
         Trigger();

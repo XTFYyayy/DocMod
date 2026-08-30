@@ -3,6 +3,7 @@ using Doc.DocCode.Extensions;
 using Doc.DocCode.Orbs;
 using MegaCrit.Sts2.Core.Entities.Powers;
 using MegaCrit.Sts2.Core.HoverTips;
+using MegaCrit.Sts2.Core.Models.Orbs;
 
 namespace Doc.DocCode.Powers;
 
@@ -24,7 +25,7 @@ public sealed class LockOnTrackingPower : CustomPowerModel
 
     protected override IEnumerable<IHoverTip> ExtraHoverTips =>
     [
-        HoverTipFactory.FromOrb<DocLightningOrb>()
+        HoverTipFactory.FromOrb<LightningOrb>()
     
     ];
 }
